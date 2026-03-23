@@ -243,7 +243,7 @@ export default function LandingPage({ onEnter }) {
                         fontSize: 18, animation: "spin-slow 8s linear infinite",
                     }}>♻</div>
                     <span style={{ fontWeight: 800, fontSize: "1.1rem", letterSpacing: "-0.02em" }}>
-                        Eco<span style={{ color: "#4ade80" }}>Pack</span>AI
+                        green<span style={{ color: "#4ade80" }}>Pack</span>AI
                     </span>
                 </div>
                 <div style={{ display: "flex", gap: 32 }}>
@@ -278,7 +278,7 @@ export default function LandingPage({ onEnter }) {
                 </p>
 
                 <p style={{ maxWidth: 560, color: "#6ee7a0", opacity: 0.75, lineHeight: 1.7, marginBottom: 48, fontFamily: "'DM Sans', sans-serif", fontSize: "1.05rem" }}>
-                    EcoPackAI uses Random Forest & XGBoost ML models to analyse hundreds of sustainable materials and surface the perfect packaging for your product — ranked by cost, carbon footprint, and match score.
+                    GreenPackAI uses Random Forest & XGBoost ML models to analyse hundreds of sustainable materials and surface the perfect packaging for your product — ranked by cost, carbon footprint, and match score.
                 </p>
 
                 <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
@@ -460,7 +460,7 @@ export default function LandingPage({ onEnter }) {
                             Ready to go greener?
                         </h2>
                         <p style={{ color: "#86efac", opacity: 0.7, lineHeight: 1.7, marginBottom: 40, fontFamily: "'DM Sans', sans-serif", fontSize: "1.05rem" }}>
-                            Enter the EcoPackAI dashboard and get your first AI-powered sustainable packaging recommendation in under 30 seconds.
+                            Enter the GreenPackAI dashboard and get your first AI-powered sustainable packaging recommendation in under 30 seconds.
                         </p>
                         <button className="btn-primary" style={{ fontSize: "1.1rem", padding: "18px 52px" }} onClick={onEnter}>
                             🚀 Enter Dashboard
@@ -473,8 +473,8 @@ export default function LandingPage({ onEnter }) {
             <footer style={{ borderTop: "1px solid rgba(74,222,128,0.1)", padding: "32px 48px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16, position: "relative", zIndex: 1 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                     <span style={{ fontSize: "1.2rem" }}>♻</span>
-                    <span style={{ fontWeight: 800, letterSpacing: "-0.02em" }}>Eco<span style={{ color: "#4ade80" }}>Pack</span>AI</span>
-                    <span style={{ color: "#4ade80", fontSize: "0.75rem", opacity: 0.5 }}>v2.0</span>
+                    <span style={{ fontWeight: 800, letterSpacing: "-0.02em" }}>green<span style={{ color: "#4ade80" }}>Pack</span>AI</span>
+                    {/* <span style={{ color: "#4ade80", fontSize: "0.75rem", opacity: 0.5 }}>v2.0</span> */}
                 </div>
                 <div style={{ color: "#86efac", opacity: 0.4, fontSize: "0.82rem", fontFamily: "'DM Sans', sans-serif" }}>
                     AI-Powered Sustainable Packaging Recommendation System

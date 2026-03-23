@@ -23,8 +23,8 @@ export default function Sidebar({ collapsed, onToggle, activePage, onNavigate })
                         <i className="bi bi-recycle"></i>
                     </div>
                     <div>
-                        <div className="logo-text">EcoPackAI</div>
-                        <div className="logo-sub">v2.0</div>
+                        <a href="/"><div className="logo-text">green<span style={{ fontWeight: 800, letterSpacing: "-0.02em" }}><span style={{ color: "#4ade80" }}>Pack</span></span>AI</div></a>
+                        {/* <div className="logo-sub">v2.0</div> */}
                     </div>
                 </div>
 

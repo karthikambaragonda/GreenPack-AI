@@ -1024,7 +1024,7 @@ export default function Dashboard({ activePage = "overview", setActivePage = () 
         <>
             <div className="page-header">
                 <div>
-                    <h1>Sustainability <span>Intelligence</span></h1>
+                    <h1>Sustainability <span>Packaging</span> <>Intelligence</></h1>
                     <p>AI-powered packaging material analysis &amp; recommendation</p>
                 </div>
                 <div className="header-badge">
@@ -1159,18 +1159,55 @@ export default function Dashboard({ activePage = "overview", setActivePage = () 
                     {!showResults ? (
                         <div className="card-glass empty-state" style={{ padding: "80px 0" }}>
                             <i className="bi bi-box-seam"></i>
-                            <span style={{ marginTop: "10px" }}>No recommendations yet. Complete an analysis first.</span>
-                            <button className="btn-primary-eco" style={{ marginTop: "20px" }} onClick={() => setActivePage("overview")}>
+                            <span style={{ marginTop: "10px" }}>
+                                No recommendations yet. Complete an analysis first.
+                            </span>
+                            <button
+                                className="btn-primary-eco"
+                                style={{ marginTop: "20px" }}
+                                onClick={() => setActivePage("overview")}
+                            >
                                 Go to Parameters
                             </button>
                         </div>
                     ) : (
-                        <ResultsPanel
-                            materials={materials}
-                            params={lastParams}
-                            source={rankSource}
-                            onReset={resetAll}
-                        />
+                        <>
+                            <ResultsPanel
+                                materials={materials}
+                                params={lastParams}
+                                source={rankSource}
+                                onReset={resetAll}
+                            />
+
+                            <BIDashboard materials={materials} />
+
+                            {/* Generate Report Button */}
+                            <div className="report-cta-wrapper">
+                                <div className="report-cta-text">
+                                    <i className="bi bi-file-earmark-pdf-fill"></i>
+                                    <div>
+                                        <strong>Download Sustainability Report</strong>
+                                        <span>Full 3-page PDF — materials, analytics, and insights</span>
+                                    </div>
+                                </div>
+
+                                <button
+                                    className="btn-report"
+                                    onClick={handleGenerateReport}
+                                    disabled={reportLoading}
+                                >
+                                    {reportLoading ? (
+                                        <>
+                                            <i className="bi bi-arrow-repeat spin"></i> Generating…
+                                        </>
+                                    ) : (
+                                        <>
+                                            <i className="bi bi-download"></i> Generate Report
+                                        </>
+                                    )}
+                                </button>
+                            </div>
+                        </>
                     )}
                 </>
             )}
