@@ -1,0 +1,1143 @@
+product_id,sector,strength_score,weight_capacity_score,barrier_score ,biodegradability_score,co2_emission_score,recyclability_percent,cost_score,reuse_potential_score,category_name,fragility_level,requires_cushioning,moisture_sensitive,temperature_sensitive,typical_weight_kg,product_weight_g,product_volume_cm3,temperature_sensitivity,moisture_sensitivity,shelf_life_days,packaging_format,current_packaging_material,flag_weight_outlier,flag_volume_outlier,flag_price_outlier,main_packaging_material,barrier_score,product_name_final,category_final,price_final
+1,Electronics,3.0,3.0,3.0,85.0,70.0,72.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Smartphone box,,
+2,Electronics,3.0,4.0,3.0,88.0,70.0,73.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Laptop shipping pack,,
+3,Electronics,3.0,3.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Earbuds/headphones retail box,,
+4,Electronics,3.0,3.0,3.0,90.0,78.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Fragile gadget shipper with loose fill,,
+5,Food,3.0,3.0,4.0,80.0,75.0,28.0,4.0,1.0,,,,,,,,,,,,,,,,,,,Snack bar wrapper,,
+6,Food,3.0,3.0,5.0,65.0,55.0,20.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Chips / dry snacks bag,,
+7,Food,3.0,3.0,4.0,85.0,80.0,45.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Ready-meal tray ,,
+8,Food,5.0,5.0,5.0,0.0,55.0,85.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Beverage can,,
+9,Food,4.0,3.0,5.0,0.0,50.0,82.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Sauce or jam jar,,
+10,Food,3.0,3.0,4.0,60.0,60.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Dairy in paper based cup,,
+11,Food,3.0,3.0,3.0,85.0,70.0,75.0,4.0,3.0,,,,,,,,,,,,,,,,,,,Premium chocolate box,,
+12,Cosmetics,4.0,3.0,5.0,10.0,52.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Glass skincare jar,,
+13,Cosmetics,4.0,4.0,4.0,0.0,55.0,58.0,2.0,3.0,,,,,,,,,,,,,,,,,,,PCR PET skincare bottle,,
+14,Cosmetics,4.0,4.0,4.0,70.0,80.0,45.0,4.0,4.0,,,,,,,,,,,,,,,,,,,Bamboo-cased lipstick / compact,,
+15,Cosmetics,5.0,5.0,5.0,0.0,55.0,85.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Aluminium cosmetic tin,,
+16,Cosmetics,4.0,4.0,5.0,40.0,60.0,60.0,5.0,5.0,,,,,,,,,,,,,,,,,,,Refillable foundation bottle,,
+17,Cosmetics,5.0,5.0,5.0,80.0,80.0,85.0,4.0,5.0,,,,,,,,,,,,,,,,,,,Refillable aluminium bodywash bottle,,
+18,Pharmaceuticals,4.0,3.0,5.0,5.0,50.0,30.0,2.0,1.0,,,,,,,,,,,,,,,,,,,Blister pack for tablets ,,
+19,Pharmaceuticals,4.0,3.0,5.0,2.0,52.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Cough syrup bottle ,,
+20,Beverages,4.0,4.0,5.0,0.0,55.0,60.0,2.0,4.0,,,,,,,,,,,,,,,,,,,Soda PET bottle ,,
+21,Beverages,4.0,3.0,5.0,0.0,50.0,82.0,3.0,5.0,,,,,,,,,,,,,,,,,,,Premium glass water ,,
+22,Textiles/Apparel,3.0,3.0,3.0,80.0,65.0,60.0,2.0,2.0,,,,,,,,,,,,,,,,,,,Tshirt shipping envelope ,,
+23,Textiles/Apparel,3.0,3.0,3.0,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Jeans retail box ,,
+24,Personal Care/Home,3.0,3.0,4.0,70.0,65.0,40.0,2.0,4.0,,,,,,,,,,,,,,,,,,,Shampoo refill pouch ,,
+25,Personal Care/Home,3.0,3.0,4.0,75.0,72.0,65.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Detergent pod tray ,,
+26,Household Appliances,4.0,4.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Electric kettle box,,
+27,Household Appliances,5.0,5.0,3.0,65.0,55.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Microwave oven shipper,,
+28,Household Appliances,4.0,4.0,3.0,88.0,70.0,73.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Blender packaging,,
+29,Household Appliances,5.0,5.0,3.0,80.0,72.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Refrigerator outer box,,
+30,Household Appliances,4.0,4.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Vacuum cleaner pack,,
+31,Household Appliances,4.0,4.0,3.0,85.0,70.0,72.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Ceiling fan box,,
+32,Household Appliances,3.0,3.0,3.0,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Iron packaging,,
+33,Household Appliances,4.0,4.0,4.0,75.0,65.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Air purifier box,,
+34,Household Appliances,3.0,3.0,3.0,85.0,68.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Coffee maker box,,
+35,Household Appliances,3.0,3.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Toaster packaging,,
+36,Furniture,4.0,5.0,3.0,70.0,65.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Dining chair carton,,
+37,Furniture,5.0,5.0,3.0,75.0,68.0,68.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Table flat pack,,
+38,Furniture,3.0,3.0,2.0,90.0,78.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Cushion packaging,,
+39,Furniture,4.0,4.0,3.0,60.0,55.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Mattress roll wrap,,
+40,Furniture,3.0,3.0,3.0,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Lamp box,,
+41,Toys,3.0,3.0,3.0,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Kids toy box,,
+42,Toys,4.0,4.0,4.0,20.0,55.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Building blocks tub,,
+43,Toys,3.0,3.0,2.0,80.0,70.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Soft toy bag,,
+44,Toys,3.0,3.0,3.0,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Educational kit box,,
+45,Toys,3.0,3.0,3.0,65.0,60.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Doll packaging,,
+46,Baby Care,4.0,4.0,4.0,25.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Baby bottle pack,,
+47,Baby Care,4.0,4.0,4.0,0.0,55.0,55.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Baby lotion bottle,,
+48,Baby Care,3.0,3.0,3.0,70.0,65.0,45.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Diaper bag pack,,
+49,Baby Care,3.0,3.0,4.0,75.0,70.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Baby food pouch,,
+50,Baby Care,3.0,3.0,3.0,60.0,60.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Baby wipes packet,,
+51,Industrial/Automotive,5.0,5.0,5.0,0.0,55.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Motor oil bottle,,
+52,Industrial/Automotive,5.0,5.0,5.0,0.0,50.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Brake fluid can,,
+53,Industrial/Automotive,4.0,5.0,3.0,70.0,60.0,60.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Car part box,,
+54,Industrial/Automotive,4.0,4.0,4.0,50.0,55.0,45.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Lubricant pouch,,
+55,Industrial/Automotive,4.0,4.0,4.0,10.0,52.0,55.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Battery packaging,,
+56,Healthcare/Medical Devices,4.0,3.0,5.0,5.0,50.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Medical syringe pack,,
+57,Healthcare/Medical Devices,3.0,3.0,4.0,40.0,60.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Diagnostic test kit,,
+58,Healthcare/Medical Devices,3.0,3.0,3.0,85.0,72.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Surgical gloves box,,
+59,Healthcare/Medical Devices,3.0,3.0,4.0,20.0,55.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Bandage pouch,,
+60,Healthcare/Medical Devices,3.0,3.0,3.0,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Thermometer box,,
+61,Stationery,3.0,3.0,2.0,95.0,80.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Notebook pack,,
+62,Stationery,3.0,3.0,3.0,10.0,52.0,55.0,2.0,1.0,,,,,,,,,,,,,,,,,,,Pen blister card,,
+63,Stationery,3.0,3.0,3.0,80.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Printer cartridge box,,
+64,Stationery,3.0,3.0,3.0,70.0,65.0,50.0,2.0,2.0,,,,,,,,,,,,,,,,,,,Marker set pouch,,
+65,Stationery,3.0,3.0,3.0,88.0,72.0,80.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Stapler pack,,
+66,Sports & Outdoor,5.0,5.0,5.0,0.0,55.0,85.0,3.0,5.0,,,,,,,,,,,,,,,,,,,Water bottle (sports),,
+67,Sports & Outdoor,3.0,3.0,4.0,70.0,65.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Energy gel pouch,,
+68,Sports & Outdoor,5.0,5.0,5.0,0.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Tennis ball can,,
+69,Sports & Outdoor,4.0,4.0,3.0,30.0,55.0,50.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Sleeping bag sack,,
+70,Sports & Outdoor,3.0,3.0,3.0,85.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Fitness band box,,
+71,Sports & Outdoor,4.0,4.0,3.0,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Camping stove box,,
+72,Sports & Outdoor,4.0,5.0,3.0,85.0,70.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Helmet box,,
+73,Sports & Outdoor,3.0,3.0,2.0,90.0,75.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Yoga mat sleeve,,
+74,Sports & Outdoor,4.0,4.0,3.0,20.0,50.0,45.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Instant tent bag,,
+75,Sports & Outdoor,4.0,4.0,4.0,10.0,52.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Torchlight blister,,
+76,Sports & Outdoor,3.0,3.0,3.0,75.0,70.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Hand warmer pouch,,
+77,Food,3.0,3.0,4.0,75.0,70.0,35.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Vacuum-sealed coffee pack,,
+78,Food,4.0,4.0,5.0,20.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Protein powder tub,,
+79,Food,4.0,4.0,4.0,60.0,65.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Pet food pouch,,
+80,Food,3.0,3.0,4.0,65.0,60.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Ice cream pint,,
+81,Household Appliances,4.0,4.0,3.0,85.0,70.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Non-stick pan box,,
+82,Household Appliances,3.0,3.0,3.0,88.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Wall clock box,,
+83,Sports & Outdoor,3.0,3.0,3.0,85.0,75.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Yoga resistance band pouch,,
+84,Sports & Outdoor,4.0,4.0,3.0,85.0,72.0,72.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Camping lantern box,,
+85,Baby Care,4.0,4.0,4.0,0.0,55.0,58.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Baby shampoo bottle,,
+86,Baby Care,5.0,5.0,5.0,0.0,50.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Baby formula tin,,
+87,Stationery,3.0,3.0,2.0,95.0,80.0,85.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Office file folder wrap,,
+88,Stationery,3.0,3.0,3.0,10.0,52.0,55.0,2.0,1.0,,,,,,,,,,,,,,,,,,,Mechanical pencil pack,,
+89,Industrial/Automotive,4.0,5.0,3.0,75.0,68.0,65.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Wrench set box,,
+90,Industrial/Automotive,4.0,4.0,3.0,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Engine filter box,,
+91,Healthcare/Medical Devices,3.0,3.0,4.0,80.0,70.0,45.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Hospital gloves pouch,,
+92,Household Appliances,5.0,5.0,3.0,80.0,68.0,72.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Dishwasher box,,
+93,Household Appliances,4.0,4.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Mixer grinder set,,
+94,Household Appliances,4.0,4.0,3.0,78.0,68.0,68.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Induction cooktop box,,
+95,Household Appliances,4.0,4.0,3.0,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Electric fan heater box,,
+96,Electronics,3.0,3.0,3.0,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,LED projector pack,,
+97,Electronics,5.0,5.0,3.0,75.0,65.0,65.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Gaming console packaging,,
+98,Electronics,3.0,3.0,3.0,88.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Smart speaker box,,
+99,Electronics,4.0,4.0,4.0,20.0,55.0,52.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Power bank pack,,
+100,Electronics,4.0,4.0,4.0,75.0,65.0,55.0,3.0,1.0,,,,,,,,,,,,,,,,,,,External hard drive box,,
+101,Electronics,3.0,3.0,3.0,92.0,80.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,,,Wireless charger box,,
+102,Electronics,4.0,4.0,3.0,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Gaming keyboard box,,
+103,Electronics,5.0,5.0,3.0,75.0,65.0,65.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Office printer box,,
+104,Electronics,4.0,4.0,3.0,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Keyboard + mouse combo pack,,
+105,Food,3.0,3.0,4.0,60.0,60.0,38.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Refrigerated yogurt cup,,
+106,Food,3.0,3.0,4.0,70.0,65.0,45.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Soup cup (instant),,
+107,Food,3.0,3.0,3.0,85.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Bakery pastry box,,
+108,Food,3.0,3.0,4.0,80.0,72.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Frozen peas pouch,,
+109,Food,4.0,4.0,5.0,60.0,55.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Cooking oil pouch,,
+110,Food,4.0,3.0,5.0,0.0,50.0,82.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Honey jar,,
+111,Food,3.0,3.0,4.0,70.0,70.0,35.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Jam refill pouch,,
+112,Cosmetics,4.0,4.0,5.0,0.0,52.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Cosmetic serum bottle,,
+113,Cosmetics,3.0,3.0,3.0,90.0,78.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Shampoo bar box,,
+114,Cosmetics,3.0,3.0,4.0,85.0,72.0,75.0,4.0,3.0,,,,,,,,,,,,,,,,,,,Perfume gift set,,
+115,Cosmetics,4.0,4.0,4.0,0.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Hair oil bottle,,
+116,Cosmetics,5.0,5.0,5.0,0.0,55.0,85.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Compact powder tin,,
+117,Cosmetics,5.0,5.0,5.0,0.0,55.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Deodorant can,,
+118,Cosmetics,3.0,3.0,4.0,70.0,70.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Makeup refill pouch,,
+119,Cosmetics,3.0,3.0,3.0,50.0,58.0,55.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Travel cosmetic kit,,
+120,Pharmaceuticals,5.0,5.0,5.0,0.0,55.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Pain relief spray can,,
+121,Pharmaceuticals,3.0,3.0,5.0,10.0,55.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,,,Thermal patch pack,,
+122,Healthcare,3.0,3.0,3.0,85.0,72.0,58.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Bandage roll wrap,,
+123,Healthcare,3.0,3.0,3.0,90.0,75.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Cotton swab box,,
+124,Industrial,3.0,3.0,3.0,80.0,70.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Safety gloves pack,,
+125,Automotive,4.0,5.0,3.0,70.0,60.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Bike part kit,,
+126,Industrial Tools,5.0,5.0,4.0,15.0,50.0,65.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Tool organizer box,,
+127,Industrial,5.0,5.0,5.0,0.0,50.0,85.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Paint can,,
+128,Stationery,3.0,3.0,2.0,95.0,78.0,85.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Office paper ream wrapper,,
+129,Stationery,3.0,3.0,3.0,90.0,75.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Fine art brush set pack,,
+130,Textiles/Apparel,4.0,4.0,3.0,85.0,70.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,,,Sports shoe box,,
+131,Textiles/Apparel,3.0,3.0,3.0,80.0,70.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Jacket mailer,,
+132,Personal Care/Home,3.0,3.0,4.0,80.0,75.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,,,Laundry detergent powder pack,,
+133,Home Decor,4.0,4.0,5.0,0.0,50.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,,,Scented candle jar,,
+134,Home Decor,3.0,3.0,2.0,95.0,80.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,,,Curtain set sleeve,,
+,,,,,,,,,,Electronics,high,True,True,False,3.5,,,,,,,,,,,,,,,
+,,,,,,,,,,Food & Beverages,medium,False,True,True,2.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Cosmetics & Personal Care,high,True,True,False,1.2,,,,,,,,,,,,,,,
+,,,,,,,,,,Pharmaceuticals,high,True,True,True,0.8,,,,,,,,,,,,,,,
+,,,,,,,,,,Clothing & Textiles,low,False,True,False,2.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Glassware & Ceramics,high,True,False,False,3.5,,,,,,,,,,,,,,,
+,,,,,,,,,,Furniture (Small/Flat-pack),medium,True,False,False,18.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Books & Stationery,low,False,True,False,3.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Toys & Games,medium,True,False,False,2.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Industrial & Auto Parts,medium,False,False,False,12.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Jewelry & Watches,high,True,False,False,0.3,,,,,,,,,,,,,,,
+,,,,,,,,,,Sports & Outdoor Equipment,medium,True,False,False,5.0,,,,,,,,,,,,,,,
+,,,,,,,,,,Pet Supplies,low,False,True,False,4.0,,,,,,,,,,,,,,,
+PRD0001,,,,,,,,,,,Low,,,,,400.0,422.27,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Dabur Body Wash 400 ml v2,Personal Care,221.4
+PRD0002,,,,,,,,,,,Low,,,,,200.0,410.27,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,Nestlé Namkeen 200 g,Food,47.69
+PRD0003,,,,,,,,,,,Low,,,,,100.0,161.27,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Sugar Cosmetics Cream 100 g,Cosmetics,120.5
+PRD0004,,,,,,,,,,,Low,,,,,5000.0,8920.73,Low,Low,365.0,Bag,Kraft Paper (Unbleached),False,False,False,,,Patanjali Rice 5000 g,Grocery,324.28
+PRD0005,,,,,,,,,,,Medium,,,,,500.0,571.71,High,High,7.0,Pouch,HDPE Plastic,False,False,False,,,Milky Mist Buttermilk 500 ml,Dairy,22.94
+PRD0006,,,,,,,,,,,Medium,,,,,1000.0,1245.42,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Saffola Pickle 1000 g,Grocery,219.74
+PRD0007,,,,,,,,,,,Medium,,,,,500.0,528.04,High,High,10.0,Pouch,HDPE Plastic,False,False,False,,,Britannia Dairy Lassi 500 ml v2,Dairy,20.22
+PRD0008,,,,,,,,,,,Medium,,,,,500.0,535.18,Medium,Low,120.0,Can,Steel (Carbon Steel),False,False,False,,,Tropicana Juice 500 ml,Beverages,61.41
+PRD0009,,,,,,,,,,,Medium,,,,,200.0,211.73,Medium,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Dolo Syrup 200 ml,Healthcare,113.49
+PRD0010,,,,,,,,,,,Low,,,,,30.0,46.63,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Haldiram Chips 30 g,Food,10.0
+PRD0011,,,,,,,,,,,Medium,,,,,200.0,417.23,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Cadbury Sauce 200 g,Food,37.58
+PRD0012,,,,,,,,,,,Medium,,,,,200.0,367.08,High,High,180.0,Wrapper,LDPE Plastic,False,False,False,,,Britannia Dairy Butter 200 g,Dairy,51.82
+PRD0013,,,,,,,,,,,Medium,,,,,500.0,869.29,High,High,180.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Britannia Dairy Cheese 500 g v2,Dairy,172.6
+PRD0014,,,,,,,,,,,Low,,,,,2000.0,3912.02,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Lizol Detergent 2000 g,Home Care,329.44
+PRD0015,,,,,,,,,,,Low,,,,,1000.0,1087.48,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Vim Floor Cleaner 1000 ml,Home Care,113.33
+PRD0016,,,,,,,,,,,Low,,,,,400.0,774.63,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Sunfeast Namkeen 400 g,Food,102.24
+PRD0017,,,,,,,,,,,Low,,,,,60.0,88.4,Low,Low,720.0,Can,Paperboard (Folding Carton),False,False,False,,,Good Knight Insect Repellent 60 g,Home Care,34.44
+PRD0018,,,,,,,,,,,Low,,,,,500.0,551.15,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Head & Shoulders Handwash 500 ml,Personal Care,110.04
+PRD0019,,,,,,,,,,,High,,,,,2185.57,8669.62,Low,Low,365.0,Box,Corrugated Cardboard,False,False,True,,,Mi Laptop 15-inch,Electronics,39999.0
+PRD0020,,,,,,,,,,,Low,,,,,1000.0,2142.74,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Kellogg's Biscuits 1000 g,Food,116.96
+PRD0021,,,,,,,,,,,Low,,,,,80.0,132.01,Medium,High,365.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Nestlé Chocolate 80 g,Food,69.63
+PRD0022,,,,,,,,,,,Medium,,,,,2000.0,2159.18,Medium,Low,365.0,Can,Steel (Carbon Steel),False,False,False,,,Real Mineral Water 2000 ml,Beverages,75.75
+PRD0023,,,,,,,,,,,Medium,,,,,500.0,867.01,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Everest Honey 500 g,Grocery,219.91
+PRD0024,,,,,,,,,,,Medium,,,,,200.0,252.05,Medium,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Paper Boat Coffee 200 g,Beverages,100.32
+PRD0025,,,,,,,,,,,Low,,,,,2000.0,4876.0,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Patanjali Pulses 2000 g,Grocery,234.57
+PRD0026,,,,,,,,,,,Low,,,,,1000.0,1146.13,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Good Knight Floor Cleaner 1000 ml,Home Care,131.46
+PRD0027,,,,,,,,,,,Low,,,,,280.0,586.05,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Bingo Noodles 280 g v2,Food,51.53
+PRD0028,,,,,,,,,,,High,,,,,1351.24,6544.12,Low,Low,365.0,Box,Corrugated Cardboard,False,False,True,,,Mi Laptop 15-inch v2,Electronics,39999.0
+PRD0029,,,,,,,,,,,Low,,,,,200.0,346.83,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,ITC Chips 200 g,Food,57.67
+PRD0030,,,,,,,,,,,Low,,,,,200.0,210.9,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Dettol Lotion 200 ml,Personal Care,136.72
+PRD0031,,,,,,,,,,,Low,,,,,150.0,249.24,Low,Low,720.0,Can,Paperboard (Folding Carton),False,False,False,,,Vim Air Freshener 150 g,Home Care,40.39
+PRD0032,,,,,,,,,,,Low,,,,,500.0,1247.55,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,MDH Pulses 500 g,Grocery,56.71
+PRD0033,,,,,,,,,,,Medium,,,,,200.0,221.71,Medium,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Betadine Syrup 200 ml,Healthcare,147.3
+PRD0034,,,,,,,,,,,Medium,,,,,1000.0,1043.69,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Fanta Mineral Water 1000 ml,Beverages,36.65
+PRD0035,,,,,,,,,,,Medium,,,,,438.52,374.12,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Samsung Power Bank 10000mAh,Electronics,1299.0
+PRD0036,,,,,,,,,,,Low,,,,,1000.0,2092.02,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Kellogg's Cereal 1000 g,Food,352.34
+PRD0037,,,,,,,,,,,Low,,,,,400.0,457.37,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Lux Body Wash 400 ml,Personal Care,205.27
+PRD0038,,,,,,,,,,,Low,,,,,100.0,210.29,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Maybelline Cream 100 g,Cosmetics,114.06
+PRD0039,,,,,,,,,,,Medium,,,,,500.0,543.12,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Paper Boat Iced Tea 500 ml v2,Beverages,43.92
+PRD0040,,,,,,,,,,,Low,,,,,1000.0,1439.25,Low,Medium,240.0,Box,Cellulose Film,False,False,False,,,ITC Pasta 1000 g,Food,181.79
+PRD0041,,,,,,,,,,,Low,,,,,750.0,856.32,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Dettol Handwash 750 ml,Personal Care,161.64
+PRD0042,,,,,,,,,,,Medium,,,,,500.0,526.96,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Bisleri Mineral Water 500 ml,Beverages,18.1
+PRD0043,,,,,,,,,,,Low,,,,,100.0,185.09,Low,High,365.0,Bag,Kraft Paper (Unbleached),False,False,False,,,Rajdhani Tea 100 g,Grocery,54.61
+PRD0044,,,,,,,,,,,Low,,,,,200.0,371.21,Medium,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Kissan Chocolate 200 g,Food,144.22
+PRD0045,,,,,,,,,,,Medium,,,,,500.0,1056.41,High,High,180.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Milky Mist Butter 500 g,Dairy,119.31
+PRD0046,,,,,,,,,,,Low,,,,,150.0,280.14,Low,Medium,240.0,Pouch,Paperboard (Folding Carton),False,False,False,,,Haldiram Chips 150 g,Food,51.61
+PRD0047,,,,,,,,,,,Low,,,,,90.0,164.96,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Sunfeast Chips 90 g,Food,26.56
+PRD0048,,,,,,,,,,,Low,,,,,2000.0,3914.23,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Aashirvaad Flour 2000 g,Grocery,102.05
+PRD0049,,,,,,,,,,,Medium,,,,,11.95,24.71,Medium,Medium,730.0,Box,PVC Plastic,False,False,False,,,Betadine Capsules 10 tablets,Healthcare,160.23
+PRD0050,,,,,,,,,,,Low,,,,,340.0,371.64,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Dove Conditioner 340 ml,Personal Care,182.97
+PRD0051,,,,,,,,,,,Low,,,,,100.0,170.88,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Dettol Face Wash 100 g,Personal Care,83.73
+PRD0052,,,,,,,,,,,Low,,,,,70.0,90.85,Low,Medium,240.0,Box,Cellulose Film,False,False,False,,,Cadbury Noodles 70 g,Food,14.88
+PRD0053,,,,,,,,,,,Low,,,,,500.0,848.1,Low,High,365.0,Pouch,PP Plastic,False,False,False,,,24 Mantra Coffee 500 g,Grocery,409.75
+PRD0054,,,,,,,,,,,Low,,,,,5.0,9.77,Low,Medium,1095.0,Box,Glass (Soda-Lime),True,False,False,,,Lakmé Lipstick 5 g,Cosmetics,584.32
+PRD0055,,,,,,,,,,,Medium,,,,,32.67,70.7,Medium,Medium,730.0,Blister,PVC Plastic,False,False,False,,,Himalaya Tablets 30 tablets,Healthcare,159.36
+PRD0056,,,,,,,,,,,Medium,,,,,604.37,580.44,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Mi Power Bank 20000mAh,Electronics,2299.0
+PRD0057,,,,,,,,,,,Low,,,,,70.0,102.74,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Parle Noodles 70 g,Food,13.34
+PRD0058,,,,,,,,,,,Medium,,,,,100.0,158.86,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Soframycin Cream 100 g,Healthcare,209.35
+PRD0059,,,,,,,,,,,Low,,,,,40.0,54.11,Medium,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Nestlé Chocolate 40 g,Food,30.08
+PRD0060,,,,,,,,,,,Medium,,,,,53.43,175.81,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Apple Smartwatch Wearable,Electronics,1499.0
+PRD0061,,,,,,,,,,,Medium,,,,,50.0,90.87,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Himalaya Cream 50 g,Healthcare,203.34
+PRD0062,,,,,,,,,,,Low,,,,,30.0,43.35,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,ITC Chips 30 g,Food,10.0
+PRD0063,,,,,,,,,,,Low,,,,,1000.0,2112.63,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Parle Pasta 1000 g,Food,201.17
+PRD0064,,,,,,,,,,,Low,,,,,750.0,846.45,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Dettol Handwash 750 ml v2,Personal Care,158.49
+PRD0065,,,,,,,,,,,Low,,,,,1000.0,1040.75,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Odonil Surface Cleaner 1000 ml,Home Care,166.17
+PRD0066,,,,,,,,,,,Low,,,,,280.0,366.27,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Kissan Noodles 280 g,Food,62.61
+PRD0067,,,,,,,,,,,Low,,,,,1000.0,2129.08,Low,Low,365.0,Bag,Kraft Paper (Unbleached),False,False,False,,,Rajdhani Salt 1000 g,Grocery,31.01
+PRD0068,,,,,,,,,,,Low,,,,,500.0,532.73,Low,Low,720.0,Pouch,HDPE Plastic,False,False,False,,,Vim Floor Cleaner 500 ml,Home Care,67.81
+PRD0069,,,,,,,,,,,Low,,,,,400.0,425.81,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Lux Body Wash 400 ml v2,Personal Care,208.67
+PRD0070,,,,,,,,,,,Low,,,,,1000.0,2259.88,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,India Gate Rice 1000 g,Grocery,60.73
+PRD0071,,,,,,,,,,,Low,,,,,750.0,782.33,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Clinic Plus Handwash 750 ml,Personal Care,179.06
+PRD0072,,,,,,,,,,,Low,,,,,1000.0,1124.89,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Good Knight Surface Cleaner 1000 ml,Home Care,158.38
+PRD0073,,,,,,,,,,,Low,,,,,500.0,786.71,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Haldiram Pasta 500 g,Food,101.24
+PRD0074,,,,,,,,,,,Low,,,,,1000.0,2269.01,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Surf Excel Detergent 1000 g,Home Care,204.97
+PRD0075,,,,,,,,,,,Low,,,,,100.0,206.21,Low,High,365.0,Pouch,PP Plastic,False,False,False,,,Tata Tea 100 g,Grocery,52.2
+PRD0076,,,,,,,,,,,Low,,,,,180.0,194.19,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Lux Shampoo 180 ml,Personal Care,91.83
+PRD0077,,,,,,,,,,,Low,,,,,280.0,446.82,Low,Medium,240.0,Pouch,Paperboard (Folding Carton),False,False,False,,,Bingo Noodles 280 g,Food,59.8
+PRD0078,,,,,,,,,,,Medium,,,,,500.0,824.14,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,24 Mantra Oil 500 g,Grocery,79.24
+PRD0079,,,,,,,,,,,Medium,,,,,87.82,240.99,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Samsung Charger 18W,Electronics,699.0
+PRD0080,,,,,,,,,,,Medium,,,,,1000.0,1084.06,Medium,Low,120.0,Bottle,PET Plastic,False,False,False,,,Paper Boat Juice 1000 ml,Beverages,121.28
+PRD0081,,,,,,,,,,,Low,,,,,2000.0,4690.66,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Odonil Detergent 2000 g,Home Care,382.04
+PRD0082,,,,,,,,,,,Medium,,,,,100.0,108.53,Low,Medium,1095.0,Box,Paperboard (Folding Carton),False,False,False,,,The Body Shop Perfume 100 ml,Cosmetics,822.61
+PRD0083,,,,,,,,,,,Low,,,,,180.0,196.24,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Pears Conditioner 180 ml,Personal Care,104.23
+PRD0084,,,,,,,,,,,Low,,,,,70.0,150.29,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Bingo Noodles 70 g,Food,12.9
+PRD0085,,,,,,,,,,,Medium,,,,,1000.0,2131.76,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,Bingo Sauce 1000 g,Food,166.66
+PRD0086,,,,,,,,,,,High,,,,,202.09,382.77,Low,Low,365.0,Box,Molded Pulp,False,False,False,,,Realme Smartphone Budget,Electronics,13999.0
+PRD0087,,,,,,,,,,,Medium,,,,,135.64,288.27,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Sony Charger 30W,Electronics,1099.0
+PRD0088,,,,,,,,,,,Medium,,,,,500.0,1090.12,High,High,180.0,Box,Paperboard (Folding Carton),False,False,False,,,Britannia Dairy Cheese 500 g,Dairy,168.16
+PRD0089,,,,,,,,,,,Medium,,,,,1000.0,1099.44,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Coca-Cola Soda 1000 ml,Beverages,101.9
+PRD0090,,,,,,,,,,,Low,,,,,140.0,210.73,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Cadbury Noodles 140 g,Food,30.77
+PRD0091,,,,,,,,,,,Medium,,,,,500.0,933.42,High,High,180.0,Box,Paperboard (Folding Carton),False,False,False,,,Milky Mist Cheese 500 g,Dairy,196.83
+PRD0092,,,,,,,,,,,Low,,,,,1000.0,2164.36,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Sunfeast Pasta 1000 g,Food,203.8
+PRD0093,,,,,,,,,,,Low,,,,,1000.0,1920.72,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Nestlé Pasta 1000 g v2,Food,192.68
+PRD0094,,,,,,,,,,,Low,,,,,500.0,663.64,Low,Medium,240.0,Box,Cellulose Film,False,False,False,,,Lay's Dry Fruits 500 g,Food,452.3
+PRD0095,,,,,,,,,,,Medium,,,,,500.0,541.98,Medium,Medium,730.0,Bottle,HDPE Plastic,False,False,False,,,Dolo Antiseptic 500 ml,Healthcare,262.15
+PRD0096,,,,,,,,,,,Medium,,,,,6.0,9.7,Low,Medium,1095.0,Bottle,Glass (Soda-Lime),False,True,False,,,L'Oréal Compact 6 g,Cosmetics,598.05
+PRD0097,,,,,,,,,,,Low,,,,,30.0,46.18,Low,Medium,240.0,Box,Cellulose Film,False,False,False,,,Parle Chips 30 g,Food,10.04
+PRD0098,,,,,,,,,,,Low,,,,,80.0,134.85,Medium,High,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Haldiram Chocolate 80 g,Food,63.82
+PRD0099,,,,,,,,,,,Low,,,,,100.0,121.41,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Clinic Plus Toothpaste 100 g,Personal Care,54.14
+PRD0100,,,,,,,,,,,Medium,,,,,500.0,520.48,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Real Energy Drink 500 ml,Beverages,136.86
+PRD0101,,,,,,,,,,,Medium,,,,,27.16,160.8,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,boAt Earphones Wired,Electronics,699.0
+PRD0102,,,,,,,,,,,Low,,,,,45.0,77.6,Low,Low,720.0,Can,Aluminum (Primary),False,False,False,,,Good Knight Insect Repellent 45 g,Home Care,28.81
+PRD0103,,,,,,,,,,,Medium,,,,,500.0,638.0,Medium,Low,365.0,Box,Glass (Soda-Lime),False,False,False,,,Paper Boat Coffee 500 g,Beverages,235.98
+PRD0104,,,,,,,,,,,Low,,,,,50.0,66.22,Low,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Saffola Spices 50 g v2,Grocery,29.76
+PRD0105,,,,,,,,,,,Low,,,,,150.0,184.38,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Vim Air Freshener 150 g v2,Home Care,39.51
+PRD0106,,,,,,,,,,,Low,,,,,60.0,72.63,Low,Low,720.0,Bottle,Aluminum (Primary),False,False,False,,,Good Knight Insect Repellent 60 g v2,Home Care,28.94
+PRD0107,,,,,,,,,,,Medium,,,,,15.0,20.81,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Soframycin Ointment 15 g,Healthcare,179.32
+PRD0108,,,,,,,,,,,Medium,,,,,500.0,693.66,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,Tata Honey 500 g,Grocery,240.09
+PRD0109,,,,,,,,,,,Medium,,,,,500.0,945.3,Medium,Low,365.0,Box,Glass (Soda-Lime),False,False,False,,,Sprite Coffee 500 g,Beverages,233.52
+PRD0110,,,,,,,,,,,Low,,,,,45.0,96.49,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Odonil Insect Repellent 45 g,Home Care,32.41
+PRD0111,,,,,,,,,,,Low,,,,,1000.0,2173.12,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,Bingo Biscuits 1000 g,Food,119.36
+PRD0112,,,,,,,,,,,Low,,,,,280.0,458.69,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Britannia Noodles 280 g,Food,58.01
+PRD0113,,,,,,,,,,,Low,,,,,5000.0,11416.13,Low,Low,365.0,Bag,Kraft Paper (Unbleached),False,False,False,,,Rajdhani Rice 5000 g,Grocery,335.02
+PRD0114,,,,,,,,,,,Medium,,,,,50.0,75.73,Medium,Low,365.0,Pouch,Glass (Soda-Lime),False,False,False,,,Bisleri Coffee 50 g,Beverages,53.95
+PRD0115,,,,,,,,,,,Low,,,,,1000.0,1116.64,Low,Low,720.0,Bottle,LDPE Plastic,False,False,False,,,Odonil Floor Cleaner 1000 ml,Home Care,121.57
+PRD0116,,,,,,,,,,,Low,,,,,90.0,145.12,Low,Low,720.0,Can,Aluminum (Primary),False,False,False,,,Ariel Insect Repellent 90 g,Home Care,33.32
+PRD0117,,,,,,,,,,,Low,,,,,500.0,790.81,Low,Medium,240.0,Pouch,Paperboard (Folding Carton),False,False,False,,,ITC Dry Fruits 500 g,Food,517.06
+PRD0118,,,,,,,,,,,Medium,,,,,25.73,33.22,Medium,Medium,730.0,Box,PVC Plastic,False,False,False,,,Benadryl Tablets 30 tablets,Healthcare,89.13
+PRD0119,,,,,,,,,,,Medium,,,,,273.89,369.1,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Apple Power Bank 10000mAh,Electronics,1599.0
+PRD0120,,,,,,,,,,,Low,,,,,500.0,550.22,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Surf Excel Dishwash Liquid 500 ml,Home Care,87.05
+PRD0121,,,,,,,,,,,Low,,,,,1000.0,1477.87,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Parle Namkeen 1000 g,Food,248.0
+PRD0122,,,,,,,,,,,Low,,,,,1000.0,1493.5,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Nestlé Pasta 1000 g v3,Food,169.12
+PRD0123,,,,,,,,,,,Medium,,,,,24.74,190.51,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Realme Earphones Wired,Electronics,699.0
+PRD0124,,,,,,,,,,,Low,,,,,250.0,344.64,Low,Medium,240.0,Pouch,Paperboard (Folding Carton),False,False,False,,,Nestlé Cereal 250 g,Food,99.81
+PRD0125,,,,,,,,,,,Medium,,,,,13.65,26.93,Medium,Medium,730.0,Box,Paperboard (Folding Carton),False,False,False,,,Dolo Capsules 20 tablets v2,Healthcare,158.0
+PRD0126,,,,,,,,,,,Low,,,,,90.0,96.44,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Clinic Plus Conditioner 90 ml,Personal Care,56.19
+PRD0127,,,,,,,,,,,Low,,,,,500.0,1014.91,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,Patanjali Salt 500 g,Grocery,14.54
+PRD0128,,,,,,,,,,,Low,,,,,100.0,188.69,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Parle Dry Fruits 100 g,Food,102.16
+PRD0129,,,,,,,,,,,Medium,,,,,2000.0,2125.83,Medium,Low,365.0,Can,Aluminum (Primary),False,False,False,,,Maaza Mineral Water 2000 ml,Beverages,91.49
+PRD0130,,,,,,,,,,,Low,,,,,750.0,818.16,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Pears Handwash 750 ml,Personal Care,169.53
+PRD0131,,,,,,,,,,,Low,,,,,100.0,203.13,Low,High,365.0,Bag,PP Plastic,False,False,False,,,Rajdhani Tea 100 g v2,Grocery,54.64
+PRD0132,,,,,,,,,,,Medium,,,,,200.0,396.92,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Haldiram Jam 200 g,Food,57.3
+PRD0133,,,,,,,,,,,Medium,,,,,1000.0,1355.58,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,Patanjali Honey 1000 g,Grocery,489.87
+PRD0134,,,,,,,,,,,Low,,,,,1000.0,1540.9,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,MDH Salt 1000 g,Grocery,27.79
+PRD0135,,,,,,,,,,,Low,,,,,50.0,76.9,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Cadbury Chips 50 g,Food,15.71
+PRD0136,,,,,,,,,,,Low,,,,,280.0,578.62,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Parle Noodles 280 g,Food,55.72
+PRD0137,,,,,,,,,,,Medium,,,,,127.03,264.23,Medium,Medium,1095.0,Bottle,Paperboard (Folding Carton),False,False,False,,,Betadine Bandage 2 roll,Healthcare,45.03
+PRD0138,,,,,,,,,,,Medium,,,,,250.0,263.25,Medium,Low,365.0,Can,Aluminum (Primary),False,False,False,,,Sprite Energy Drink 250 ml,Beverages,65.08
+PRD0139,,,,,,,,,,,Medium,,,,,500.0,619.15,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,Aashirvaad Pickle 500 g,Grocery,124.23
+PRD0140,,,,,,,,,,,Medium,,,,,25.92,49.83,Medium,Medium,730.0,Blister,PVC Plastic,False,False,False,,,Benadryl Capsules 30 tablets,Healthcare,168.37
+PRD0141,,,,,,,,,,,Medium,,,,,1000.0,1061.76,Medium,Low,120.0,Bottle,PET Plastic,False,False,False,,,Coca-Cola Juice 1000 ml,Beverages,110.44
+PRD0142,,,,,,,,,,,Medium,,,,,250.0,261.98,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Tropicana Soft Drink 250 ml,Beverages,23.42
+PRD0143,,,,,,,,,,,Medium,,,,,1000.0,1236.62,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Saffola Oil 1000 g,Grocery,169.88
+PRD0144,,,,,,,,,,,Medium,,,,,500.0,552.05,High,High,10.0,Bottle,LDPE Plastic,False,False,False,,,Britannia Dairy Lassi 500 ml,Dairy,19.17
+PRD0145,,,,,,,,,,,Medium,,,,,200.0,211.49,Medium,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Dettol Syrup 200 ml,Healthcare,129.92
+PRD0146,,,,,,,,,,,Low,,,,,500.0,516.36,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Ariel Floor Cleaner 500 ml,Home Care,59.15
+PRD0147,,,,,,,,,,,Low,,,,,500.0,517.74,Low,Low,720.0,Pouch,LDPE Plastic,False,False,False,,,Colin Dishwash Liquid 500 ml,Home Care,89.28
+PRD0148,,,,,,,,,,,Medium,,,,,150.0,215.58,High,High,20.0,Cup,PP Plastic,False,False,False,,,Milky Mist Yogurt 150 g,Dairy,10.0
+PRD0149,,,,,,,,,,,Low,,,,,10000.0,24710.93,Low,Low,365.0,Bag,Kraft Paper (Unbleached),True,True,False,,,Everest Rice 10000 g,Grocery,547.59
+PRD0150,,,,,,,,,,,Medium,,,,,1000.0,2001.26,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,MDH Oil 1000 g,Grocery,149.54
+PRD0151,,,,,,,,,,,Medium,,,,,500.0,561.84,Medium,Medium,730.0,Bottle,HDPE Plastic,False,False,False,,,Betadine Antiseptic 500 ml,Healthcare,264.55
+PRD0152,,,,,,,,,,,Medium,,,,,400.0,662.14,High,High,20.0,Cup,Paperboard (Folding Carton),False,False,False,,,Britannia Dairy Yogurt 400 g,Dairy,13.73
+PRD0153,,,,,,,,,,,Low,,,,,100.0,143.42,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lakmé Gel 100 g,Cosmetics,101.62
+PRD0154,,,,,,,,,,,Low,,,,,400.0,454.68,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Dabur Body Wash 400 ml v3,Personal Care,186.71
+PRD0155,,,,,,,,,,,Medium,,,,,150.0,327.14,High,High,20.0,Cup,PP Plastic,False,False,False,,,Mother Dairy Yogurt 150 g,Dairy,10.0
+PRD0156,,,,,,,,,,,Medium,,,,,1000.0,1918.54,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,Everest Honey 1000 g,Grocery,437.77
+PRD0157,,,,,,,,,,,Medium,,,,,250.0,266.39,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Maaza Iced Tea 250 ml,Beverages,22.28
+PRD0158,,,,,,,,,,,Low,,,,,500.0,657.59,Low,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Rajdhani Tea 500 g,Grocery,226.3
+PRD0159,,,,,,,,,,,Medium,,,,,150.0,258.89,High,High,20.0,Cup,PP Plastic,False,False,False,,,Amul Yogurt 150 g,Dairy,10.0
+PRD0160,,,,,,,,,,,Low,,,,,100.0,205.45,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,L'Oréal Gel 100 g,Cosmetics,90.94
+PRD0161,,,,,,,,,,,Medium,,,,,200.0,275.01,High,High,180.0,Wrapper,LDPE Plastic,False,False,False,,,Mother Dairy Butter 200 g,Dairy,53.67
+PRD0162,,,,,,,,,,,Medium,,,,,100.0,113.52,Low,Medium,1095.0,Box,Glass (Soda-Lime),False,False,False,,,Plum Perfume 100 ml,Cosmetics,851.88
+PRD0163,,,,,,,,,,,Low,,,,,100.0,156.59,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Head & Shoulders Face Wash 100 g,Personal Care,90.01
+PRD0164,,,,,,,,,,,Low,,,,,500.0,873.07,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Kissan Dry Fruits 500 g,Food,472.87
+PRD0165,,,,,,,,,,,Low,,,,,500.0,541.08,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Harpic Toilet Cleaner 500 ml,Home Care,70.37
+PRD0166,,,,,,,,,,,Medium,,,,,200.0,208.17,High,High,7.0,Bottle,HDPE Plastic,False,False,False,,,Amul Curd 200 ml,Dairy,10.0
+PRD0167,,,,,,,,,,,Low,,,,,100.0,161.92,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Maybelline Cream 100 g v2,Cosmetics,130.98
+PRD0168,,,,,,,,,,,Low,,,,,500.0,533.0,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Odonil Surface Cleaner 500 ml,Home Care,88.56
+PRD0169,,,,,,,,,,,Low,,,,,100.0,171.8,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Britannia Dry Fruits 100 g,Food,82.13
+PRD0170,,,,,,,,,,,Low,,,,,500.0,1006.68,Low,Low,365.0,Bag,LDPE Plastic,False,False,False,,,Aashirvaad Pulses 500 g,Grocery,66.47
+PRD0171,,,,,,,,,,,Medium,,,,,50.0,107.51,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Betadine Cream 50 g,Healthcare,188.19
+PRD0172,,,,,,,,,,,Low,,,,,5.0,9.34,Low,Medium,1095.0,Box,Paperboard (Folding Carton),True,True,False,,,Lakmé Lipstick 5 g v2,Cosmetics,633.88
+PRD0173,,,,,,,,,,,Medium,,,,,250.0,257.58,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Sprite Soda 250 ml,Beverages,22.78
+PRD0174,,,,,,,,,,,Low,,,,,100.0,107.78,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Head & Shoulders Lotion 100 ml,Personal Care,69.06
+PRD0175,,,,,,,,,,,Low,,,,,90.0,101.61,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Himalaya Conditioner 90 ml v2,Personal Care,44.9
+PRD0176,,,,,,,,,,,Medium,,,,,1000.0,1350.96,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Rajdhani Pickle 1000 g,Grocery,201.76
+PRD0177,,,,,,,,,,,Low,,,,,50.0,100.43,Low,Medium,730.0,Bottle,HDPE Plastic,False,False,False,,,Mamaearth Serum 50 ml,Cosmetics,932.05
+PRD0178,,,,,,,,,,,Low,,,,,1000.0,1673.5,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,India Gate Sugar 1000 g,Grocery,46.91
+PRD0179,,,,,,,,,,,Medium,,,,,500.0,775.97,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Everest Pickle 500 g,Grocery,101.04
+PRD0180,,,,,,,,,,,Low,,,,,2000.0,4843.08,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Saffola Flour 2000 g,Grocery,108.65
+PRD0181,,,,,,,,,,,Low,,,,,500.0,525.16,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Odonil Toilet Cleaner 500 ml,Home Care,75.61
+PRD0182,,,,,,,,,,,Medium,,,,,23.87,39.56,Medium,Medium,730.0,Blister,Paperboard (Folding Carton),False,False,False,,,Dolo Capsules 30 tablets,Healthcare,180.44
+PRD0183,,,,,,,,,,,Low,,,,,500.0,1097.71,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Cadbury Pasta 500 g,Food,93.5
+PRD0184,,,,,,,,,,,Medium,,,,,1000.0,1117.13,High,High,7.0,Pouch,HDPE Plastic,False,False,False,,,Milky Mist Buttermilk 1000 ml,Dairy,44.37
+PRD0185,,,,,,,,,,,Medium,,,,,50.0,53.91,Low,Medium,1095.0,Box,Paperboard (Folding Carton),False,False,False,,,Sugar Cosmetics Perfume 50 ml,Cosmetics,878.66
+PRD0186,,,,,,,,,,,Low,,,,,150.0,240.79,Low,Low,720.0,Can,Aluminum (Primary),False,False,False,,,Ariel Air Freshener 150 g,Home Care,37.29
+PRD0187,,,,,,,,,,,Low,,,,,100.0,103.61,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Clinic Plus Lotion 100 ml v2,Personal Care,73.86
+PRD0188,,,,,,,,,,,Low,,,,,1000.0,1043.67,Low,Low,720.0,Pouch,LDPE Plastic,False,False,False,,,Colin Toilet Cleaner 1000 ml,Home Care,145.73
+PRD0189,,,,,,,,,,,Low,,,,,500.0,799.84,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Britannia Pasta 500 g,Food,103.08
+PRD0190,,,,,,,,,,,Medium,,,,,1000.0,1106.54,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Red Bull Iced Tea 1000 ml,Beverages,97.94
+PRD0191,,,,,,,,,,,Low,,,,,150.0,185.22,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Himalaya Toothpaste 150 g v2,Personal Care,75.64
+PRD0192,,,,,,,,,,,Low,,,,,1000.0,1092.87,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Odonil Dishwash Liquid 1000 ml,Home Care,177.56
+PRD0193,,,,,,,,,,,Low,,,,,1000.0,1777.35,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Nestlé Pasta 1000 g,Food,193.71
+PRD0194,,,,,,,,,,,High,,,,,189.77,452.16,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,HP Smartphone Midrange,Electronics,24999.0
+PRD0195,,,,,,,,,,,Low,,,,,50.0,83.87,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Maybelline Gel 50 g,Cosmetics,51.03
+PRD0196,,,,,,,,,,,Medium,,,,,1000.0,1062.94,High,High,7.0,Pouch,HDPE Plastic,False,False,False,,,Britannia Dairy Buttermilk 1000 ml,Dairy,41.66
+PRD0197,,,,,,,,,,,Medium,,,,,85.0,116.14,High,High,20.0,Cup,Paperboard (Folding Carton),False,False,False,,,Heritage Yogurt 85 g,Dairy,10.0
+PRD0198,,,,,,,,,,,Low,,,,,500.0,994.32,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Rajdhani Salt 500 g,Grocery,14.69
+PRD0199,,,,,,,,,,,Low,,,,,2000.0,4061.11,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,Fortune Pulses 2000 g,Grocery,243.22
+PRD0200,,,,,,,,,,,Low,,,,,200.0,351.39,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Cadbury Dry Fruits 200 g,Food,192.81
+PRD0201,,,,,,,,,,,Low,,,,,150.0,205.0,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Himalaya Toothpaste 150 g,Personal Care,83.41
+PRD0202,,,,,,,,,,,Medium,,,,,1000.0,1092.0,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Maaza Iced Tea 1000 ml,Beverages,85.3
+PRD0203,,,,,,,,,,,Low,,,,,1000.0,1406.83,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Kissan Cereal 1000 g,Food,351.76
+PRD0204,,,,,,,,,,,Low,,,,,500.0,892.09,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Nestlé Biscuits 500 g v2,Food,61.54
+PRD0205,,,,,,,,,,,Low,,,,,200.0,215.45,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Dove Body Wash 200 ml v2,Personal Care,109.87
+PRD0206,,,,,,,,,,,Medium,,,,,1000.0,1110.98,High,High,10.0,Bottle,LDPE Plastic,False,False,False,,,Britannia Dairy Lassi 1000 ml,Dairy,40.71
+PRD0207,,,,,,,,,,,Medium,,,,,67.46,109.73,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,JBL Earphones TWS,Electronics,1699.0
+PRD0208,,,,,,,,,,,Low,,,,,200.0,229.34,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Dove Lotion 200 ml,Personal Care,137.88
+PRD0209,,,,,,,,,,,Low,,,,,250.0,328.45,Low,High,365.0,Bag,Kraft Paper (Unbleached),False,False,False,,,Everest Tea 250 g,Grocery,125.93
+PRD0210,,,,,,,,,,,Low,,,,,500.0,525.17,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Lizol Surface Cleaner 500 ml,Home Care,77.38
+PRD0211,,,,,,,,,,,Low,,,,,5000.0,11928.95,Low,Low,365.0,Bag,PP Plastic,False,True,False,,,Everest Flour 5000 g,Grocery,269.2
+PRD0212,,,,,,,,,,,High,,,,,1283.66,4634.65,Low,Low,365.0,Box,Corrugated Cardboard,False,False,True,,,HP Laptop 15-inch,Electronics,64999.0
+PRD0213,,,,,,,,,,,Low,,,,,5000.0,12359.05,Low,Low,365.0,Bag,PP Plastic,False,True,False,,,Fortune Sugar 5000 g,Grocery,230.73
+PRD0214,,,,,,,,,,,Medium,,,,,1000.0,1108.02,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Red Bull Mineral Water 1000 ml,Beverages,43.81
+PRD0215,,,,,,,,,,,Low,,,,,50.0,93.05,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,Saffola Spices 50 g v3,Grocery,29.3
+PRD0216,,,,,,,,,,,Medium,,,,,1000.0,1129.66,High,High,7.0,Bottle,HDPE Plastic,False,False,False,,,Mother Dairy Curd 1000 ml,Dairy,38.57
+PRD0217,,,,,,,,,,,Low,,,,,5000.0,9208.66,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Patanjali Flour 5000 g,Grocery,300.17
+PRD0218,,,,,,,,,,,Medium,,,,,500.0,1025.88,High,High,180.0,Box,LDPE Plastic,False,False,False,,,Nandini Butter 500 g,Dairy,141.92
+PRD0219,,,,,,,,,,,Medium,,,,,200.0,284.09,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,Nestlé Sauce 200 g,Food,37.7
+PRD0220,,,,,,,,,,,Medium,,,,,500.0,683.89,Medium,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,Sprite Tea 500 g,Beverages,231.4
+PRD0221,,,,,,,,,,,Low,,,,,500.0,545.05,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Colin Toilet Cleaner 500 ml,Home Care,80.05
+PRD0222,,,,,,,,,,,Low,,,,,80.0,159.5,Medium,High,365.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Cadbury Chocolate 80 g,Food,72.96
+PRD0223,,,,,,,,,,,Low,,,,,1000.0,1145.98,Low,Low,720.0,Pouch,LDPE Plastic,False,False,False,,,Lizol Toilet Cleaner 1000 ml,Home Care,148.46
+PRD0224,,,,,,,,,,,Medium,,,,,250.0,262.48,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Maaza Soda 250 ml,Beverages,21.98
+PRD0225,,,,,,,,,,,Low,,,,,50.0,108.61,Low,Medium,730.0,Tube,Glass (Soda-Lime),False,False,False,,,L'Oréal Serum 50 ml,Cosmetics,1095.35
+PRD0226,,,,,,,,,,,Medium,,,,,1000.0,1109.38,Medium,Low,365.0,Can,Steel (Carbon Steel),False,False,False,,,Coca-Cola Mineral Water 1000 ml,Beverages,36.69
+PRD0227,,,,,,,,,,,Medium,,,,,500.0,1094.21,High,High,180.0,Box,Paperboard (Folding Carton),False,False,False,,,Nandini Cheese 500 g,Dairy,192.17
+PRD0228,,,,,,,,,,,Low,,,,,100.0,173.37,Low,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Plum Sunscreen 100 g,Cosmetics,247.45
+PRD0229,,,,,,,,,,,Medium,,,,,212.63,375.38,Medium,Medium,1095.0,Bottle,HDPE Plastic,False,False,False,,,Soframycin Bandage 5 roll,Healthcare,63.25
+PRD0230,,,,,,,,,,,Low,,,,,400.0,444.44,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Dettol Lotion 400 ml,Personal Care,290.4
+PRD0231,,,,,,,,,,,Medium,,,,,250.0,282.17,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Bisleri Energy Drink 250 ml,Beverages,55.58
+PRD0232,,,,,,,,,,,Low,,,,,50.0,84.91,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lifebuoy Face Wash 50 g v2,Personal Care,46.29
+PRD0233,,,,,,,,,,,Low,,,,,250.0,451.67,Low,Medium,240.0,Box,Cellulose Film,False,False,False,,,Bingo Pasta 250 g,Food,44.13
+PRD0234,,,,,,,,,,,Low,,,,,200.0,371.95,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Cadbury Chips 200 g,Food,68.2
+PRD0235,,,,,,,,,,,Low,,,,,200.0,433.74,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Cadbury Namkeen 200 g,Food,54.33
+PRD0236,,,,,,,,,,,Medium,,,,,400.0,436.11,High,High,7.0,Pouch,LDPE Plastic,False,False,False,,,Heritage Curd 400 ml,Dairy,16.76
+PRD0237,,,,,,,,,,,Medium,,,,,500.0,547.67,Medium,Low,120.0,Bottle,PET Plastic,False,False,False,,,Bisleri Juice 500 ml,Beverages,63.71
+PRD0238,,,,,,,,,,,Low,,,,,500.0,761.06,Low,High,365.0,Bag,PP Plastic,False,False,False,,,Aashirvaad Coffee 500 g,Grocery,374.83
+PRD0239,,,,,,,,,,,Medium,,,,,5000.0,6360.38,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,24 Mantra Oil 5000 g,Grocery,892.35
+PRD0240,,,,,,,,,,,Low,,,,,1000.0,2347.3,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,MDH Pulses 1000 g,Grocery,120.79
+PRD0241,,,,,,,,,,,Low,,,,,1000.0,1606.08,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Kissan Namkeen 1000 g,Food,288.19
+PRD0242,,,,,,,,,,,Medium,,,,,1037.08,793.71,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Realme Bluetooth Speaker Standard,Electronics,3499.0
+PRD0243,,,,,,,,,,,Low,,,,,100.0,106.83,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Head & Shoulders Lotion 100 ml v2,Personal Care,66.08
+PRD0244,,,,,,,,,,,Low,,,,,1000.0,1045.9,Low,Low,720.0,Pouch,HDPE Plastic,False,False,False,,,Harpic Toilet Cleaner 1000 ml,Home Care,132.56
+PRD0245,,,,,,,,,,,Low,,,,,50.0,86.41,Low,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Mamaearth Sunscreen 50 g,Cosmetics,123.81
+PRD0246,,,,,,,,,,,Low,,,,,200.0,292.93,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Colgate Toothpaste 200 g,Personal Care,104.8
+PRD0247,,,,,,,,,,,Low,,,,,500.0,568.96,Low,Low,720.0,Bottle,LDPE Plastic,False,False,False,,,Odonil Floor Cleaner 500 ml,Home Care,62.45
+PRD0248,,,,,,,,,,,High,,,,,190.4,475.71,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,OnePlus Smartphone Budget,Electronics,15999.0
+PRD0249,,,,,,,,,,,Medium,,,,,1000.0,1082.53,Medium,Low,180.0,Can,Steel (Carbon Steel),False,False,False,,,Real Iced Tea 1000 ml,Beverages,94.46
+PRD0250,,,,,,,,,,,Medium,,,,,400.0,434.54,High,High,7.0,Pouch,LDPE Plastic,False,False,False,,,Heritage Curd 400 ml v2,Dairy,18.28
+PRD0251,,,,,,,,,,,Low,,,,,60.0,96.83,Low,Low,720.0,Can,HDPE Plastic,False,False,False,,,Colin Insect Repellent 60 g,Home Care,32.84
+PRD0252,,,,,,,,,,,Low,,,,,100.0,108.44,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Clinic Plus Lotion 100 ml,Personal Care,69.69
+PRD0253,,,,,,,,,,,Low,,,,,500.0,747.9,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,Dhara Salt 500 g,Grocery,15.36
+PRD0254,,,,,,,,,,,Low,,,,,1000.0,1969.44,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,Everest Salt 1000 g,Grocery,30.65
+PRD0255,,,,,,,,,,,Medium,,,,,500.0,523.14,Medium,Low,365.0,Can,Steel (Carbon Steel),False,False,False,,,Real Mineral Water 500 ml,Beverages,20.31
+PRD0256,,,,,,,,,,,Low,,,,,60.0,102.96,Low,Low,720.0,Box,Aluminum (Primary),False,False,False,,,Ariel Air Freshener 60 g,Home Care,25.95
+PRD0257,,,,,,,,,,,Medium,,,,,250.0,445.68,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,India Gate Honey 250 g,Grocery,105.23
+PRD0258,,,,,,,,,,,Medium,,,,,500.0,773.98,Medium,Low,365.0,Jar,LDPE Plastic,False,False,False,,,Paper Boat Coffee 500 g v2,Beverages,216.33
+PRD0259,,,,,,,,,,,Low,,,,,100.0,150.28,Low,Low,720.0,Can,Paperboard (Folding Carton),False,False,False,,,Good Knight Air Freshener 100 g,Home Care,24.08
+PRD0260,,,,,,,,,,,Low,,,,,50.0,71.84,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lifebuoy Face Wash 50 g,Personal Care,46.06
+PRD0261,,,,,,,,,,,Low,,,,,100.0,173.22,Low,Low,720.0,Can,Aluminum (Primary),False,False,False,,,Odonil Air Freshener 100 g,Home Care,25.07
+PRD0262,,,,,,,,,,,Low,,,,,50.0,79.83,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Sugar Cosmetics Gel 50 g v2,Cosmetics,43.19
+PRD0263,,,,,,,,,,,Medium,,,,,500.0,557.28,Medium,Medium,730.0,Bottle,Paperboard (Folding Carton),False,False,False,,,Volini Sanitizer 500 ml,Healthcare,135.74
+PRD0264,,,,,,,,,,,Medium,,,,,6.0,11.54,Low,Medium,1095.0,Bottle,Glass (Soda-Lime),False,False,False,,,The Body Shop Compact 6 g,Cosmetics,529.02
+PRD0265,,,,,,,,,,,Low,,,,,400.0,454.14,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Lux Lotion 400 ml,Personal Care,284.72
+PRD0266,,,,,,,,,,,Low,,,,,340.0,350.58,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Lux Conditioner 340 ml,Personal Care,194.85
+PRD0267,,,,,,,,,,,Medium,,,,,2000.0,2172.66,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Coca-Cola Mineral Water 2000 ml,Beverages,80.81
+PRD0268,,,,,,,,,,,Low,,,,,1000.0,1465.37,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,Patanjali Salt 1000 g,Grocery,26.09
+PRD0269,,,,,,,,,,,Medium,,,,,100.0,112.94,Medium,Medium,730.0,Bottle,Glass (Soda-Lime),False,False,False,,,Benadryl Antiseptic 100 ml,Healthcare,260.7
+PRD0270,,,,,,,,,,,Low,,,,,180.0,206.94,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Colgate Conditioner 180 ml,Personal Care,98.93
+PRD0271,,,,,,,,,,,Low,,,,,100.0,190.49,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Clinic Plus Face Wash 100 g,Personal Care,96.53
+PRD0272,,,,,,,,,,,Medium,,,,,23.47,90.35,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Mi Earphones TWS,Electronics,1599.0
+PRD0273,,,,,,,,,,,Medium,,,,,6.0,7.91,Low,Medium,1095.0,Box,Glass (Soda-Lime),False,True,False,,,The Body Shop Compact 6 g v2,Cosmetics,566.68
+PRD0274,,,,,,,,,,,Low,,,,,1000.0,1424.54,Low,Low,365.0,Bag,LDPE Plastic,False,False,False,,,Patanjali Salt 1000 g v2,Grocery,27.43
+PRD0275,,,,,,,,,,,Low,,,,,200.0,299.96,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lux Toothpaste 200 g,Personal Care,121.43
+PRD0276,,,,,,,,,,,Medium,,,,,150.0,300.63,High,High,20.0,Cup,Paperboard (Folding Carton),False,False,False,,,Milky Mist Yogurt 150 g v2,Dairy,10.0
+PRD0277,,,,,,,,,,,Medium,,,,,100.0,169.84,Medium,Low,365.0,Box,Glass (Soda-Lime),False,False,False,,,Coca-Cola Tea 100 g,Beverages,59.35
+PRD0278,,,,,,,,,,,Medium,,,,,200.0,372.39,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Tata Pickle 200 g,Grocery,44.94
+PRD0279,,,,,,,,,,,Low,,,,,90.0,97.58,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Lux Conditioner 90 ml,Personal Care,55.67
+PRD0280,,,,,,,,,,,Low,,,,,1000.0,1614.9,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Aashirvaad Salt 1000 g,Grocery,27.98
+PRD0281,,,,,,,,,,,Medium,,,,,500.0,548.48,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Maaza Soft Drink 500 ml,Beverages,45.18
+PRD0282,,,,,,,,,,,Medium,,,,,250.0,372.03,Medium,Low,365.0,Jar,Glass (Soda-Lime),False,False,False,,,Paper Boat Tea 250 g,Beverages,106.77
+PRD0283,,,,,,,,,,,Medium,,,,,500.0,562.09,Medium,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Dettol Syrup 500 ml,Healthcare,154.19
+PRD0284,,,,,,,,,,,Medium,,,,,5000.0,10381.96,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,MDH Oil 5000 g,Grocery,843.61
+PRD0285,,,,,,,,,,,Low,,,,,500.0,540.91,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Odonil Dishwash Liquid 500 ml,Home Care,85.59
+PRD0286,,,,,,,,,,,Medium,,,,,1112.43,1414.01,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,JBL Bluetooth Speaker Standard,Electronics,2999.0
+PRD0287,,,,,,,,,,,Medium,,,,,2000.0,2198.3,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Paper Boat Mineral Water 2000 ml,Beverages,87.26
+PRD0288,,,,,,,,,,,Low,,,,,200.0,207.76,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Himalaya Handwash 200 ml,Personal Care,45.15
+PRD0289,,,,,,,,,,,Low,,,,,500.0,523.13,Low,Low,720.0,Pouch,HDPE Plastic,False,False,False,,,Odonil Surface Cleaner 500 ml v2,Home Care,72.14
+PRD0290,,,,,,,,,,,Medium,,,,,500.0,533.4,Medium,Low,365.0,Bottle,PET Plastic,False,False,False,,,Slice Energy Drink 500 ml,Beverages,114.92
+PRD0291,,,,,,,,,,,Low,,,,,50.0,75.04,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Sugar Cosmetics Gel 50 g,Cosmetics,48.46
+PRD0292,,,,,,,,,,,Low,,,,,150.0,289.11,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lux Face Wash 150 g,Personal Care,145.32
+PRD0293,,,,,,,,,,,Medium,,,,,500.0,701.78,Medium,Low,365.0,Pouch,Glass (Soda-Lime),False,False,False,,,Slice Tea 500 g v2,Beverages,228.21
+PRD0294,,,,,,,,,,,Low,,,,,50.0,63.36,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lakmé Gel 50 g,Cosmetics,47.18
+PRD0295,,,,,,,,,,,Low,,,,,200.0,293.04,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Britannia Chips 200 g,Food,68.0
+PRD0296,,,,,,,,,,,Medium,,,,,500.0,527.14,Medium,Medium,730.0,Box,HDPE Plastic,False,False,False,,,Benadryl Sanitizer 500 ml,Healthcare,156.88
+PRD0297,,,,,,,,,,,Low,,,,,250.0,426.78,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Kellogg's Cereal 250 g,Food,93.34
+PRD0298,,,,,,,,,,,Low,,,,,200.0,209.21,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Lux Body Wash 200 ml,Personal Care,96.61
+PRD0299,,,,,,,,,,,Medium,,,,,100.0,218.07,Medium,Low,365.0,Pouch,Glass (Soda-Lime),False,False,False,,,Bisleri Coffee 100 g,Beverages,56.84
+PRD0300,,,,,,,,,,,Medium,,,,,200.0,248.87,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,India Gate Pickle 200 g,Grocery,45.61
+PRD0301,,,,,,,,,,,Low,,,,,250.0,384.73,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,Dhara Tea 250 g,Grocery,126.67
+PRD0302,,,,,,,,,,,Medium,,,,,400.0,844.25,High,High,20.0,Cup,PP Plastic,False,False,False,,,Heritage Yogurt 400 g,Dairy,15.21
+PRD0303,,,,,,,,,,,Low,,,,,375.0,598.36,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Kellogg's Cereal 375 g,Food,148.13
+PRD0304,,,,,,,,,,,Low,,,,,200.0,437.06,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Kissan Biscuits 200 g,Food,23.19
+PRD0305,,,,,,,,,,,Low,,,,,500.0,719.0,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Britannia Biscuits 500 g,Food,64.03
+PRD0306,,,,,,,,,,,Medium,,,,,500.0,538.32,High,High,5.0,Pouch,LDPE Plastic,False,False,False,,,Milky Mist Milk 500 ml,Dairy,29.78
+PRD0307,,,,,,,,,,,Medium,,,,,200.0,411.2,High,High,180.0,Box,LDPE Plastic,False,False,False,,,Mother Dairy Cheese 200 g,Dairy,70.19
+PRD0308,,,,,,,,,,,Low,,,,,2000.0,3910.67,Low,Low,720.0,Bottle,LDPE Plastic,False,False,False,,,Ariel Detergent 2000 g,Home Care,342.62
+PRD0309,,,,,,,,,,,Medium,,,,,100.0,104.68,Medium,Medium,730.0,Bottle,HDPE Plastic,False,False,False,,,Soframycin Antiseptic 100 ml,Healthcare,204.24
+PRD0310,,,,,,,,,,,Medium,,,,,500.0,923.01,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,24 Mantra Pickle 500 g,Grocery,110.64
+PRD0311,,,,,,,,,,,Medium,,,,,200.0,226.41,Medium,Low,120.0,Can,Steel (Carbon Steel),False,False,False,,,Bisleri Juice 200 ml,Beverages,25.2
+PRD0312,,,,,,,,,,,Medium,,,,,200.0,429.01,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,Kissan Jam 200 g,Food,55.78
+PRD0313,,,,,,,,,,,Low,,,,,50.0,103.67,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,MDH Spices 50 g,Grocery,27.33
+PRD0314,,,,,,,,,,,Medium,,,,,6.0,9.18,Low,Medium,1095.0,Bottle,Paperboard (Folding Carton),False,True,False,,,L'Oréal Compact 6 g v2,Cosmetics,451.09
+PRD0315,,,,,,,,,,,Medium,,,,,527.51,522.68,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Dell Power Bank 20000mAh,Electronics,2499.0
+PRD0316,,,,,,,,,,,Low,,,,,1000.0,2366.45,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Saffola Sugar 1000 g,Grocery,46.65
+PRD0317,,,,,,,,,,,Low,,,,,150.0,264.78,Low,Medium,240.0,Wrapper,Cellulose Film,False,False,False,,,Kellogg's Chips 150 g,Food,44.06
+PRD0318,,,,,,,,,,,Low,,,,,1000.0,1032.06,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Surf Excel Surface Cleaner 1000 ml,Home Care,176.53
+PRD0319,,,,,,,,,,,Medium,,,,,500.0,972.9,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,24 Mantra Oil 500 g v2,Grocery,76.43
+PRD0320,,,,,,,,,,,Low,,,,,340.0,352.26,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Lifebuoy Conditioner 340 ml,Personal Care,191.44
+PRD0321,,,,,,,,,,,Low,,,,,400.0,444.59,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Head & Shoulders Body Wash 400 ml,Personal Care,227.44
+PRD0322,,,,,,,,,,,Low,,,,,2000.0,2165.65,Low,Low,720.0,Pouch,LDPE Plastic,False,False,False,,,Good Knight Floor Cleaner 2000 ml,Home Care,241.84
+PRD0323,,,,,,,,,,,Low,,,,,30.0,46.77,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Lay's Chips 30 g,Food,10.0
+PRD0324,,,,,,,,,,,Low,,,,,90.0,98.29,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Lifebuoy Shampoo 90 ml,Personal Care,45.7
+PRD0325,,,,,,,,,,,Medium,,,,,50.0,56.36,Medium,Medium,730.0,Box,Paperboard (Folding Carton),False,False,False,,,Dolo Sanitizer 50 ml,Healthcare,178.44
+PRD0326,,,,,,,,,,,Medium,,,,,500.0,564.84,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Paper Boat Iced Tea 500 ml,Beverages,41.47
+PRD0327,,,,,,,,,,,Low,,,,,50.0,93.82,Low,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Fortune Coffee 50 g,Grocery,38.38
+PRD0328,,,,,,,,,,,Low,,,,,1000.0,1122.68,Low,Low,720.0,Pouch,LDPE Plastic,False,False,False,,,Lizol Toilet Cleaner 1000 ml v2,Home Care,146.6
+PRD0329,,,,,,,,,,,Medium,,,,,1000.0,1780.33,Low,Low,540.0,Jar,Glass (Soda-Lime),False,False,False,,,Aashirvaad Honey 1000 g,Grocery,512.35
+PRD0330,,,,,,,,,,,Medium,,,,,500.0,927.46,High,High,180.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Heritage Cheese 500 g,Dairy,193.97
+PRD0331,,,,,,,,,,,Medium,,,,,500.0,688.07,Medium,Low,365.0,Jar,LDPE Plastic,False,False,False,,,Slice Tea 500 g,Beverages,226.7
+PRD0332,,,,,,,,,,,Low,,,,,200.0,225.12,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Head & Shoulders Body Wash 200 ml,Personal Care,108.13
+PRD0333,,,,,,,,,,,Low,,,,,50.0,64.22,Low,High,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Tata Coffee 50 g,Grocery,42.46
+PRD0334,,,,,,,,,,,Low,,,,,100.0,154.57,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Bingo Biscuits 100 g,Food,13.16
+PRD0335,,,,,,,,,,,Low,,,,,250.0,438.31,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Sunfeast Pasta 250 g,Food,43.56
+PRD0336,,,,,,,,,,,Low,,,,,140.0,187.63,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Haldiram Noodles 140 g,Food,26.48
+PRD0337,,,,,,,,,,,Low,,,,,90.0,101.68,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Himalaya Conditioner 90 ml,Personal Care,50.96
+PRD0338,,,,,,,,,,,Low,,,,,50.0,61.59,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Lakmé Cream 50 g,Cosmetics,60.13
+PRD0339,,,,,,,,,,,Low,,,,,1000.0,2267.35,Low,Low,365.0,Bag,LDPE Plastic,False,False,False,,,Rajdhani Flour 1000 g,Grocery,60.01
+PRD0340,,,,,,,,,,,Medium,,,,,21.12,34.67,Medium,Medium,730.0,Box,PVC Plastic,False,False,False,,,Dolo Capsules 20 tablets,Healthcare,170.97
+PRD0341,,,,,,,,,,,Medium,,,,,200.0,381.57,Low,Low,540.0,Bottle,PET Plastic,False,False,False,,,Haldiram Sauce 200 g,Food,32.93
+PRD0342,,,,,,,,,,,Medium,,,,,108.07,182.28,Medium,Medium,1095.0,Box,HDPE Plastic,False,False,False,,,Benadryl Bandage 2 roll,Healthcare,67.52
+PRD0343,,,,,,,,,,,Low,,,,,10000.0,22114.01,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),True,True,False,,,Saffola Flour 10000 g,Grocery,565.94
+PRD0344,,,,,,,,,,,Low,,,,,50.0,95.59,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Clinic Plus Face Wash 50 g,Personal Care,50.93
+PRD0345,,,,,,,,,,,Low,,,,,90.0,101.38,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Colgate Shampoo 90 ml,Personal Care,41.71
+PRD0346,,,,,,,,,,,Medium,,,,,500.0,534.6,High,High,7.0,Pouch,HDPE Plastic,False,False,False,,,Britannia Dairy Buttermilk 500 ml,Dairy,20.08
+PRD0347,,,,,,,,,,,Low,,,,,500.0,1056.34,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Ariel Detergent 500 g,Home Care,93.67
+PRD0348,,,,,,,,,,,Medium,,,,,400.0,453.47,High,High,7.0,Pouch,LDPE Plastic,False,False,False,,,Britannia Dairy Curd 400 ml,Dairy,15.5
+PRD0349,,,,,,,,,,,Medium,,,,,1000.0,2099.5,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,Kissan Sauce 1000 g,Food,170.55
+PRD0350,,,,,,,,,,,Medium,,,,,1000.0,1096.27,Medium,Low,180.0,Can,Aluminum (Primary),False,False,False,,,Sprite Soda 1000 ml,Beverages,83.1
+PRD0351,,,,,,,,,,,Medium,,,,,500.0,1058.04,Medium,Low,365.0,Box,LDPE Plastic,False,False,False,,,Fanta Tea 500 g,Beverages,207.98
+PRD0352,,,,,,,,,,,Medium,,,,,43.28,241.21,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,OnePlus Smartwatch Wearable,Electronics,4999.0
+PRD0353,,,,,,,,,,,Low,,,,,375.0,528.57,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Cadbury Cereal 375 g,Food,126.89
+PRD0354,,,,,,,,,,,Low,,,,,30.0,48.71,Low,Medium,730.0,Bottle,Glass (Soda-Lime),False,False,False,,,Lakmé Serum 30 ml,Cosmetics,723.67
+PRD0355,,,,,,,,,,,Medium,,,,,6.06,11.48,Medium,Medium,730.0,Blister,Paperboard (Folding Carton),False,False,False,,,Soframycin Capsules 10 tablets,Healthcare,147.97
+PRD0356,,,,,,,,,,,Low,,,,,280.0,601.68,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,ITC Noodles 280 g,Food,63.29
+PRD0357,,,,,,,,,,,Low,,,,,500.0,531.74,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Clinic Plus Handwash 500 ml,Personal Care,107.21
+PRD0358,,,,,,,,,,,Low,,,,,500.0,709.66,Low,Medium,240.0,Box,Paperboard (Folding Carton),False,False,False,,,Kellogg's Dry Fruits 500 g,Food,517.22
+PRD0359,,,,,,,,,,,Medium,,,,,500.0,1022.65,High,High,180.0,Box,Paperboard (Folding Carton),False,False,False,,,Nandini Cheese 500 g v2,Dairy,166.22
+PRD0360,,,,,,,,,,,Low,,,,,560.0,809.88,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Britannia Noodles 560 g,Food,117.45
+PRD0361,,,,,,,,,,,Medium,,,,,200.0,208.39,Medium,Medium,730.0,Box,Paperboard (Folding Carton),False,False,False,,,Benadryl Sanitizer 200 ml,Healthcare,162.73
+PRD0362,,,,,,,,,,,Low,,,,,2000.0,3164.08,Low,Low,720.0,Pouch,HDPE Plastic,False,False,False,,,Good Knight Detergent 2000 g,Home Care,337.88
+PRD0363,,,,,,,,,,,Low,,,,,1000.0,1722.75,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Tata Salt 1000 g,Grocery,26.31
+PRD0364,,,,,,,,,,,Low,,,,,100.0,114.21,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Himalaya Lotion 100 ml,Personal Care,70.22
+PRD0365,,,,,,,,,,,Low,,,,,1000.0,1125.73,Low,Low,720.0,Pouch,HDPE Plastic,False,False,False,,,Colin Surface Cleaner 1000 ml,Home Care,169.19
+PRD0366,,,,,,,,,,,Low,,,,,100.0,214.85,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Nykaa Cream 100 g,Cosmetics,134.39
+PRD0367,,,,,,,,,,,Medium,,,,,5000.0,9880.86,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Fortune Oil 5000 g,Grocery,767.53
+PRD0368,,,,,,,,,,,Low,,,,,10000.0,24059.23,Low,Low,365.0,Bag,Kraft Paper (Unbleached),True,True,False,,,Fortune Rice 10000 g,Grocery,592.41
+PRD0369,,,,,,,,,,,Low,,,,,50.0,101.58,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,Everest Coffee 50 g,Grocery,36.77
+PRD0370,,,,,,,,,,,Low,,,,,100.0,139.08,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Himalaya Toothpaste 100 g,Personal Care,55.56
+PRD0371,,,,,,,,,,,Medium,,,,,200.0,211.23,Medium,Medium,730.0,Box,HDPE Plastic,False,False,False,,,Dolo Sanitizer 200 ml,Healthcare,199.12
+PRD0372,,,,,,,,,,,Low,,,,,340.0,376.29,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Lux Shampoo 340 ml,Personal Care,167.97
+PRD0373,,,,,,,,,,,Medium,,,,,142.51,213.78,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Sony Charger 65W,Electronics,1799.0
+PRD0374,,,,,,,,,,,Medium,,,,,30.0,60.85,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Soframycin Ointment 30 g,Healthcare,155.52
+PRD0375,,,,,,,,,,,Low,,,,,200.0,212.97,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Dove Lotion 200 ml v2,Personal Care,126.35
+PRD0376,,,,,,,,,,,Low,,,,,1000.0,1696.19,Low,Low,720.0,Bag,LDPE Plastic,False,False,False,,,Vim Detergent 1000 g,Home Care,172.35
+PRD0377,,,,,,,,,,,Low,,,,,50.0,72.53,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Clinic Plus Face Wash 50 g v2,Personal Care,47.64
+PRD0378,,,,,,,,,,,Low,,,,,50.0,97.35,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,Saffola Spices 50 g,Grocery,28.32
+PRD0379,,,,,,,,,,,Medium,,,,,200.0,301.79,High,High,180.0,Wrapper,LDPE Plastic,False,False,False,,,Nandini Cheese 200 g,Dairy,70.71
+PRD0380,,,,,,,,,,,Low,,,,,150.0,248.74,Medium,High,365.0,Pouch,LDPE Plastic,False,False,False,,,Bingo Chocolate 150 g,Food,137.95
+PRD0381,,,,,,,,,,,Low,,,,,1000.0,1552.37,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,Patanjali Pulses 1000 g,Grocery,126.93
+PRD0382,,,,,,,,,,,Low,,,,,5000.0,10037.06,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,24 Mantra Flour 5000 g,Grocery,258.14
+PRD0383,,,,,,,,,,,Low,,,,,200.0,286.44,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Dabur Toothpaste 200 g,Personal Care,119.31
+PRD0384,,,,,,,,,,,Low,,,,,340.0,372.64,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Lux Shampoo 340 ml v2,Personal Care,148.81
+PRD0385,,,,,,,,,,,Medium,,,,,100.0,142.16,Medium,Low,365.0,Jar,LDPE Plastic,False,False,False,,,Tropicana Tea 100 g,Beverages,59.01
+PRD0386,,,,,,,,,,,Low,,,,,500.0,724.76,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Lay's Biscuits 500 g,Food,55.54
+PRD0387,,,,,,,,,,,Medium,,,,,200.0,245.96,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Britannia Jam 200 g,Food,49.64
+PRD0388,,,,,,,,,,,High,,,,,178.56,498.34,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,JBL Smartphone Midrange,Electronics,24999.0
+PRD0389,,,,,,,,,,,Low,,,,,250.0,405.89,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Cadbury Pasta 250 g,Food,43.61
+PRD0390,,,,,,,,,,,Low,,,,,560.0,1067.59,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,Sunfeast Noodles 560 g,Food,102.6
+PRD0391,,,,,,,,,,,Low,,,,,5000.0,8029.32,Low,Low,365.0,Pouch,PP Plastic,False,False,False,,,Patanjali Sugar 5000 g,Grocery,252.23
+PRD0392,,,,,,,,,,,Low,,,,,100.0,160.64,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Nestlé Biscuits 100 g,Food,12.24
+PRD0393,,,,,,,,,,,Low,,,,,750.0,844.83,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Head & Shoulders Handwash 750 ml,Personal Care,171.26
+PRD0394,,,,,,,,,,,Low,,,,,1000.0,2349.44,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Good Knight Detergent 1000 g,Home Care,192.47
+PRD0395,,,,,,,,,,,Medium,,,,,200.0,222.07,Medium,Low,120.0,Bottle,PET Plastic,False,False,False,,,Fanta Juice 200 ml,Beverages,24.98
+PRD0396,,,,,,,,,,,Low,,,,,50.0,74.99,Low,Medium,730.0,Tube,Glass (Soda-Lime),False,False,False,,,Plum Serum 50 ml,Cosmetics,869.79
+PRD0397,,,,,,,,,,,Medium,,,,,792.87,1584.74,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,OnePlus Bluetooth Speaker Standard,Electronics,2999.0
+PRD0398,,,,,,,,,,,Medium,,,,,200.0,325.96,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Sunfeast Jam 200 g,Food,47.34
+PRD0399,,,,,,,,,,,Low,,,,,4.0,8.65,Low,Medium,1095.0,Box,Paperboard (Folding Carton),True,True,False,,,Plum Lipstick 4 g,Cosmetics,542.27
+PRD0400,,,,,,,,,,,Low,,,,,90.0,103.5,Low,Medium,720.0,Pouch,LDPE Plastic,False,False,False,,,Himalaya Shampoo 90 ml,Personal Care,43.73
+PRD0401,,,,,,,,,,,Low,,,,,200.0,397.7,Low,High,365.0,Bag,LDPE Plastic,False,False,False,,,24 Mantra Spices 200 g,Grocery,118.34
+PRD0402,,,,,,,,,,,Low,,,,,400.0,778.0,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Cadbury Namkeen 400 g,Food,107.61
+PRD0403,,,,,,,,,,,Medium,,,,,50.0,56.46,Low,Medium,1095.0,Box,Glass (Soda-Lime),False,False,False,,,Nykaa Perfume 50 ml,Cosmetics,828.59
+PRD0404,,,,,,,,,,,Medium,,,,,500.0,565.09,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Real Iced Tea 500 ml,Beverages,45.79
+PRD0405,,,,,,,,,,,Low,,,,,100.0,164.91,Low,Low,720.0,Bottle,Aluminum (Primary),False,False,False,,,Vim Air Freshener 100 g v2,Home Care,26.24
+PRD0406,,,,,,,,,,,Low,,,,,400.0,454.67,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Himalaya Lotion 400 ml,Personal Care,269.46
+PRD0407,,,,,,,,,,,Medium,,,,,100.0,187.28,High,High,180.0,Box,Paperboard (Folding Carton),False,False,False,,,Nandini Butter 100 g,Dairy,54.47
+PRD0408,,,,,,,,,,,Low,,,,,100.0,164.85,Low,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,L'Oréal Sunscreen 100 g,Cosmetics,282.32
+PRD0409,,,,,,,,,,,Medium,,,,,256.13,436.89,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Realme Power Bank 10000mAh,Electronics,1599.0
+PRD0410,,,,,,,,,,,Medium,,,,,500.0,614.43,Medium,Low,365.0,Pouch,Glass (Soda-Lime),False,False,False,,,Maaza Tea 500 g,Beverages,232.65
+PRD0411,,,,,,,,,,,Low,,,,,90.0,93.27,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Lifebuoy Conditioner 90 ml,Personal Care,49.66
+PRD0412,,,,,,,,,,,High,,,,,1529.8,7171.47,Low,Low,365.0,Box,Corrugated Cardboard,False,False,True,,,Realme Laptop 15-inch,Electronics,64999.0
+PRD0413,,,,,,,,,,,Low,,,,,50.0,78.38,Low,Medium,730.0,Bottle,HDPE Plastic,False,False,False,,,The Body Shop Serum 50 ml,Cosmetics,762.87
+PRD0414,,,,,,,,,,,Low,,,,,5000.0,8174.26,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,India Gate Sugar 5000 g,Grocery,269.75
+PRD0415,,,,,,,,,,,Low,,,,,500.0,1062.88,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,Nestlé Dry Fruits 500 g,Food,431.63
+PRD0416,,,,,,,,,,,Low,,,,,500.0,528.79,Low,Low,720.0,Bag,HDPE Plastic,False,False,False,,,Colin Surface Cleaner 500 ml,Home Care,90.03
+PRD0417,,,,,,,,,,,Low,,,,,375.0,510.59,Low,Medium,240.0,Wrapper,Paperboard (Folding Carton),False,False,False,,,Parle Cereal 375 g,Food,132.62
+PRD0418,,,,,,,,,,,Medium,,,,,500.0,526.39,High,High,7.0,Bottle,HDPE Plastic,False,False,False,,,Heritage Buttermilk 500 ml v2,Dairy,18.61
+PRD0419,,,,,,,,,,,Medium,,,,,500.0,805.4,Low,Low,540.0,Jar,PET Plastic,False,False,False,,,Fortune Oil 500 g,Grocery,89.47
+PRD0420,,,,,,,,,,,Medium,,,,,53.83,116.47,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Samsung Earphones Wired,Electronics,699.0
+PRD0421,,,,,,,,,,,Low,,,,,5000.0,9371.51,Low,Low,365.0,Pouch,LDPE Plastic,False,False,False,,,24 Mantra Rice 5000 g,Grocery,281.45
+PRD0422,,,,,,,,,,,Medium,,,,,1000.0,1035.44,High,High,7.0,Pouch,LDPE Plastic,False,False,False,,,Heritage Buttermilk 1000 ml,Dairy,36.37
+PRD0423,,,,,,,,,,,Low,,,,,70.0,111.89,Low,Medium,240.0,Wrapper,LDPE Plastic,False,False,False,,,Haldiram Noodles 70 g,Food,13.58
+PRD0424,,,,,,,,,,,Low,,,,,280.0,513.59,Low,Medium,240.0,Pouch,Cellulose Film,False,False,False,,,Kellogg's Noodles 280 g,Food,54.1
+PRD0425,,,,,,,,,,,Medium,,,,,6.0,12.03,Low,Medium,1095.0,Box,Paperboard (Folding Carton),False,False,False,,,Nykaa Compact 6 g,Cosmetics,457.91
+PRD0426,,,,,,,,,,,Low,,,,,5000.0,7896.13,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Everest Sugar 5000 g,Grocery,241.0
+PRD0427,,,,,,,,,,,Low,,,,,650.0,743.82,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Colgate Shampoo 650 ml,Personal Care,273.69
+PRD0428,,,,,,,,,,,Low,,,,,500.0,655.93,Low,Medium,240.0,Box,LDPE Plastic,False,False,False,,,Nestlé Biscuits 500 g,Food,59.44
+PRD0429,,,,,,,,,,,Low,,,,,200.0,213.94,Low,Medium,720.0,Bottle,HDPE Plastic,False,False,False,,,Dove Lotion 200 ml v3,Personal Care,140.76
+PRD0430,,,,,,,,,,,Medium,,,,,85.0,120.62,High,High,20.0,Cup,Paperboard (Folding Carton),False,False,False,,,Nandini Yogurt 85 g,Dairy,10.0
+PRD0431,,,,,,,,,,,Low,,,,,150.0,227.9,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Head & Shoulders Face Wash 150 g,Personal Care,154.85
+PRD0432,,,,,,,,,,,Low,,,,,500.0,783.78,Low,Low,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Everest Salt 500 g,Grocery,15.27
+PRD0433,,,,,,,,,,,Low,,,,,60.0,121.14,Low,Low,720.0,Box,Aluminum (Primary),False,False,False,,,Odonil Insect Repellent 60 g,Home Care,32.97
+PRD0434,,,,,,,,,,,Low,,,,,500.0,558.28,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Colgate Handwash 500 ml,Personal Care,115.05
+PRD0435,,,,,,,,,,,Medium,,,,,15.0,22.85,Medium,Medium,540.0,Tube,HDPE Plastic,False,False,False,,,Himalaya Ointment 15 g,Healthcare,145.85
+PRD0436,,,,,,,,,,,Low,,,,,100.0,192.46,Low,Medium,720.0,Tube,HDPE Plastic,False,False,False,,,Plum Cream 100 g,Cosmetics,113.71
+PRD0437,,,,,,,,,,,Low,,,,,400.0,459.83,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Dabur Body Wash 400 ml,Personal Care,194.28
+PRD0438,,,,,,,,,,,Low,,,,,400.0,427.42,Low,Medium,720.0,Bottle,LDPE Plastic,False,False,False,,,Lux Lotion 400 ml v2,Personal Care,275.98
+PRD0439,,,,,,,,,,,Medium,,,,,500.0,573.7,High,High,7.0,Pouch,HDPE Plastic,False,False,False,,,Heritage Buttermilk 500 ml,Dairy,21.8
+PRD0440,,,,,,,,,,,Medium,,,,,500.0,539.7,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Bisleri Soft Drink 500 ml,Beverages,46.07
+PRD0441,,,,,,,,,,,Medium,,,,,1000.0,1073.02,High,High,5.0,Pouch,HDPE Plastic,False,False,False,,,Amul Milk 1000 ml,Dairy,60.46
+PRD0442,,,,,,,,,,,Low,,,,,60.0,76.74,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Harpic Insect Repellent 60 g,Home Care,34.19
+PRD0443,,,,,,,,,,,Medium,,,,,1000.0,1085.78,Medium,Low,180.0,Can,Steel (Carbon Steel),False,False,False,,,Bisleri Iced Tea 1000 ml,Beverages,99.58
+PRD0444,,,,,,,,,,,Low,,,,,100.0,130.66,Low,Low,720.0,Bottle,HDPE Plastic,False,False,False,,,Vim Air Freshener 100 g,Home Care,22.53
+PRD0445,,,,,,,,,,,Medium,,,,,500.0,527.7,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Pepsi Iced Tea 500 ml,Beverages,44.18
+PRD0446,,,,,,,,,,,Low,,,,,50.0,83.15,Low,Medium,540.0,Bottle,HDPE Plastic,False,False,False,,,Mamaearth Sunscreen 50 g v2,Cosmetics,134.97
+PRD0447,,,,,,,,,,,Low,,,,,100.0,167.56,Low,High,365.0,Pouch,Kraft Paper (Unbleached),False,False,False,,,Tata Coffee 100 g,Grocery,75.02
+PRD0448,,,,,,,,,,,Medium,,,,,500.0,562.27,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Tropicana Soft Drink 500 ml,Beverages,47.53
+PRD0449,,,,,,,,,,,Medium,,,,,635.3,350.51,Low,Low,365.0,Box,Corrugated Cardboard,False,False,False,,,Samsung Power Bank 20000mAh,Electronics,2299.0
+PRD0450,,,,,,,,,,,Medium,,,,,200.0,392.5,Low,Low,540.0,Bottle,Glass (Soda-Lime),False,False,False,,,Bingo Jam 200 g,Food,53.81
+PRD0451,,,,,,,,,,,Low,,,,,1000.0,2244.59,Low,Low,365.0,Bag,PP Plastic,False,False,False,,,Everest Rice 1000 g,Grocery,59.59
+PRD0452,,,,,,,,,,,Low,,,,,250.0,306.11,Low,Medium,240.0,Pouch,LDPE Plastic,False,False,False,,,Haldiram Pasta 250 g,Food,43.25
+PRD0453,,,,,,,,,,,Medium,,,,,500.0,540.53,Medium,Low,365.0,Can,Steel (Carbon Steel),False,False,False,,,Maaza Energy Drink 500 ml,Beverages,130.38
+PRD0454,,,,,,,,,,,Low,,,,,200.0,218.06,Low,Medium,720.0,Pouch,HDPE Plastic,False,False,False,,,Dove Body Wash 200 ml,Personal Care,94.22
+PRD0455,,,,,,,,,,,Low,,,,,5.0,10.01,Low,Medium,1095.0,Bottle,Paperboard (Folding Carton),True,False,False,,,Nykaa Lipstick 5 g,Cosmetics,707.67
+PRD0456,,,,,,,,,,,Medium,,,,,179.85,153.45,Low,Low,365.0,Box,Paperboard (Folding Carton),False,False,False,,,Sony Charger 18W,Electronics,699.0
+PRD0457,,,,,,,,,,,Medium,,,,,2000.0,2145.16,Medium,Low,180.0,Bottle,PET Plastic,False,False,False,,,Slice Soda 2000 ml,Beverages,173.63
+1,Electronics,3.0,3.0,,85.0,70.0,72.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard box + molded pulp tray,3.0,Smartphone box,,
+2,Electronics,3.0,4.0,,88.0,70.0,73.0,3.0,2.0,,,,,,,,,,,,,,,,,Heavy corrugated cardboard + paper padding,3.0,Laptop shipping pack,,
+3,Electronics,3.0,3.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding boxboard + paper insert,3.0,Earbuds/headphones retail box,,
+4,Electronics,3.0,3.0,,90.0,78.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,Cardboard box + starchâ€‘based packing peanuts,3.0,Fragile gadget shipper with loose fill,,
+5,Food,3.0,3.0,,80.0,75.0,28.0,4.0,1.0,,,,,,,,,,,,,,,,,Compostable PLA/cellulose multilayer film,4.0,Snack bar wrapper,,
+6,Food,3.0,3.0,,65.0,55.0,20.0,3.0,1.0,,,,,,,,,,,,,,,,,Highâ€‘barrier bioâ€‘based or PE film with coating,5.0,Chips / dry snacks bag,,
+7,Food,3.0,3.0,,85.0,80.0,45.0,3.0,1.0,,,,,,,,,,,,,,,,,Bagasse tray + PLA or cellulose lid film,4.0,Readyâ€‘meal tray + lid,,
+8,Food,5.0,5.0,,0.0,55.0,85.0,3.0,2.0,,,,,,,,,,,,,,,,,Aluminium can,5.0,Beverage can,,
+9,Food,4.0,3.0,,0.0,50.0,82.0,3.0,4.0,,,,,,,,,,,,,,,,,Glass jar + metal lid,5.0,Sauce or jam jar,,
+10,Food,3.0,3.0,,60.0,60.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,Coated paper cup + bioplastic or PE lining,4.0,Dairy in paperâ€‘based cup,,
+11,Food,3.0,3.0,,85.0,70.0,75.0,4.0,3.0,,,,,,,,,,,,,,,,,Rigid paperboard box + paper tray,3.0,Premium chocolate box,,
+12,Cosmetics,4.0,3.0,,10.0,52.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,Glass jar + aluminium / PCR plastic cap,5.0,Glass skincare jar,,
+13,Cosmetics,4.0,4.0,,0.0,55.0,58.0,2.0,3.0,,,,,,,,,,,,,,,,,PCR PET bottle + plastic pump,4.0,PCR PET skincare bottle,,
+14,Cosmetics,4.0,4.0,,70.0,80.0,45.0,4.0,4.0,,,,,,,,,,,,,,,,,Bamboo outer + plastic/metal insert,4.0,Bambooâ€‘cased lipstick / compact,,
+15,Cosmetics,5.0,5.0,,0.0,55.0,85.0,3.0,4.0,,,,,,,,,,,,,,,,,Aluminium screwâ€‘top tin,5.0,Aluminium cosmetic tin,,
+16,Cosmetics,4.0,4.0,,40.0,60.0,60.0,5.0,5.0,,,,,,,,,,,,,,,,,Reusable glass/aluminium outer + refill cartridge,5.0,Refillable foundation bottle,,
+17,Cosmetics,5.0,5.0,,80.0,80.0,85.0,4.0,5.0,,,,,,,,,,,,,,,,,Aluminium bottle + concentrate refills,5.0,Refillable aluminium bodyâ€‘wash bottle,,
+18,Pharmaceuticals,4.0,3.0,,5.0,50.0,30.0,2.0,1.0,,,,,,,,,,,,,,,,,PCR PET/foil blister + paperboard card,5.0,Blister pack for tablets ,,
+19,Pharmaceuticals,4.0,3.0,,2.0,52.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,Glass or PCR PET bottle + childâ€‘proof cap,5.0,Cough syrup bottle ,,
+20,Beverages,4.0,4.0,,0.0,55.0,60.0,2.0,4.0,,,,,,,,,,,,,,,,,PCR PET bottle + PCR cap,5.0,Soda PET bottle ,,
+21,Beverages,4.0,3.0,,0.0,50.0,82.0,3.0,5.0,,,,,,,,,,,,,,,,,Glass bottle + metal cap,5.0,Premium glass water ,,
+22,Textiles/Apparel,3.0,3.0,,80.0,65.0,60.0,2.0,2.0,,,,,,,,,,,,,,,,,Recycled paper/poly mailer or compostable film,3.0,Tâ€‘shirt shipping envelope ,,
+23,Textiles/Apparel,3.0,3.0,,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Recycled cardboard box + paper band,3.0,Jeans retail box ,,
+24,Personal Care/Home,3.0,3.0,,70.0,65.0,40.0,2.0,4.0,,,,,,,,,,,,,,,,,Recycled plastic or compostable pouch,4.0,Shampoo refill pouch ,,
+25,Personal Care/Home,3.0,3.0,,75.0,72.0,65.0,3.0,2.0,,,,,,,,,,,,,,,,,Paperboard tray + bioplastic pods,4.0,Detergent pod tray ,,
+26,Household Appliances,4.0,4.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Heavy corrugated box + molded pulp inserts,3.0,Electric kettle box,,
+27,Household Appliances,5.0,5.0,,65.0,55.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,Reinforced corrugated fiberboard + foam corners,3.0,Microwave oven shipper,,
+28,Household Appliances,4.0,4.0,,88.0,70.0,73.0,3.0,2.0,,,,,,,,,,,,,,,,,Cardboard box + molded paper trays,3.0,Blender packaging,,
+29,Household Appliances,5.0,5.0,,80.0,72.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,Heavy-duty corrugated cardboard + paper edge protectors,3.0,Refrigerator outer box,,
+30,Household Appliances,4.0,4.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Corrugated board + paper pulp inserts,3.0,Vacuum cleaner pack,,
+31,Household Appliances,4.0,4.0,,85.0,70.0,72.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard box + paper cushioning,3.0,Ceiling fan box,,
+32,Household Appliances,3.0,3.0,,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding boxboard + paper pulp tray,3.0,Iron packaging,,
+33,Household Appliances,4.0,4.0,,75.0,65.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Corrugated cardboard + recyclable foam pads,4.0,Air purifier box,,
+34,Household Appliances,3.0,3.0,,85.0,68.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Printed paperboard + recycled pulp,3.0,Coffee maker box,,
+35,Household Appliances,3.0,3.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard + molded pulp liner,3.0,Toaster packaging,,
+36,Furniture,4.0,5.0,,70.0,65.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,Corrugated board + stretch film,3.0,Dining chair carton,,
+37,Furniture,5.0,5.0,,75.0,68.0,68.0,4.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard + paper corner pads,3.0,Table flat pack,,
+38,Furniture,3.0,3.0,,90.0,78.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,Compostable bag + tissue wrapping,2.0,Cushion packaging,,
+39,Furniture,4.0,4.0,,60.0,55.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,Recyclable PE film + paper sleeve,3.0,Mattress roll wrap,,
+40,Furniture,3.0,3.0,,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Corrugated box + molded pulp,3.0,Lamp box,,
+41,Toys,3.0,3.0,,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding carton + paper insert,3.0,Kidsâ€™ toy box,,
+42,Toys,4.0,4.0,,20.0,55.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,PCR PP tub + paper sleeve,4.0,Building blocks tub,,
+43,Toys,3.0,3.0,,80.0,70.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,Biodegradable PLA film + paper tag,2.0,Soft toy bag,,
+44,Toys,3.0,3.0,,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Paperboard box + pulp tray,3.0,Educational kit box,,
+45,Toys,3.0,3.0,,65.0,60.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled PET window + paperboard shell,3.0,Doll packaging,,
+46,Baby Care,4.0,4.0,,25.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,PCR PET clamshell + cardboard sleeve,4.0,Baby bottle pack,,
+47,Baby Care,4.0,4.0,,0.0,55.0,55.0,2.0,3.0,,,,,,,,,,,,,,,,,HDPE bottle + paper label,4.0,Baby lotion bottle,,
+48,Baby Care,3.0,3.0,,70.0,65.0,45.0,3.0,2.0,,,,,,,,,,,,,,,,,Recyclable PE or compostable film,3.0,Diaper bag pack,,
+49,Baby Care,3.0,3.0,,75.0,70.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,Multi-layer biofilm with PLA,4.0,Baby food pouch,,
+50,Baby Care,3.0,3.0,,60.0,60.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,Recyclable film + paper label,3.0,Baby wipes packet,,
+51,Industrial/Automotive,5.0,5.0,,0.0,55.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,PCR HDPE bottle + tamper seal,5.0,Motor oil bottle,,
+52,Industrial/Automotive,5.0,5.0,,0.0,50.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Metal can + plastic cap,5.0,Brake fluid can,,
+53,Industrial/Automotive,4.0,5.0,,70.0,60.0,60.0,3.0,2.0,,,,,,,,,,,,,,,,,Heavy corrugated box + paper fillers,3.0,Car part box,,
+54,Industrial/Automotive,4.0,4.0,,50.0,55.0,45.0,2.0,3.0,,,,,,,,,,,,,,,,,Refill pouch with barrier film,4.0,Lubricant pouch,,
+55,Industrial/Automotive,4.0,4.0,,10.0,52.0,55.0,3.0,1.0,,,,,,,,,,,,,,,,,Recyclable PET clamshell + board backing,4.0,Battery packaging,,
+56,Healthcare/Medical Devices,4.0,3.0,,5.0,50.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,Sterilized blister + paper lid,5.0,Medical syringe pack,,
+57,Healthcare/Medical Devices,3.0,3.0,,40.0,60.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,Paperboard box + plastic tray,4.0,Diagnostic test kit,,
+58,Healthcare/Medical Devices,3.0,3.0,,85.0,72.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Paperboard dispenser box,3.0,Surgical gloves box,,
+59,Healthcare/Medical Devices,3.0,3.0,,20.0,55.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,Paperâ€‘foil laminate,4.0,Bandage pouch,,
+60,Healthcare/Medical Devices,3.0,3.0,,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding boxboard + internal paper tray,3.0,Thermometer box,,
+61,Stationery,3.0,3.0,,95.0,80.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,Paper wrapper or kraft band,2.0,Notebook pack,,
+62,Stationery,3.0,3.0,,10.0,52.0,55.0,2.0,1.0,,,,,,,,,,,,,,,,,PET blister + paper backing,3.0,Pen blister card,,
+63,Stationery,3.0,3.0,,80.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Cardboard box + pulp insert,3.0,Printer cartridge box,,
+64,Stationery,3.0,3.0,,70.0,65.0,50.0,2.0,2.0,,,,,,,,,,,,,,,,,Recyclable film + paper header,3.0,Marker set pouch,,
+65,Stationery,3.0,3.0,,88.0,72.0,80.0,3.0,2.0,,,,,,,,,,,,,,,,,Paperboard box + paper wrap,3.0,Stapler pack,,
+66,Sports & Outdoor,5.0,5.0,,0.0,55.0,85.0,3.0,5.0,,,,,,,,,,,,,,,,,Aluminium bottle + paper tag,5.0,Water bottle (sports),,
+67,Sports & Outdoor,3.0,3.0,,70.0,65.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,Highâ€‘barrier bioâ€‘film,4.0,Energy gel pouch,,
+68,Sports & Outdoor,5.0,5.0,,0.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,Aluminiumâ€‘plastic composite can,5.0,Tennis ball can,,
+69,Sports & Outdoor,4.0,4.0,,30.0,55.0,50.0,3.0,4.0,,,,,,,,,,,,,,,,,Recycled nylon bag,3.0,Sleeping bag sack,,
+70,Sports & Outdoor,3.0,3.0,,85.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Paperboard box + pulp tray,3.0,Fitness band box,,
+71,Sports & Outdoor,4.0,4.0,,85.0,70.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Corrugated box + molded pulp,3.0,Camping stove box,,
+72,Sports & Outdoor,4.0,5.0,,85.0,70.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,Corrugated cardboard with pulp insert,3.0,Helmet box,,
+73,Sports & Outdoor,3.0,3.0,,90.0,75.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,Recycled kraft paper sleeve,2.0,Yoga mat sleeve,,
+74,Sports & Outdoor,4.0,4.0,,20.0,50.0,45.0,3.0,4.0,,,,,,,,,,,,,,,,,Recyclable polyester bag,3.0,Instant tent bag,,
+75,Sports & Outdoor,4.0,4.0,,10.0,52.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,PET clamshell + paper card,4.0,Torchlight blister,,
+76,Sports & Outdoor,3.0,3.0,,75.0,70.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,Bioâ€‘film with paper label,3.0,Hand warmer pouch,,
+77,Food,3.0,3.0,,75.0,70.0,35.0,3.0,1.0,,,,,,,,,,,,,,,,,Multiâ€‘layer compostable PLA and paper film,4.0,Vacuum-sealed coffee pack,,
+78,Food,4.0,4.0,,20.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,PCR PET jar + paper label,5.0,Protein powder tub,,
+79,Food,4.0,4.0,,60.0,65.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,Recyclable polyethylene film,4.0,Pet food pouch,,
+80,Food,3.0,3.0,,65.0,60.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,Coated paper tub + lid,4.0,Ice cream pint,,
+81,Household Appliances,4.0,4.0,,85.0,70.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,Recycled cardboard box + corrugated insert,3.0,Nonâ€‘stick pan box,,
+82,Household Appliances,3.0,3.0,,88.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding carton + molded pulp tray,3.0,Wall clock box,,
+83,Sports & Outdoor,3.0,3.0,,85.0,75.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,Compostable PLA zip pouch,3.0,Yoga resistance band pouch,,
+84,Sports & Outdoor,4.0,4.0,,85.0,72.0,72.0,3.0,3.0,,,,,,,,,,,,,,,,,Rigid paperboard with cardboard insert,3.0,Camping lantern box,,
+85,Baby Care,4.0,4.0,,0.0,55.0,58.0,3.0,3.0,,,,,,,,,,,,,,,,,PCR PET bottle + paper label,4.0,Baby shampoo bottle,,
+86,Baby Care,5.0,5.0,,0.0,50.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,Metal tin + paper label,5.0,Baby formula tin,,
+87,Stationery,3.0,3.0,,95.0,80.0,85.0,2.0,3.0,,,,,,,,,,,,,,,,,Kraft paper wrap,2.0,Office file folder wrap,,
+88,Stationery,3.0,3.0,,10.0,52.0,55.0,2.0,1.0,,,,,,,,,,,,,,,,,Recyclable PET sleeve + paper backing,3.0,Mechanical pencil pack,,
+89,Industrial/Automotive,4.0,5.0,,75.0,68.0,65.0,4.0,2.0,,,,,,,,,,,,,,,,,Corrugated cardboard box with paper edge guards,3.0,Wrench set box,,
+90,Industrial/Automotive,4.0,4.0,,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard box + paper pad,3.0,Engine filter box,,
+91,Healthcare/Medical Devices,3.0,3.0,,80.0,70.0,45.0,3.0,1.0,,,,,,,,,,,,,,,,,Compostable PLA film + paper label,4.0,Hospital gloves pouch,,
+92,Household Appliances,5.0,5.0,,80.0,68.0,72.0,4.0,2.0,,,,,,,,,,,,,,,,,Corrugated cardboard + molded fiber supports,3.0,Dishwasher box,,
+93,Household Appliances,4.0,4.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Rigid carton + paper pulp trays,3.0,Mixer grinder set,,
+94,Household Appliances,4.0,4.0,,78.0,68.0,68.0,3.0,2.0,,,,,,,,,,,,,,,,,Laminated paperboard + molded pulp insert,3.0,Induction cooktop box,,
+95,Household Appliances,4.0,4.0,,85.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard + paper side supports,3.0,Electric fan heater box,,
+96,Electronics,3.0,3.0,,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Folding boxboard + molded pulp tray,3.0,LED projector pack,,
+97,Electronics,5.0,5.0,,75.0,65.0,65.0,4.0,2.0,,,,,,,,,,,,,,,,,Corrugated box + paper tray inserts,3.0,Gaming console packaging,,
+98,Electronics,3.0,3.0,,88.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Paperboard box + molded paper tray,3.0,Smart speaker box,,
+99,Electronics,4.0,4.0,,20.0,55.0,52.0,3.0,1.0,,,,,,,,,,,,,,,,,Recycled PET blister + paper backing,4.0,Power bank pack,,
+100,Electronics,4.0,4.0,,75.0,65.0,55.0,3.0,1.0,,,,,,,,,,,,,,,,,Rigid paperboard box + foam buffer,4.0,External hard drive box,,
+101,Electronics,3.0,3.0,,92.0,80.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,Paperboard + mycelium insert,3.0,Wireless charger box,,
+102,Electronics,4.0,4.0,,88.0,70.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Cardboard box + pulp tray,3.0,Gaming keyboard box,,
+103,Electronics,5.0,5.0,,75.0,65.0,65.0,3.0,2.0,,,,,,,,,,,,,,,,,Heavy corrugated board + paper padding,3.0,Office printer box,,
+104,Electronics,4.0,4.0,,85.0,70.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled cardboard + molded paper tray,3.0,Keyboard + mouse combo pack,,
+105,Food,3.0,3.0,,60.0,60.0,38.0,3.0,1.0,,,,,,,,,,,,,,,,,Coated paper cup + foil lid,4.0,Refrigerated yogurt cup,,
+106,Food,3.0,3.0,,70.0,65.0,45.0,3.0,2.0,,,,,,,,,,,,,,,,,Paper cup + compostable PLA lid,4.0,Soup cup (instant),,
+107,Food,3.0,3.0,,85.0,72.0,75.0,3.0,2.0,,,,,,,,,,,,,,,,,Recycled kraft board with cellulose window,3.0,Bakery pastry box,,
+108,Food,3.0,3.0,,80.0,72.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,Compostable multilayer PLA film,4.0,Frozen peas pouch,,
+109,Food,4.0,4.0,,60.0,55.0,50.0,3.0,2.0,,,,,,,,,,,,,,,,,Recyclable barrier polyethylene,5.0,Cooking oil pouch,,
+110,Food,4.0,3.0,,0.0,50.0,82.0,3.0,4.0,,,,,,,,,,,,,,,,,Glass jar + metal lid,5.0,Honey jar,,
+111,Food,3.0,3.0,,70.0,70.0,35.0,3.0,1.0,,,,,,,,,,,,,,,,,Compostable film refill pouch,4.0,Jam refill pouch,,
+112,Cosmetics,4.0,4.0,,0.0,52.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,Frosted glass bottle + metal cap,5.0,Cosmetic serum bottle,,
+113,Cosmetics,3.0,3.0,,90.0,78.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,Recycled cardboard + paper wrap,3.0,Shampoo bar box,,
+114,Cosmetics,3.0,3.0,,85.0,72.0,75.0,4.0,3.0,,,,,,,,,,,,,,,,,Paperboard box + molded pulp trays,4.0,Perfume gift set,,
+115,Cosmetics,4.0,4.0,,0.0,55.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,PCR PET bottle + aluminium cap,4.0,Hair oil bottle,,
+116,Cosmetics,5.0,5.0,,0.0,55.0,85.0,3.0,4.0,,,,,,,,,,,,,,,,,Aluminium round tin,5.0,Compact powder tin,,
+117,Cosmetics,5.0,5.0,,0.0,55.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,Aluminium aerosol can,5.0,Deodorant can,,
+118,Cosmetics,3.0,3.0,,70.0,70.0,40.0,3.0,2.0,,,,,,,,,,,,,,,,,Compostable or recyclable monoâ€‘film,4.0,Makeup refill pouch,,
+119,Cosmetics,3.0,3.0,,50.0,58.0,55.0,3.0,4.0,,,,,,,,,,,,,,,,,Recycled PP pouch,3.0,Travel cosmetic kit,,
+120,Pharmaceuticals,5.0,5.0,,0.0,55.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,Aluminium can + actuator,5.0,Pain relief spray can,,
+121,Pharmaceuticals,3.0,3.0,,10.0,55.0,40.0,3.0,1.0,,,,,,,,,,,,,,,,,Foilâ€‘paper laminate sachet,5.0,Thermal patch pack,,
+122,Healthcare,3.0,3.0,,85.0,72.0,58.0,3.0,2.0,,,,,,,,,,,,,,,,,Compostable cellulose film + paper label,3.0,Bandage roll wrap,,
+123,Healthcare,3.0,3.0,,90.0,75.0,70.0,3.0,3.0,,,,,,,,,,,,,,,,,Paperboard box + cellulose film window,3.0,Cotton swab box,,
+124,Industrial,3.0,3.0,,80.0,70.0,55.0,3.0,2.0,,,,,,,,,,,,,,,,,Compostable pouch + paper label,3.0,Safety gloves pack,,
+125,Automotive,4.0,5.0,,70.0,60.0,60.0,3.0,3.0,,,,,,,,,,,,,,,,,Heavy corrugated box + paper padding,3.0,Bike part kit,,
+126,Industrial Tools,5.0,5.0,,15.0,50.0,65.0,3.0,4.0,,,,,,,,,,,,,,,,,Recycled PP box + paper sleeve,4.0,Tool organizer box,,
+127,Industrial,5.0,5.0,,0.0,50.0,85.0,3.0,3.0,,,,,,,,,,,,,,,,,Metal can + lid,5.0,Paint can,,
+128,Stationery,3.0,3.0,,95.0,78.0,85.0,2.0,3.0,,,,,,,,,,,,,,,,,Paper wrap + starchâ€‘based glue,2.0,Office paper ream wrapper,,
+129,Stationery,3.0,3.0,,90.0,75.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Kraft paperboard + paper sleeve,3.0,Fine art brush set pack,,
+130,Textiles/Apparel,4.0,4.0,,85.0,70.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,Recycled cardboard shoe box,3.0,Sports shoe box,,
+131,Textiles/Apparel,3.0,3.0,,80.0,70.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,Compostable film + paper tape,3.0,Jacket mailer,,
+132,Personal Care/Home,3.0,3.0,,80.0,75.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Paper bag with starch liner,4.0,Laundry detergent powder pack,,
+133,Home Decor,4.0,4.0,,0.0,50.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,Glass jar + aluminium lid,5.0,Scented candle jar,,
+134,Home Decor,3.0,3.0,,95.0,80.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,Recycled kraft paper wrap,2.0,Curtain set sleeve,,
+135,Electronics,5.0,4.0,,15.0,40.0,85.0,3.0,4.0,,,,,,,,,,,,,,,,,Recycled Rubber,4.0,Solar Panel Edge Guard,,
+136,Food,2.0,1.0,,90.0,75.0,30.0,4.0,1.0,,,,,,,,,,,,,,,,,PLA Mesh,3.0,Organic Tea Pyramid,,
+137,Automotive,5.0,5.0,,80.0,60.0,50.0,3.0,5.0,,,,,,,,,,,,,,,,,Reinforced Wood/Fiber,2.0,Heavy Engine Part Box,,
+138,Agriculture,3.0,3.0,,95.0,85.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,Molded Pulp,1.0,Biodegradable Flower Pot,,
+139,Cosmetics,3.0,2.0,,98.0,90.0,10.0,5.0,2.0,,,,,,,,,,,,,,,,,Mycelium Foam,3.0,Luxury Perfume Insert,,
+140,Healthcare,4.0,3.0,,40.0,50.0,60.0,4.0,1.0,,,,,,,,,,,,,,,,,Medical Grade Tyvek/Paper,5.0,Sterile Surgical Kit,,
+141,Automotive,5.0,5.0,,10.0,40.0,90.0,4.0,5.0,,,,,,,,,,,,,,,,,Recycled Aluminum,5.0,EV Battery Cell Case,,
+142,Healthcare,4.0,3.0,,60.0,55.0,70.0,5.0,2.0,,,,,,,,,,,,,,,,,Medical-grade Bio-PET,5.0,Surgical Instrument Tray,,
+143,Luxury,3.0,2.0,,90.0,85.0,30.0,5.0,5.0,,,,,,,,,,,,,,,,,Mycelium-Leather,3.0,Luxury Watch Box,,
+144,Agriculture,4.0,5.0,,95.0,88.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,Reinforced Hemp Fiber,2.0,Bulk Fertilizer Bag,,
+145,Electronics,4.0,4.0,,85.0,75.0,80.0,4.0,2.0,,,,,,,,,,,,,,,,,Nanocellulose,4.0,Smart Glass Panel,,
+146,Food,3.0,4.0,,98.0,90.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,Seaweed-Coated Bagasse,5.0,Frozen Seafood Pack,,
+147,Industrial,5.0,5.0,,80.0,65.0,85.0,4.0,4.0,,,,,,,,,,,,,,,,,Graphene-Paper,2.0,Robot Arm Part Box,,
+148,Food,3.0,3.0,,100.0,92.0,20.0,4.0,4.0,,,,,,,,,,,,,,,,,Mushroom-based Cooler,4.0,Organic Wine Shipper,,
+149,Agriculture,2.0,2.0,,98.0,85.0,90.0,1.0,2.0,,,,,,,,,,,,,,,,,Molded Pulp + Seeds,1.0,Plantable Planter,,
+150,Industrial,5.0,5.0,,5.0,35.0,95.0,3.0,4.0,,,,,,,,,,,,,,,,,High-barrier HDPE,5.0,Chemical Jug,,
+151,Industrial,5.0,5.0,,0.0,50.0,85.0,3.0,3.0,,,,,,,,,,,,,,,,,Metal can + lid,5.0,Paint can,,
+152,Stationery,3.0,3.0,,95.0,78.0,85.0,2.0,3.0,,,,,,,,,,,,,,,,,Paper wrap + starch‑based glue,2.0,Office paper ream wrapper,,
+153,Stationery,3.0,3.0,,90.0,75.0,75.0,3.0,3.0,,,,,,,,,,,,,,,,,Kraft paperboard + paper sleeve,3.0,Fine art brush set pack,,
+154,Textiles/Apparel,4.0,4.0,,85.0,70.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,Recycled cardboard shoe box,3.0,Sports shoe box,,
+155,Textiles/Apparel,3.0,3.0,,80.0,70.0,60.0,2.0,3.0,,,,,,,,,,,,,,,,,Compostable film + paper tape,3.0,Jacket mailer,,
+156,Personal Care/Home,3.0,3.0,,80.0,75.0,70.0,3.0,2.0,,,,,,,,,,,,,,,,,Paper bag with starch liner,4.0,Laundry detergent powder pack,,
+157,Home Decor,4.0,4.0,,0.0,50.0,80.0,3.0,4.0,,,,,,,,,,,,,,,,,Glass jar + aluminium lid,5.0,Scented candle jar,,
+158,Home Decor,3.0,3.0,,95.0,80.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,Recycled kraft paper wrap,2.0,Curtain set sleeve,,
+159,Home Decor,3.0,5.0,,0.0,46.9,47.0,3.0,1.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 243,4.0,Home Decor Unit - High-Grade Recycled fossil plastic Variant 243 Pack,,
+160,Industrial,1.0,1.0,,90.4,68.3,44.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based coated fiber Variant 170,4.0,Industrial Unit - High-Grade Bio-based coated fiber Variant 170 Pack,,
+161,Household Appliances,1.0,2.0,,85.4,63.7,82.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 249,5.0,Household Appliances Unit - High-Grade Fiber-based Variant 249 Pack,,
+162,Textiles/Apparel,2.0,2.0,,95.0,92.0,25.0,5.0,3.0,,,,,,,,,,,,,,,,,Pullulan Films (Fungal),2.0,Textiles/Apparel Unit - Pullulan Films (Fungal) Pack,,
+163,Electronics,2.0,2.0,,95.0,92.0,25.0,5.0,4.0,,,,,,,,,,,,,,,,,Carrageenan Wraps (Red Algae),3.0,Electronics Unit - Carrageenan Wraps (Red Algae) Pack,,
+164,Home Decor,3.0,4.0,,80.8,81.6,56.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-mineral composite Variant 208,5.0,Home Decor Unit - High-Grade Bio-mineral composite Variant 208 Pack,,
+165,Furniture,5.0,5.0,,0.0,60.0,90.0,5.0,4.0,,,,,,,,,,,,,,,,,Recycled Steel Tins,3.0,Furniture Unit - Recycled Steel Tins Pack,,
+166,Beverages,4.0,4.0,,85.0,80.0,60.0,4.0,2.0,,,,,,,,,,,,,,,,,Eggshell Calcium Composites,5.0,Beverages Unit - Eggshell Calcium Composites Pack,,
+167,Personal Care/Home,3.0,4.0,,81.4,75.2,69.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Recycled fiber composite Variant 209,1.0,Personal Care/Home Unit - High-Grade Recycled fiber composite Variant 209 Pack,,
+168,Industrial Tools,3.0,3.0,,85.0,75.0,70.0,5.0,1.0,,,,,,,,,,,,,,,,,Wool Fiber Padding,5.0,Industrial Tools Unit - Wool Fiber Padding Pack,,
+169,Beverages,2.0,3.0,,95.0,87.0,25.0,4.0,2.0,,,,,,,,,,,,,,,,,Glucomannan Noodles/Padding,1.0,Beverages Unit - Glucomannan Noodles/Padding Pack,,
+170,Industrial/Automotive,2.0,2.0,,93.9,89.8,58.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste composite Variant 140,1.0,Industrial/Automotive Unit - High-Grade Agro-waste composite Variant 140 Pack,,
+171,Sports & Outdoor,3.0,3.0,,5.0,52.2,55.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 199,3.0,Sports & Outdoor Unit - High-Grade Recycled fossil plastic Variant 199 Pack,,
+172,Healthcare/Medical Devices,3.0,4.0,,88.0,75.0,70.0,4.0,5.0,,,,,,,,,,,,,,,,,Newspaper Honeycomb Inserts,5.0,Healthcare/Medical Devices Unit - Newspaper Honeycomb Inserts Pack,,
+173,Industrial Tools,3.0,3.0,,80.4,82.6,49.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 226,3.0,Industrial Tools Unit - High-Grade Natural fiber (protein) Variant 226 Pack,,
+174,Personal Care/Home,2.0,2.0,,87.6,98.1,33.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (algae) Variant 169,4.0,Personal Care/Home Unit - High-Grade Bio-based (algae) Variant 169 Pack,,
+175,Industrial/Automotive,4.0,4.0,,0.0,62.0,99.0,3.0,3.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 114,5.0,Industrial/Automotive Unit - High-Grade Metal (steel) Variant 114 Pack,,
+176,Beverages,3.0,4.0,,96.5,85.5,43.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste composite Variant 167,4.0,Beverages Unit - High-Grade Agro-waste composite Variant 167 Pack,,
+177,Healthcare,2.0,1.0,,92.4,88.6,26.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 188,5.0,Healthcare Unit - High-Grade Bio-based polysaccharide Variant 188 Pack,,
+178,Electronics,3.0,3.0,,95.0,92.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Seaweed-Based Rigid Trays,3.0,Electronics Unit - Seaweed-Based Rigid Trays Pack,,
+179,Beverages,1.0,2.0,,90.6,86.7,12.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 182,4.0,Beverages Unit - High-Grade Bio-based polymer (starch) Variant 182 Pack,,
+180,Stationery,3.0,3.0,,87.1,87.8,75.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber Variant 235,1.0,Stationery Unit - High-Grade Natural fiber Variant 235 Pack,,
+181,Furniture,3.0,4.0,,70.0,60.0,30.0,3.0,1.0,,,,,,,,,,,,,,,,,"Pla Bioplastic (Films, Rigid)",5.0,"Furniture Unit - Pla Bioplastic (Films, Rigid) Pack",,
+182,Textiles/Apparel,2.0,2.0,,95.0,93.0,25.0,5.0,2.0,,,,,,,,,,,,,,,,,Agar-Agar Films (Seaweed Binder),3.0,Textiles/Apparel Unit - Agar-Agar Films (Seaweed Binder) Pack,,
+183,Healthcare/Medical Devices,3.0,4.0,,85.8,82.4,51.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 121,5.0,Healthcare/Medical Devices Unit - High-Grade Fiber-based Variant 121 Pack,,
+184,Textiles/Apparel,2.0,2.0,,77.4,91.3,16.0,3.0,4.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste polymer Variant 179,1.0,Textiles/Apparel Unit - High-Grade Agro-waste polymer Variant 179 Pack,,
+185,Sports & Outdoor,2.0,3.0,,90.6,76.7,72.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 103,1.0,Sports & Outdoor Unit - High-Grade Fiber-based from agro-residues Variant 103 Pack,,
+186,Beverages,2.0,2.0,,90.0,88.0,30.0,4.0,5.0,,,,,,,,,,,,,,,,,Xanthan Gum Coatings,1.0,Beverages Unit - Xanthan Gum Coatings Pack,,
+187,Pharmaceuticals,3.0,3.0,,86.8,69.0,74.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 233,3.0,Pharmaceuticals Unit - High-Grade Natural fiber (animal) Variant 233 Pack,,
+188,Cosmetics,2.0,4.0,,88.5,88.9,37.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 130,2.0,Cosmetics Unit - High-Grade Bio-based polymer Variant 130 Pack,,
+189,Stationery,4.0,5.0,,2.1,49.1,64.0,2.0,1.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 166,2.0,Stationery Unit - High-Grade Recycled fossil plastic Variant 166 Pack,,
+190,Pharmaceuticals,3.0,3.0,,94.0,91.0,25.0,4.0,4.0,,,,,,,,,,,,,,,,,Fucoidan-Based Trays,5.0,Pharmaceuticals Unit - Fucoidan-Based Trays Pack,,
+191,Industrial/Automotive,2.0,3.0,,95.0,82.0,20.0,5.0,2.0,,,,,,,,,,,,,,,,,Cassava Starch Foams,1.0,Industrial/Automotive Unit - Cassava Starch Foams Pack,,
+192,Personal Care/Home,4.0,4.0,,90.0,90.0,50.0,4.0,5.0,,,,,,,,,,,,,,,,,"Bamboo (Components, Shells)",1.0,"Personal Care/Home Unit - Bamboo (Components, Shells) Pack",,
+193,Textiles/Apparel,5.0,5.0,,84.9,87.9,21.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein mimic Variant 111,4.0,Textiles/Apparel Unit - High-Grade Bio-based protein mimic Variant 111 Pack,,
+194,Personal Care/Home,3.0,3.0,,95.0,92.0,20.0,4.0,5.0,,,,,,,,,,,,,,,,,Mushroom Root (Mycelium Variants),5.0,Personal Care/Home Unit - Mushroom Root (Mycelium Variants) Pack,,
+195,Food,3.0,3.0,,98.3,96.5,26.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (microbial) Variant 204,3.0,Food Unit - High-Grade Bio-based (microbial) Variant 204 Pack,,
+196,Sports & Outdoor,3.0,3.0,,64.0,65.6,39.0,2.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 113,1.0,Sports & Outdoor Unit - High-Grade Bio-based polyester Variant 113 Pack,,
+197,Industrial,4.0,4.0,,0.0,62.0,99.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 114,2.0,Industrial Unit - High-Grade Metal (steel) Variant 114 Pack,,
+198,Electronics,3.0,3.0,,80.4,82.6,49.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 226,4.0,Electronics Unit - High-Grade Natural fiber (protein) Variant 226 Pack,,
+199,Pharmaceuticals,5.0,5.0,,0.0,42.8,86.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 187,4.0,Pharmaceuticals Unit - High-Grade Metal (aluminium) Variant 187 Pack,,
+200,Furniture,3.0,5.0,,0.0,46.9,47.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 243,2.0,Furniture Unit - High-Grade Recycled fossil plastic Variant 243 Pack,,
+201,Industrial Tools,2.0,3.0,,92.0,87.0,35.0,4.0,1.0,,,,,,,,,,,,,,,,,Guar Gum Composites,4.0,Industrial Tools Unit - Guar Gum Composites Pack,,
+202,Electronics,2.0,4.0,,88.5,88.9,37.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 130,1.0,Electronics Unit - High-Grade Bio-based polymer Variant 130 Pack,,
+203,Industrial,3.0,4.0,,84.8,88.8,25.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein Variant 242,2.0,Industrial Unit - High-Grade Bio-based protein Variant 242 Pack,,
+204,Industrial Tools,2.0,3.0,,95.0,80.0,25.0,5.0,5.0,,,,,,,,,,,,,,,,,Potato Starch Foams,3.0,Industrial Tools Unit - Potato Starch Foams Pack,,
+205,Furniture,5.0,4.0,,6.8,61.7,86.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 205,1.0,Furniture Unit - High-Grade Metal (steel) Variant 205 Pack,,
+206,Automotive,2.0,2.0,,92.0,88.0,30.0,5.0,1.0,,,,,,,,,,,,,,,,,Pectin Films (Fruit-Derived),3.0,Automotive Unit - Pectin Films (Fruit-Derived) Pack,,
+207,Electronics,3.0,3.0,,85.0,80.0,60.0,5.0,5.0,,,,,,,,,,,,,,,,,Lentil Hull Composites,3.0,Electronics Unit - Lentil Hull Composites Pack,,
+208,Industrial Tools,3.0,3.0,,85.0,80.0,60.0,4.0,5.0,,,,,,,,,,,,,,,,,Lentil Hull Composites,2.0,Industrial Tools Unit - Lentil Hull Composites Pack,,
+209,Industrial Tools,2.0,3.0,,90.6,76.7,72.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 103,1.0,Industrial Tools Unit - High-Grade Fiber-based from agro-residues Variant 103 Pack,,
+210,Textiles/Apparel,3.0,4.0,,88.0,82.0,55.0,4.0,3.0,,,,,,,,,,,,,,,,,Olive Stone Fillers,2.0,Textiles/Apparel Unit - Olive Stone Fillers Pack,,
+211,Household Appliances,3.0,4.0,,92.6,87.2,62.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 163,5.0,Household Appliances Unit - High-Grade Fiber-based from agro-residues Variant 163 Pack,,
+212,Beverages,3.0,3.0,,90.0,60.0,40.0,5.0,4.0,,,,,,,,,,,,,,,,,Cotton/Jute Textile Bags,3.0,Beverages Unit - Cotton/Jute Textile Bags Pack,,
+213,Electronics,2.0,2.0,,89.8,90.1,49.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 156,4.0,Electronics Unit - High-Grade Bio-based polymer Variant 156 Pack,,
+214,Sports & Outdoor,1.0,4.0,,100.0,78.1,6.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,4.0,Sports & Outdoor Unit - High-Grade Bio-based starch Variant 229 Pack,,
+215,Baby Care,2.0,2.0,,92.0,88.0,40.0,4.0,2.0,,,,,,,,,,,,,,,,,Tomato Skin Sheets,5.0,Baby Care Unit - Tomato Skin Sheets Pack,,
+216,Toys,3.0,3.0,,79.1,87.5,35.0,3.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 152,3.0,Toys Unit - High-Grade Bio-based composite Variant 152 Pack,,
+217,Healthcare,2.0,1.0,,92.4,88.6,26.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 188,3.0,Healthcare Unit - High-Grade Bio-based polysaccharide Variant 188 Pack,,
+218,Healthcare,2.0,2.0,,95.0,92.0,25.0,4.0,3.0,,,,,,,,,,,,,,,,,Carrageenan Wraps (Red Algae),2.0,Healthcare Unit - Carrageenan Wraps (Red Algae) Pack,,
+219,Home Decor,4.0,4.0,,85.0,80.0,60.0,5.0,2.0,,,,,,,,,,,,,,,,,Eggshell Calcium Composites,2.0,Home Decor Unit - Eggshell Calcium Composites Pack,,
+220,Industrial Tools,5.0,5.0,,0.0,56.3,90.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 185,2.0,Industrial Tools Unit - High-Grade Metal (aluminium) Variant 185 Pack,,
+221,Toys,2.0,3.0,,95.0,92.0,30.0,5.0,2.0,,,,,,,,,,,,,,,,,Kapok Fiber Cushions,5.0,Toys Unit - Kapok Fiber Cushions Pack,,
+222,Industrial/Automotive,4.0,5.0,,2.1,49.1,64.0,2.0,2.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 166,2.0,Industrial/Automotive Unit - High-Grade Recycled fossil plastic Variant 166 Pack,,
+223,Food,2.0,4.0,,97.7,86.1,51.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 143,5.0,Food Unit - High-Grade Fiber-based from agro-residues Variant 143 Pack,,
+224,Beverages,2.0,2.0,,90.3,89.4,38.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 203,2.0,Beverages Unit - High-Grade Bio-based polymer (starch) Variant 203 Pack,,
+225,Personal Care/Home,3.0,5.0,,86.4,91.9,53.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste particle Variant 116,1.0,Personal Care/Home Unit - High-Grade Agro-waste particle Variant 116 Pack,,
+226,Industrial/Automotive,4.0,4.0,,85.0,80.0,60.0,4.0,1.0,,,,,,,,,,,,,,,,,Eggshell Calcium Composites,1.0,Industrial/Automotive Unit - Eggshell Calcium Composites Pack,,
+227,Home Decor,2.0,1.0,,92.4,88.6,26.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 188,2.0,Home Decor Unit - High-Grade Bio-based polysaccharide Variant 188 Pack,,
+228,Food,3.0,3.0,,82.0,67.4,77.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based (cellulosic) Variant 228,3.0,Food Unit - High-Grade Fiber-based (cellulosic) Variant 228 Pack,,
+229,Pharmaceuticals,1.0,2.0,,89.1,78.3,31.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 232,2.0,Pharmaceuticals Unit - High-Grade Bio-based composite Variant 232 Pack,,
+230,Industrial/Automotive,3.0,3.0,,95.0,95.0,20.0,5.0,4.0,,,,,,,,,,,,,,,,,Algae-Based Plastics,5.0,Industrial/Automotive Unit - Algae-Based Plastics Pack,,
+231,Beverages,3.0,4.0,,70.0,60.0,30.0,2.0,5.0,,,,,,,,,,,,,,,,,"Pla Bioplastic (Films, Rigid)",3.0,"Beverages Unit - Pla Bioplastic (Films, Rigid) Pack",,
+232,Industrial Tools,2.0,1.0,,92.4,88.6,26.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 188,2.0,Industrial Tools Unit - High-Grade Bio-based polysaccharide Variant 188 Pack,,
+233,Healthcare,3.0,3.0,,90.0,85.0,60.0,4.0,4.0,,,,,,,,,,,,,,,,,"Bagasse, Wheat-Straw, Other Agri Fibers",3.0,"Healthcare Unit - Bagasse, Wheat-Straw, Other Agri Fibers Pack",,
+234,Beverages,2.0,2.0,,95.0,80.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Sago Palm Starch Films,5.0,Beverages Unit - Sago Palm Starch Films Pack,,
+235,Home Decor,1.0,3.0,,95.9,89.8,35.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 239,1.0,Home Decor Unit - High-Grade Bio-based polymer (starch) Variant 239 Pack,,
+236,Textiles/Apparel,1.0,2.0,,93.8,86.5,36.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 215,4.0,Textiles/Apparel Unit - High-Grade Bio-based polysaccharide Variant 215 Pack,,
+237,Electronics,3.0,4.0,,80.8,81.6,56.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-mineral composite Variant 208,5.0,Electronics Unit - High-Grade Bio-mineral composite Variant 208 Pack,,
+238,Furniture,2.0,2.0,,88.5,73.7,24.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 112,4.0,Furniture Unit - High-Grade Bio-based polyesters Variant 112 Pack,,
+239,Industrial,2.0,2.0,,87.6,98.1,33.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (algae) Variant 169,3.0,Industrial Unit - High-Grade Bio-based (algae) Variant 169 Pack,,
+240,Healthcare/Medical Devices,3.0,2.0,,95.0,90.0,30.0,5.0,4.0,,,,,,,,,,,,,,,,,Palm Leaf Trays,4.0,Healthcare/Medical Devices Unit - Palm Leaf Trays Pack,,
+241,Electronics,3.0,4.0,,84.8,88.8,25.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein Variant 242,3.0,Electronics Unit - High-Grade Bio-based protein Variant 242 Pack,,
+242,Furniture,4.0,5.0,,87.5,88.8,65.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (wood-like) Variant 192,1.0,Furniture Unit - High-Grade Lignocellulosic (wood-like) Variant 192 Pack,,
+243,Industrial,4.0,5.0,,87.5,88.8,65.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (wood-like) Variant 192,1.0,Industrial Unit - High-Grade Lignocellulosic (wood-like) Variant 192 Pack,,
+244,Personal Care/Home,2.0,2.0,,99.8,68.4,20.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 131,2.0,Personal Care/Home Unit - High-Grade Bio-based starch Variant 131 Pack,,
+245,Pharmaceuticals,2.0,2.0,,95.0,92.0,25.0,4.0,3.0,,,,,,,,,,,,,,,,,Carrageenan Wraps (Red Algae),1.0,Pharmaceuticals Unit - Carrageenan Wraps (Red Algae) Pack,,
+246,Toys,3.0,3.0,,90.0,85.0,60.0,4.0,2.0,,,,,,,,,,,,,,,,,"Bagasse, Wheat-Straw, Other Agri Fibers",4.0,"Toys Unit - Bagasse, Wheat-Straw, Other Agri Fibers Pack",,
+247,Food,3.0,3.0,,95.0,90.0,20.0,5.0,3.0,,,,,,,,,,,,,,,,,Mycelium-Based Molded Packaging,5.0,Food Unit - Mycelium-Based Molded Packaging Pack,,
+248,Industrial Tools,2.0,3.0,,95.0,87.0,25.0,5.0,3.0,,,,,,,,,,,,,,,,,Glucomannan Noodles/Padding,2.0,Industrial Tools Unit - Glucomannan Noodles/Padding Pack,,
+249,Healthcare,3.0,3.0,,79.8,80.3,24.0,2.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 218,5.0,Healthcare Unit - High-Grade Bio-based polyesters Variant 218 Pack,,
+250,Baby Care,4.0,4.0,,88.0,82.0,55.0,5.0,1.0,,,,,,,,,,,,,,,,,Abaca (Manila Hemp) Sheets,1.0,Baby Care Unit - Abaca (Manila Hemp) Sheets Pack,,
+251,Healthcare/Medical Devices,2.0,1.0,,89.6,100.4,22.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein Variant 236,3.0,Healthcare/Medical Devices Unit - High-Grade Bio-based protein Variant 236 Pack,,
+252,Cosmetics,4.0,4.0,,0.0,58.0,50.0,3.0,1.0,,,,,,,,,,,,,,,,,Pcr Pp (Polypropylene) Trays,3.0,Cosmetics Unit - Pcr Pp (Polypropylene) Trays Pack,,
+253,Sports & Outdoor,4.0,4.0,,90.0,90.0,50.0,4.0,3.0,,,,,,,,,,,,,,,,,"Bamboo (Components, Shells)",2.0,"Sports & Outdoor Unit - Bamboo (Components, Shells) Pack",,
+254,Industrial,3.0,3.0,,85.0,85.0,50.0,5.0,5.0,,,,,,,,,,,,,,,,,Coffee Husk Composites,5.0,Industrial Unit - Coffee Husk Composites Pack,,
+255,Baby Care,3.0,3.0,,90.0,60.0,40.0,4.0,2.0,,,,,,,,,,,,,,,,,Cotton/Jute Textile Bags,1.0,Baby Care Unit - Cotton/Jute Textile Bags Pack,,
+256,Baby Care,2.0,2.0,,90.0,88.0,35.0,4.0,2.0,,,,,,,,,,,,,,,,,Hemicellulose Films,1.0,Baby Care Unit - Hemicellulose Films Pack,,
+257,Textiles/Apparel,4.0,4.0,,0.0,62.4,100.0,2.0,5.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 168,5.0,Textiles/Apparel Unit - High-Grade Metal (steel) Variant 168 Pack,,
+258,Household Appliances,2.0,3.0,,91.5,81.0,53.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 165,4.0,Household Appliances Unit - High-Grade Natural fiber (protein) Variant 165 Pack,,
+259,Baby Care,1.0,3.0,,92.6,73.2,75.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 119,5.0,Baby Care Unit - High-Grade Fiber-based Variant 119 Pack,,
+260,Healthcare/Medical Devices,2.0,2.0,,90.3,89.4,38.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 203,1.0,Healthcare/Medical Devices Unit - High-Grade Bio-based polymer (starch) Variant 203 Pack,,
+261,Furniture,3.0,3.0,,64.0,65.6,39.0,2.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 113,1.0,Furniture Unit - High-Grade Bio-based polyester Variant 113 Pack,,
+262,Home Decor,2.0,2.0,,95.0,93.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Alginate Films (Brown Algae),1.0,Home Decor Unit - Alginate Films (Brown Algae) Pack,,
+263,Electronics,3.0,4.0,,84.8,88.8,25.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein Variant 242,3.0,Electronics Unit - High-Grade Bio-based protein Variant 242 Pack,,
+264,Beverages,2.0,2.0,,90.0,87.0,35.0,4.0,5.0,,,,,,,,,,,,,,,,,Lemon Peel Films,3.0,Beverages Unit - Lemon Peel Films Pack,,
+265,Beverages,2.0,2.0,,95.0,80.0,25.0,5.0,5.0,,,,,,,,,,,,,,,,,Sago Palm Starch Films,2.0,Beverages Unit - Sago Palm Starch Films Pack,,
+266,Furniture,2.0,2.0,,88.7,85.3,67.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 148,4.0,Furniture Unit - High-Grade Natural fiber (animal) Variant 148 Pack,,
+267,Personal Care/Home,5.0,5.0,,3.5,64.8,83.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 135,4.0,Personal Care/Home Unit - High-Grade Metal (steel) Variant 135 Pack,,
+268,Personal Care/Home,3.0,4.0,,85.8,82.4,51.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 121,1.0,Personal Care/Home Unit - High-Grade Fiber-based Variant 121 Pack,,
+269,Stationery,2.0,2.0,,90.0,88.0,35.0,4.0,1.0,,,,,,,,,,,,,,,,,Hemicellulose Films,3.0,Stationery Unit - Hemicellulose Films Pack,,
+270,Baby Care,3.0,3.0,,90.0,85.0,50.0,5.0,3.0,,,,,,,,,,,,,,,,,Sisal Fiber Wraps,3.0,Baby Care Unit - Sisal Fiber Wraps Pack,,
+271,Pharmaceuticals,3.0,3.0,,80.0,80.0,40.0,2.0,3.0,,,,,,,,,,,,,,,,,Silk Cocoons Composites,3.0,Pharmaceuticals Unit - Silk Cocoons Composites Pack,,
+272,Food,3.0,3.0,,93.8,83.0,30.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 210,4.0,Food Unit - High-Grade Bio-based polysaccharide Variant 210 Pack,,
+273,Industrial,2.0,2.0,,90.0,88.0,30.0,5.0,5.0,,,,,,,,,,,,,,,,,Xanthan Gum Coatings,4.0,Industrial Unit - Xanthan Gum Coatings Pack,,
+274,Healthcare/Medical Devices,3.0,3.0,,90.0,85.0,45.0,5.0,2.0,,,,,,,,,,,,,,,,,Banana Fiber Composites,5.0,Healthcare/Medical Devices Unit - Banana Fiber Composites Pack,,
+275,Cosmetics,3.0,3.0,,88.0,82.0,55.0,4.0,1.0,,,,,,,,,,,,,,,,,Soybean Hull Sheets,1.0,Cosmetics Unit - Soybean Hull Sheets Pack,,
+276,Cosmetics,3.0,3.0,,85.0,80.0,60.0,5.0,5.0,,,,,,,,,,,,,,,,,Lentil Hull Composites,5.0,Cosmetics Unit - Lentil Hull Composites Pack,,
+277,Home Decor,3.0,3.0,,88.6,94.1,37.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (algae) Variant 144,5.0,Home Decor Unit - High-Grade Bio-based (algae) Variant 144 Pack,,
+278,Food,4.0,4.0,,0.0,62.0,99.0,3.0,4.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 114,5.0,Food Unit - High-Grade Metal (steel) Variant 114 Pack,,
+279,Food,2.0,2.0,,95.0,78.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Tapioca-Based Films,2.0,Food Unit - Tapioca-Based Films Pack,,
+280,Electronics,3.0,2.0,,95.0,92.0,30.0,4.0,3.0,,,,,,,,,,,,,,,,,Areca Palm Leaf Plates,2.0,Electronics Unit - Areca Palm Leaf Plates Pack,,
+281,Home Decor,2.0,3.0,,95.7,85.9,22.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 151,2.0,Home Decor Unit - High-Grade Lignocellulosic (palm) Variant 151 Pack,,
+282,Automotive,4.0,3.0,,83.8,85.0,54.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 122,2.0,Automotive Unit - High-Grade Bio-based polyester Variant 122 Pack,,
+283,Healthcare/Medical Devices,2.0,3.0,,94.7,86.8,35.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (coir) Variant 162,2.0,Healthcare/Medical Devices Unit - High-Grade Natural fiber (coir) Variant 162 Pack,,
+284,Healthcare/Medical Devices,3.0,4.0,,95.0,90.0,50.0,5.0,5.0,,,,,,,,,,,,,,,,,Coir Pith Blocks,4.0,Healthcare/Medical Devices Unit - Coir Pith Blocks Pack,,
+285,Beverages,1.0,4.0,,100.0,78.1,6.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,3.0,Beverages Unit - High-Grade Bio-based starch Variant 229 Pack,,
+286,Toys,3.0,3.0,,90.0,88.0,30.0,5.0,5.0,,,,,,,,,,,,,,,,,Crab Shell Chitin Films,5.0,Toys Unit - Crab Shell Chitin Films Pack,,
+287,Furniture,3.0,2.0,,81.6,85.3,48.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 245,2.0,Furniture Unit - High-Grade Fiber-based from agro-residues Variant 245 Pack,,
+288,Healthcare,2.0,3.0,,93.3,81.2,38.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 123,3.0,Healthcare Unit - High-Grade Regenerated cellulose Variant 123 Pack,,
+289,Industrial Tools,3.0,3.0,,85.0,70.0,70.0,5.0,3.0,,,,,,,,,,,,,,,,,Molded Pulp (Recycled Paper Fiber),2.0,Industrial Tools Unit - Molded Pulp (Recycled Paper Fiber) Pack,,
+290,Healthcare,1.0,2.0,,93.8,86.5,36.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 215,4.0,Healthcare Unit - High-Grade Bio-based polysaccharide Variant 215 Pack,,
+291,Sports & Outdoor,2.0,2.0,,83.5,86.2,56.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste particle Variant 172,4.0,Sports & Outdoor Unit - High-Grade Agro-waste particle Variant 172 Pack,,
+292,Food,3.0,3.0,,85.0,82.0,55.0,4.0,3.0,,,,,,,,,,,,,,,,,Onion Peel Composites,5.0,Food Unit - Onion Peel Composites Pack,,
+293,Personal Care/Home,2.0,1.0,,93.7,97.1,16.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 157,5.0,Personal Care/Home Unit - High-Grade Bio-based polysaccharide Variant 157 Pack,,
+294,Household Appliances,2.0,2.0,,90.0,85.0,40.0,5.0,2.0,,,,,,,,,,,,,,,,,Carrot Pulp Trays,4.0,Household Appliances Unit - Carrot Pulp Trays Pack,,
+295,Sports & Outdoor,3.0,4.0,,92.6,87.2,62.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 163,3.0,Sports & Outdoor Unit - High-Grade Fiber-based from agro-residues Variant 163 Pack,,
+296,Personal Care/Home,2.0,3.0,,90.0,86.0,50.0,4.0,3.0,,,,,,,,,,,,,,,,,Grape Pomace Fillers,4.0,Personal Care/Home Unit - Grape Pomace Fillers Pack,,
+297,Stationery,4.0,4.0,,85.7,91.2,52.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 214,5.0,Stationery Unit - High-Grade Lignocellulosic Variant 214 Pack,,
+298,Automotive,3.0,3.0,,88.0,85.0,60.0,5.0,5.0,,,,,,,,,,,,,,,,,Willow Bark Composites,4.0,Automotive Unit - Willow Bark Composites Pack,,
+299,Textiles/Apparel,2.0,2.0,,88.7,85.3,67.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 148,5.0,Textiles/Apparel Unit - High-Grade Natural fiber (animal) Variant 148 Pack,,
+300,Baby Care,3.0,3.0,,98.3,96.5,26.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (microbial) Variant 204,2.0,Baby Care Unit - High-Grade Bio-based (microbial) Variant 204 Pack,,
+301,Personal Care/Home,5.0,5.0,,89.1,87.8,47.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein mimic Variant 230,2.0,Personal Care/Home Unit - High-Grade Bio-based protein mimic Variant 230 Pack,,
+302,Automotive,3.0,5.0,,0.0,46.9,47.0,2.0,2.0,,,,,,,,,,,,,,,,,High-Grade Recycled fossil plastic Variant 243,5.0,Automotive Unit - High-Grade Recycled fossil plastic Variant 243 Pack,,
+303,Beverages,3.0,3.0,,98.3,96.5,26.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (microbial) Variant 204,5.0,Beverages Unit - High-Grade Bio-based (microbial) Variant 204 Pack,,
+304,Industrial Tools,2.0,3.0,,96.8,86.6,51.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 138,5.0,Industrial Tools Unit - High-Grade Regenerated cellulose Variant 138 Pack,,
+305,Automotive,3.0,3.0,,64.0,65.6,39.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 113,3.0,Automotive Unit - High-Grade Bio-based polyester Variant 113 Pack,,
+306,Automotive,2.0,2.0,,85.0,80.0,45.0,5.0,2.0,,,,,,,,,,,,,,,,,Beeswax-Coated Paper,3.0,Automotive Unit - Beeswax-Coated Paper Pack,,
+307,Pharmaceuticals,2.0,2.0,,88.7,85.3,67.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 148,2.0,Pharmaceuticals Unit - High-Grade Natural fiber (animal) Variant 148 Pack,,
+308,Industrial Tools,2.0,2.0,,90.0,82.0,25.0,4.0,3.0,,,,,,,,,,,,,,,,,Casein (Milk Protein) Films,3.0,Industrial Tools Unit - Casein (Milk Protein) Films Pack,,
+309,Baby Care,2.0,3.0,,88.6,59.0,93.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based (cellulosic) Variant 186,2.0,Baby Care Unit - High-Grade Fiber-based (cellulosic) Variant 186 Pack,,
+310,Pharmaceuticals,2.0,2.0,,89.8,90.1,49.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 156,2.0,Pharmaceuticals Unit - High-Grade Bio-based polymer Variant 156 Pack,,
+311,Baby Care,3.0,5.0,,91.1,94.4,47.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (wood-like) Variant 132,3.0,Baby Care Unit - High-Grade Lignocellulosic (wood-like) Variant 132 Pack,,
+312,Cosmetics,2.0,3.0,,74.4,77.1,45.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based coated fiber Variant 231,3.0,Cosmetics Unit - High-Grade Bio-based coated fiber Variant 231 Pack,,
+313,Healthcare,2.0,2.0,,95.0,93.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Alginate Films (Brown Algae),4.0,Healthcare Unit - Alginate Films (Brown Algae) Pack,,
+314,Cosmetics,4.0,3.0,,0.0,50.0,80.0,2.0,3.0,,,,,,,,,,,,,,,,,"Glass (Bottles, Jars, Vials)",2.0,"Cosmetics Unit - Glass (Bottles, Jars, Vials) Pack",,
+315,Beverages,4.0,4.0,,90.0,85.0,60.0,4.0,3.0,,,,,,,,,,,,,,,,,"Cork, Wood, Wood-Composites",3.0,"Beverages Unit - Cork, Wood, Wood-Composites Pack",,
+316,Beverages,3.0,4.0,,84.8,88.8,25.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein Variant 242,5.0,Beverages Unit - High-Grade Bio-based protein Variant 242 Pack,,
+317,Stationery,3.0,4.0,,88.0,75.0,70.0,4.0,1.0,,,,,,,,,,,,,,,,,Newspaper Honeycomb Inserts,4.0,Stationery Unit - Newspaper Honeycomb Inserts Pack,,
+318,Beverages,1.0,4.0,,100.0,78.1,6.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,1.0,Beverages Unit - High-Grade Bio-based starch Variant 229 Pack,,
+319,Baby Care,2.0,3.0,,96.8,86.6,51.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 138,4.0,Baby Care Unit - High-Grade Regenerated cellulose Variant 138 Pack,,
+320,Furniture,2.0,2.0,,93.9,89.8,58.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste composite Variant 140,5.0,Furniture Unit - High-Grade Agro-waste composite Variant 140 Pack,,
+321,Home Decor,3.0,3.0,,85.0,85.0,25.0,4.0,5.0,,,,,,,,,,,,,,,,,Fish Scale Bioplastics,3.0,Home Decor Unit - Fish Scale Bioplastics Pack,,
+322,Industrial,4.0,3.0,,0.0,50.0,80.0,3.0,3.0,,,,,,,,,,,,,,,,,"Glass (Bottles, Jars, Vials)",3.0,"Industrial Unit - Glass (Bottles, Jars, Vials) Pack",,
+323,Personal Care/Home,2.0,3.0,,97.7,78.4,43.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 117,3.0,Personal Care/Home Unit - High-Grade Regenerated cellulose Variant 117 Pack,,
+324,Home Decor,3.0,3.0,,79.1,87.5,35.0,2.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 152,2.0,Home Decor Unit - High-Grade Bio-based composite Variant 152 Pack,,
+325,Stationery,4.0,5.0,,5.0,55.4,73.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 250,2.0,Stationery Unit - High-Grade Metal (aluminium) Variant 250 Pack,,
+326,Sports & Outdoor,3.0,4.0,,92.6,87.2,62.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 163,1.0,Sports & Outdoor Unit - High-Grade Fiber-based from agro-residues Variant 163 Pack,,
+327,Stationery,2.0,2.0,,88.5,73.7,24.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 112,5.0,Stationery Unit - High-Grade Bio-based polyesters Variant 112 Pack,,
+328,Automotive,2.0,1.0,,93.7,97.1,16.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 157,4.0,Automotive Unit - High-Grade Bio-based polysaccharide Variant 157 Pack,,
+329,Healthcare,4.0,4.0,,92.0,82.0,30.0,5.0,3.0,,,,,,,,,,,,,,,,,Polyhydroxybutyrate Composites,4.0,Healthcare Unit - Polyhydroxybutyrate Composites Pack,,
+330,Food,2.0,2.0,,88.0,85.0,50.0,5.0,1.0,,,,,,,,,,,,,,,,,Garlic Husk Padding,4.0,Food Unit - Garlic Husk Padding Pack,,
+331,Beverages,3.0,3.0,,85.0,85.0,50.0,4.0,4.0,,,,,,,,,,,,,,,,,Rice Husk Composites,1.0,Beverages Unit - Rice Husk Composites Pack,,
+332,Home Decor,2.0,3.0,,95.7,85.9,22.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 151,5.0,Home Decor Unit - High-Grade Lignocellulosic (palm) Variant 151 Pack,,
+333,Healthcare/Medical Devices,3.0,3.0,,88.0,82.0,65.0,5.0,5.0,,,,,,,,,,,,,,,,,Sugarcane Bagasse Sheets,5.0,Healthcare/Medical Devices Unit - Sugarcane Bagasse Sheets Pack,,
+334,Furniture,1.0,3.0,,92.6,73.2,75.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 119,1.0,Furniture Unit - High-Grade Fiber-based Variant 119 Pack,,
+335,Pharmaceuticals,2.0,2.0,,95.0,92.0,25.0,5.0,4.0,,,,,,,,,,,,,,,,,Carrageenan Wraps (Red Algae),4.0,Pharmaceuticals Unit - Carrageenan Wraps (Red Algae) Pack,,
+336,Stationery,3.0,3.0,,85.0,75.0,70.0,5.0,4.0,,,,,,,,,,,,,,,,,Wool Fiber Padding,4.0,Stationery Unit - Wool Fiber Padding Pack,,
+337,Furniture,3.0,4.0,,85.8,82.4,51.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 121,3.0,Furniture Unit - High-Grade Fiber-based Variant 121 Pack,,
+338,Baby Care,2.0,1.0,,90.9,89.1,54.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 207,4.0,Baby Care Unit - High-Grade Lignocellulosic Variant 207 Pack,,
+339,Electronics,1.0,2.0,,96.0,88.2,43.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 125,2.0,Electronics Unit - High-Grade Bio-based polymer (starch) Variant 125 Pack,,
+340,Sports & Outdoor,3.0,3.0,,85.0,70.0,70.0,4.0,2.0,,,,,,,,,,,,,,,,,Molded Pulp (Recycled Paper Fiber),5.0,Sports & Outdoor Unit - Molded Pulp (Recycled Paper Fiber) Pack,,
+341,Healthcare,2.0,3.0,,96.8,86.6,51.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 138,1.0,Healthcare Unit - High-Grade Regenerated cellulose Variant 138 Pack,,
+342,Food,3.0,3.0,,90.0,88.0,30.0,4.0,5.0,,,,,,,,,,,,,,,,,Crab Shell Chitin Films,5.0,Food Unit - Crab Shell Chitin Films Pack,,
+343,Beverages,2.0,2.0,,90.0,80.0,65.0,5.0,3.0,,,,,,,,,,,,,,,,,Wheat Bran Sheets,5.0,Beverages Unit - Wheat Bran Sheets Pack,,
+344,Food,4.0,4.0,,0.0,62.4,100.0,3.0,5.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 168,5.0,Food Unit - High-Grade Metal (steel) Variant 168 Pack,,
+345,Industrial/Automotive,2.0,1.0,,90.9,89.1,54.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 207,4.0,Industrial/Automotive Unit - High-Grade Lignocellulosic Variant 207 Pack,,
+346,Automotive,1.0,3.0,,98.7,85.8,33.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 183,4.0,Automotive Unit - High-Grade Bio-based polymer Variant 183 Pack,,
+347,Industrial,2.0,2.0,,95.0,85.0,40.0,4.0,1.0,,,,,,,,,,,,,,,,,Cellophane Films,3.0,Industrial Unit - Cellophane Films Pack,,
+348,Industrial Tools,1.0,4.0,,100.0,78.1,6.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,2.0,Industrial Tools Unit - High-Grade Bio-based starch Variant 229 Pack,,
+349,Pharmaceuticals,3.0,2.0,,93.9,92.7,19.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 104,4.0,Pharmaceuticals Unit - High-Grade Bio-based composite Variant 104 Pack,,
+350,Stationery,3.0,3.0,,85.0,85.0,50.0,4.0,3.0,,,,,,,,,,,,,,,,,Rice Husk Composites,3.0,Stationery Unit - Rice Husk Composites Pack,,
+351,Electronics,4.0,4.0,,88.0,82.0,55.0,4.0,4.0,,,,,,,,,,,,,,,,,Abaca (Manila Hemp) Sheets,2.0,Electronics Unit - Abaca (Manila Hemp) Sheets Pack,,
+352,Baby Care,2.0,1.0,,98.5,89.1,17.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 241,2.0,Baby Care Unit - High-Grade Lignocellulosic (palm) Variant 241 Pack,,
+353,Industrial/Automotive,3.0,3.0,,90.0,85.0,60.0,5.0,2.0,,,,,,,,,,,,,,,,,"Bagasse, Wheat-Straw, Other Agri Fibers",2.0,"Industrial/Automotive Unit - Bagasse, Wheat-Straw, Other Agri Fibers Pack",,
+354,Industrial/Automotive,4.0,3.0,,83.8,85.0,54.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 122,5.0,Industrial/Automotive Unit - High-Grade Bio-based polyester Variant 122 Pack,,
+355,Toys,3.0,3.0,,88.0,85.0,60.0,5.0,2.0,,,,,,,,,,,,,,,,,Reed Fiber Padding,2.0,Toys Unit - Reed Fiber Padding Pack,,
+356,Home Decor,3.0,3.0,,95.0,85.0,25.0,5.0,1.0,,,,,,,,,,,,,,,,,Pha From Bacteria (Films),3.0,Home Decor Unit - Pha From Bacteria (Films) Pack,,
+357,Industrial Tools,2.0,1.0,,93.7,97.1,16.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 157,4.0,Industrial Tools Unit - High-Grade Bio-based polysaccharide Variant 157 Pack,,
+358,Healthcare,5.0,4.0,,0.0,56.7,100.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 126,2.0,Healthcare Unit - High-Grade Metal (aluminium) Variant 126 Pack,,
+359,Cosmetics,3.0,3.0,,90.0,85.0,60.0,4.0,1.0,,,,,,,,,,,,,,,,,"Bagasse, Wheat-Straw, Other Agri Fibers",5.0,"Cosmetics Unit - Bagasse, Wheat-Straw, Other Agri Fibers Pack",,
+360,Healthcare/Medical Devices,3.0,3.0,,85.7,86.6,74.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 137,4.0,Healthcare/Medical Devices Unit - High-Grade Fiber-based Variant 137 Pack,,
+361,Baby Care,3.0,2.0,,87.1,81.6,29.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 238,1.0,Baby Care Unit - High-Grade Natural fiber (protein) Variant 238 Pack,,
+362,Personal Care/Home,3.0,3.0,,90.0,60.0,40.0,5.0,4.0,,,,,,,,,,,,,,,,,Cotton/Jute Textile Bags,3.0,Personal Care/Home Unit - Cotton/Jute Textile Bags Pack,,
+363,Baby Care,2.0,3.0,,96.8,86.6,51.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 138,2.0,Baby Care Unit - High-Grade Regenerated cellulose Variant 138 Pack,,
+364,Pharmaceuticals,1.0,3.0,,95.9,89.8,35.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 239,2.0,Pharmaceuticals Unit - High-Grade Bio-based polymer (starch) Variant 239 Pack,,
+365,Sports & Outdoor,3.0,3.0,,79.8,80.3,24.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 218,1.0,Sports & Outdoor Unit - High-Grade Bio-based polyesters Variant 218 Pack,,
+366,Sports & Outdoor,3.0,2.0,,93.9,92.7,19.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 104,1.0,Sports & Outdoor Unit - High-Grade Bio-based composite Variant 104 Pack,,
+367,Healthcare,3.0,3.0,,80.0,80.0,40.0,2.0,1.0,,,,,,,,,,,,,,,,,Silk Cocoons Composites,4.0,Healthcare Unit - Silk Cocoons Composites Pack,,
+368,Textiles/Apparel,2.0,2.0,,92.0,88.0,45.0,4.0,2.0,,,,,,,,,,,,,,,,,Typha (Cattail) Fiber,5.0,Textiles/Apparel Unit - Typha (Cattail) Fiber Pack,,
+369,Pharmaceuticals,2.0,2.0,,92.0,88.0,40.0,4.0,2.0,,,,,,,,,,,,,,,,,Apple Pomace Films,3.0,Pharmaceuticals Unit - Apple Pomace Films Pack,,
+370,Industrial,3.0,3.0,,86.0,74.1,20.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 222,1.0,Industrial Unit - High-Grade Bio-based polyesters Variant 222 Pack,,
+371,Industrial/Automotive,3.0,3.0,,91.8,81.7,30.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 193,5.0,Industrial/Automotive Unit - High-Grade Bio-based polyester Variant 193 Pack,,
+372,Home Decor,5.0,5.0,,3.5,64.8,83.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 135,5.0,Home Decor Unit - High-Grade Metal (steel) Variant 135 Pack,,
+373,Cosmetics,2.0,4.0,,98.1,86.7,50.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 224,5.0,Cosmetics Unit - High-Grade Bio-based polymer (starch) Variant 224 Pack,,
+374,Textiles/Apparel,5.0,4.0,,0.0,55.5,85.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 202,5.0,Textiles/Apparel Unit - High-Grade Metal (aluminium) Variant 202 Pack,,
+375,Furniture,3.0,3.0,,93.8,83.0,30.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 210,4.0,Furniture Unit - High-Grade Bio-based polysaccharide Variant 210 Pack,,
+376,Electronics,3.0,4.0,,88.4,80.7,50.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (coir) Variant 196,1.0,Electronics Unit - High-Grade Natural fiber (coir) Variant 196 Pack,,
+377,Healthcare,2.0,3.0,,80.5,82.6,44.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 190,1.0,Healthcare Unit - High-Grade Lignocellulosic Variant 190 Pack,,
+378,Automotive,5.0,5.0,,81.6,91.8,48.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein mimic Variant 120,1.0,Automotive Unit - High-Grade Bio-based protein mimic Variant 120 Pack,,
+379,Food,2.0,3.0,,76.2,83.5,34.0,2.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 106,2.0,Food Unit - High-Grade Natural fiber (protein) Variant 106 Pack,,
+380,Healthcare/Medical Devices,4.0,2.0,,90.9,92.1,23.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (microbial) Variant 177,1.0,Healthcare/Medical Devices Unit - High-Grade Bio-based (microbial) Variant 177 Pack,,
+381,Food,4.0,4.0,,88.0,85.0,55.0,4.0,5.0,,,,,,,,,,,,,,,,,Ramie Fiber Bags,5.0,Food Unit - Ramie Fiber Bags Pack,,
+382,Baby Care,5.0,4.0,,0.0,55.5,85.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 202,2.0,Baby Care Unit - High-Grade Metal (aluminium) Variant 202 Pack,,
+383,Food,2.0,5.0,,79.6,75.4,68.0,3.0,3.0,,,,,,,,,,,,,,,,,High-Grade Recycled fiber composite Variant 154,2.0,Food Unit - High-Grade Recycled fiber composite Variant 154 Pack,,
+384,Baby Care,2.0,2.0,,90.0,88.0,35.0,4.0,2.0,,,,,,,,,,,,,,,,,Hemicellulose Films,5.0,Baby Care Unit - Hemicellulose Films Pack,,
+385,Baby Care,3.0,3.0,,85.0,85.0,50.0,4.0,2.0,,,,,,,,,,,,,,,,,Peanut Shell Composites,2.0,Baby Care Unit - Peanut Shell Composites Pack,,
+386,Healthcare,1.0,3.0,,94.3,84.9,22.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 195,3.0,Healthcare Unit - High-Grade Bio-based polymer (starch) Variant 195 Pack,,
+387,Household Appliances,1.0,3.0,,86.6,82.1,59.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based coated fiber Variant 221,4.0,Household Appliances Unit - High-Grade Bio-based coated fiber Variant 221 Pack,,
+388,Baby Care,3.0,3.0,,79.1,87.5,35.0,2.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 152,5.0,Baby Care Unit - High-Grade Bio-based composite Variant 152 Pack,,
+389,Sports & Outdoor,4.0,4.0,,92.0,88.0,55.0,5.0,1.0,,,,,,,,,,,,,,,,,Hemp Fiber Molded Packaging,3.0,Sports & Outdoor Unit - Hemp Fiber Molded Packaging Pack,,
+390,Industrial Tools,3.0,3.0,,85.0,70.0,75.0,5.0,3.0,,,,,,,,,,,,,,,,,Recycled Cardboard / Paperboard,1.0,Industrial Tools Unit - Recycled Cardboard / Paperboard Pack,,
+391,Food,3.0,4.0,,95.0,90.0,50.0,5.0,4.0,,,,,,,,,,,,,,,,,Coir Pith Blocks,4.0,Food Unit - Coir Pith Blocks Pack,,
+392,Industrial,3.0,4.0,,87.0,88.7,14.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 211,3.0,Industrial Unit - High-Grade Bio-based composite Variant 211 Pack,,
+393,Cosmetics,3.0,3.0,,90.0,60.0,40.0,4.0,1.0,,,,,,,,,,,,,,,,,Cotton/Jute Textile Bags,2.0,Cosmetics Unit - Cotton/Jute Textile Bags Pack,,
+394,Personal Care/Home,3.0,3.0,,94.0,91.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Fucoidan-Based Trays,4.0,Personal Care/Home Unit - Fucoidan-Based Trays Pack,,
+395,Baby Care,3.0,5.0,,86.4,91.9,53.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste particle Variant 116,4.0,Baby Care Unit - High-Grade Agro-waste particle Variant 116 Pack,,
+396,Stationery,4.0,4.0,,90.0,90.0,50.0,4.0,3.0,,,,,,,,,,,,,,,,,"Bamboo (Components, Shells)",1.0,"Stationery Unit - Bamboo (Components, Shells) Pack",,
+397,Industrial/Automotive,2.0,3.0,,88.6,59.0,93.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based (cellulosic) Variant 186,4.0,Industrial/Automotive Unit - High-Grade Fiber-based (cellulosic) Variant 186 Pack,,
+398,Home Decor,2.0,2.0,,88.7,85.3,67.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 148,3.0,Home Decor Unit - High-Grade Natural fiber (animal) Variant 148 Pack,,
+399,Cosmetics,3.0,3.0,,86.8,69.0,74.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 233,2.0,Cosmetics Unit - High-Grade Natural fiber (animal) Variant 233 Pack,,
+400,Industrial/Automotive,2.0,3.0,,95.0,85.0,30.0,5.0,3.0,,,,,,,,,,,,,,,,,Starch-Based Foams/Peanuts,1.0,Industrial/Automotive Unit - Starch-Based Foams/Peanuts Pack,,
+401,Cosmetics,2.0,2.0,,90.0,88.0,30.0,5.0,5.0,,,,,,,,,,,,,,,,,Xanthan Gum Coatings,1.0,Cosmetics Unit - Xanthan Gum Coatings Pack,,
+402,Industrial,3.0,2.0,,95.0,90.0,30.0,4.0,2.0,,,,,,,,,,,,,,,,,Palm Leaf Trays,4.0,Industrial Unit - Palm Leaf Trays Pack,,
+403,Electronics,2.0,2.0,,95.0,85.0,40.0,4.0,3.0,,,,,,,,,,,,,,,,,Cellophane Films,2.0,Electronics Unit - Cellophane Films Pack,,
+404,Electronics,2.0,2.0,,100.0,86.5,11.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 219,2.0,Electronics Unit - High-Grade Lignocellulosic (palm) Variant 219 Pack,,
+405,Beverages,2.0,3.0,,74.4,77.1,45.0,3.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based coated fiber Variant 231,5.0,Beverages Unit - High-Grade Bio-based coated fiber Variant 231 Pack,,
+406,Personal Care/Home,3.0,2.0,,81.6,85.3,48.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 245,2.0,Personal Care/Home Unit - High-Grade Fiber-based from agro-residues Variant 245 Pack,,
+407,Food,2.0,2.0,,97.2,94.2,27.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 134,5.0,Food Unit - High-Grade Lignocellulosic (palm) Variant 134 Pack,,
+408,Industrial Tools,2.0,2.0,,91.1,84.3,32.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer (starch) Variant 160,2.0,Industrial Tools Unit - High-Grade Bio-based polymer (starch) Variant 160 Pack,,
+409,Beverages,3.0,3.0,,84.6,77.2,64.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based (cellulosic) Variant 108,2.0,Beverages Unit - High-Grade Fiber-based (cellulosic) Variant 108 Pack,,
+410,Food,4.0,4.0,,0.0,62.4,100.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 168,1.0,Food Unit - High-Grade Metal (steel) Variant 168 Pack,,
+411,Stationery,3.0,3.0,,85.0,70.0,70.0,5.0,4.0,,,,,,,,,,,,,,,,,Molded Pulp (Recycled Paper Fiber),1.0,Stationery Unit - Molded Pulp (Recycled Paper Fiber) Pack,,
+412,Healthcare,2.0,3.0,,94.2,85.7,54.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste particle Variant 171,2.0,Healthcare Unit - High-Grade Agro-waste particle Variant 171 Pack,,
+413,Electronics,2.0,3.0,,88.0,82.0,55.0,4.0,1.0,,,,,,,,,,,,,,,,,Guava Pomace Fillers,2.0,Electronics Unit - Guava Pomace Fillers Pack,,
+414,Baby Care,3.0,3.0,,90.0,90.0,50.0,4.0,2.0,,,,,,,,,,,,,,,,,Bamboo Leaf Sheets,3.0,Baby Care Unit - Bamboo Leaf Sheets Pack,,
+415,Home Decor,1.0,2.0,,85.4,63.7,82.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 249,1.0,Home Decor Unit - High-Grade Fiber-based Variant 249 Pack,,
+416,Stationery,4.0,4.0,,92.0,82.0,30.0,4.0,3.0,,,,,,,,,,,,,,,,,Polyhydroxybutyrate Composites,2.0,Stationery Unit - Polyhydroxybutyrate Composites Pack,,
+417,Textiles/Apparel,4.0,4.0,,92.0,82.0,30.0,5.0,2.0,,,,,,,,,,,,,,,,,Polyhydroxybutyrate Composites,1.0,Textiles/Apparel Unit - Polyhydroxybutyrate Composites Pack,,
+418,Stationery,2.0,2.0,,89.8,90.1,49.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polymer Variant 156,5.0,Stationery Unit - High-Grade Bio-based polymer Variant 156 Pack,,
+419,Industrial Tools,2.0,3.0,,88.6,59.0,93.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based (cellulosic) Variant 186,1.0,Industrial Tools Unit - High-Grade Fiber-based (cellulosic) Variant 186 Pack,,
+420,Industrial Tools,2.0,3.0,,96.2,87.5,32.0,4.0,3.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 246,5.0,Industrial Tools Unit - High-Grade Bio-based starch Variant 246 Pack,,
+421,Textiles/Apparel,2.0,2.0,,95.0,88.0,25.0,4.0,4.0,,,,,,,,,,,,,,,,,Konjac Glucomannan Films,3.0,Textiles/Apparel Unit - Konjac Glucomannan Films Pack,,
+422,Industrial,2.0,3.0,,90.0,86.0,50.0,5.0,1.0,,,,,,,,,,,,,,,,,Grape Pomace Fillers,5.0,Industrial Unit - Grape Pomace Fillers Pack,,
+423,Cosmetics,3.0,3.0,,79.8,80.3,24.0,3.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyesters Variant 218,4.0,Cosmetics Unit - High-Grade Bio-based polyesters Variant 218 Pack,,
+424,Toys,3.0,3.0,,85.0,80.0,60.0,4.0,3.0,,,,,,,,,,,,,,,,,Lentil Hull Composites,3.0,Toys Unit - Lentil Hull Composites Pack,,
+425,Beverages,2.0,2.0,,95.0,85.0,20.0,4.0,1.0,,,,,,,,,,,,,,,,,Gelatin-Based Wraps,4.0,Beverages Unit - Gelatin-Based Wraps Pack,,
+426,Healthcare/Medical Devices,2.0,2.0,,92.0,88.0,40.0,5.0,4.0,,,,,,,,,,,,,,,,,Tomato Skin Sheets,3.0,Healthcare/Medical Devices Unit - Tomato Skin Sheets Pack,,
+427,Cosmetics,2.0,2.0,,95.0,78.0,25.0,5.0,4.0,,,,,,,,,,,,,,,,,Tapioca-Based Films,2.0,Cosmetics Unit - Tapioca-Based Films Pack,,
+428,Baby Care,4.0,4.0,,95.0,90.0,20.0,5.0,1.0,,,,,,,,,,,,,,,,,Bacterial Nanocellulose Foams,2.0,Baby Care Unit - Bacterial Nanocellulose Foams Pack,,
+429,Household Appliances,3.0,3.0,,95.0,92.0,20.0,4.0,5.0,,,,,,,,,,,,,,,,,Mushroom Root (Mycelium Variants),1.0,Household Appliances Unit - Mushroom Root (Mycelium Variants) Pack,,
+430,Cosmetics,2.0,2.0,,93.9,89.8,58.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste composite Variant 140,4.0,Cosmetics Unit - High-Grade Agro-waste composite Variant 140 Pack,,
+431,Toys,2.0,2.0,,90.0,88.0,30.0,4.0,3.0,,,,,,,,,,,,,,,,,Chitin/Chitosan Films (Mushroom/Shell),4.0,Toys Unit - Chitin/Chitosan Films (Mushroom/Shell) Pack,,
+432,Household Appliances,4.0,4.0,,0.0,55.0,55.0,3.0,3.0,,,,,,,,,,,,,,,,,Pcr Hdpe/Ldpe,4.0,Household Appliances Unit - Pcr Hdpe/Ldpe Pack,,
+433,Baby Care,2.0,3.0,,90.8,78.4,46.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 115,2.0,Baby Care Unit - High-Grade Fiber-based from agro-residues Variant 115 Pack,,
+434,Industrial Tools,3.0,3.0,,90.0,85.0,50.0,4.0,3.0,,,,,,,,,,,,,,,,,Sisal Fiber Wraps,3.0,Industrial Tools Unit - Sisal Fiber Wraps Pack,,
+435,Personal Care/Home,1.0,1.0,,90.4,68.3,44.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based coated fiber Variant 170,2.0,Personal Care/Home Unit - High-Grade Bio-based coated fiber Variant 170 Pack,,
+436,Stationery,2.0,2.0,,95.0,93.0,25.0,5.0,3.0,,,,,,,,,,,,,,,,,Alginate Films (Brown Algae),1.0,Stationery Unit - Alginate Films (Brown Algae) Pack,,
+437,Toys,3.0,4.0,,98.6,91.3,26.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based (algae) Variant 220,1.0,Toys Unit - High-Grade Bio-based (algae) Variant 220 Pack,,
+438,Industrial/Automotive,5.0,4.0,,0.0,56.7,100.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 126,4.0,Industrial/Automotive Unit - High-Grade Metal (aluminium) Variant 126 Pack,,
+439,Textiles/Apparel,5.0,5.0,,0.0,55.0,85.0,5.0,4.0,,,,,,,,,,,,,,,,,Aluminium Cans / Tins,1.0,Textiles/Apparel Unit - Aluminium Cans / Tins Pack,,
+440,Cosmetics,2.0,3.0,,96.2,87.5,32.0,4.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 246,2.0,Cosmetics Unit - High-Grade Bio-based starch Variant 246 Pack,,
+441,Automotive,5.0,5.0,,78.6,76.8,32.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein mimic Variant 225,3.0,Automotive Unit - High-Grade Bio-based protein mimic Variant 225 Pack,,
+442,Industrial,5.0,5.0,,0.0,53.1,85.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 175,5.0,Industrial Unit - High-Grade Metal (aluminium) Variant 175 Pack,,
+443,Cosmetics,1.0,3.0,,82.3,85.7,30.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polysaccharide Variant 129,3.0,Cosmetics Unit - High-Grade Bio-based polysaccharide Variant 129 Pack,,
+444,Furniture,2.0,2.0,,90.0,87.0,55.0,4.0,1.0,,,,,,,,,,,,,,,,,Sorghum Stalk Padding,3.0,Furniture Unit - Sorghum Stalk Padding Pack,,
+445,Sports & Outdoor,2.0,2.0,,95.0,92.0,25.0,5.0,2.0,,,,,,,,,,,,,,,,,Pullulan Films (Fungal),1.0,Sports & Outdoor Unit - Pullulan Films (Fungal) Pack,,
+446,Pharmaceuticals,3.0,3.0,,85.0,85.0,25.0,4.0,2.0,,,,,,,,,,,,,,,,,Fish Scale Bioplastics,2.0,Pharmaceuticals Unit - Fish Scale Bioplastics Pack,,
+447,Home Decor,3.0,4.0,,92.6,87.2,62.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based from agro-residues Variant 163,5.0,Home Decor Unit - High-Grade Fiber-based from agro-residues Variant 163 Pack,,
+448,Electronics,2.0,1.0,,90.9,89.1,54.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 207,4.0,Electronics Unit - High-Grade Lignocellulosic Variant 207 Pack,,
+449,Automotive,5.0,5.0,,0.0,55.0,85.0,5.0,5.0,,,,,,,,,,,,,,,,,Aluminium Cans / Tins,1.0,Automotive Unit - Aluminium Cans / Tins Pack,,
+450,Beverages,2.0,2.0,,90.0,88.0,30.0,4.0,4.0,,,,,,,,,,,,,,,,,Chitin/Chitosan Films (Mushroom/Shell),5.0,Beverages Unit - Chitin/Chitosan Films (Mushroom/Shell) Pack,,
+451,Pharmaceuticals,2.0,2.0,,90.0,85.0,40.0,4.0,4.0,,,,,,,,,,,,,,,,,Carrot Pulp Trays,3.0,Pharmaceuticals Unit - Carrot Pulp Trays Pack,,
+452,Sports & Outdoor,2.0,2.0,,90.0,87.0,35.0,5.0,4.0,,,,,,,,,,,,,,,,,Lemon Peel Films,5.0,Sports & Outdoor Unit - Lemon Peel Films Pack,,
+453,Beverages,3.0,2.0,,95.0,90.0,30.0,5.0,4.0,,,,,,,,,,,,,,,,,Palm Leaf Trays,5.0,Beverages Unit - Palm Leaf Trays Pack,,
+454,Healthcare,4.0,5.0,,87.5,88.8,65.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (wood-like) Variant 192,2.0,Healthcare Unit - High-Grade Lignocellulosic (wood-like) Variant 192 Pack,,
+455,Healthcare/Medical Devices,2.0,3.0,,95.0,80.0,25.0,5.0,1.0,,,,,,,,,,,,,,,,,Potato Starch Foams,1.0,Healthcare/Medical Devices Unit - Potato Starch Foams Pack,,
+456,Stationery,1.0,2.0,,77.4,84.6,40.0,2.0,3.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste polymer Variant 216,4.0,Stationery Unit - High-Grade Agro-waste polymer Variant 216 Pack,,
+457,Cosmetics,2.0,2.0,,92.0,88.0,30.0,5.0,1.0,,,,,,,,,,,,,,,,,Pectin Films (Fruit-Derived),1.0,Cosmetics Unit - Pectin Films (Fruit-Derived) Pack,,
+458,Industrial,2.0,2.0,,90.0,85.0,40.0,4.0,5.0,,,,,,,,,,,,,,,,,Carrot Pulp Trays,4.0,Industrial Unit - Carrot Pulp Trays Pack,,
+459,Sports & Outdoor,2.0,3.0,,80.5,82.6,44.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic Variant 190,1.0,Sports & Outdoor Unit - High-Grade Lignocellulosic Variant 190 Pack,,
+460,Personal Care/Home,5.0,5.0,,78.6,76.8,32.0,5.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based protein mimic Variant 225,2.0,Personal Care/Home Unit - High-Grade Bio-based protein mimic Variant 225 Pack,,
+461,Healthcare/Medical Devices,2.0,3.0,,93.3,81.2,38.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 123,4.0,Healthcare/Medical Devices Unit - High-Grade Regenerated cellulose Variant 123 Pack,,
+462,Food,3.0,3.0,,88.0,78.0,70.0,5.0,4.0,,,,,,,,,,,,,,,,,Barley Straw Pulp,4.0,Food Unit - Barley Straw Pulp Pack,,
+463,Electronics,2.0,3.0,,95.0,82.0,20.0,5.0,1.0,,,,,,,,,,,,,,,,,Cassava Starch Foams,3.0,Electronics Unit - Cassava Starch Foams Pack,,
+464,Stationery,1.0,2.0,,89.1,78.3,31.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Bio-based composite Variant 232,4.0,Stationery Unit - High-Grade Bio-based composite Variant 232 Pack,,
+465,Household Appliances,3.0,3.0,,92.0,89.0,30.0,4.0,4.0,,,,,,,,,,,,,,,,,Shrimp Shell Chitosan Trays,2.0,Household Appliances Unit - Shrimp Shell Chitosan Trays Pack,,
+466,Industrial/Automotive,3.0,2.0,,95.0,90.0,35.0,4.0,2.0,,,,,,,,,,,,,,,,,Sal Leaf Plates,4.0,Industrial/Automotive Unit - Sal Leaf Plates Pack,,
+467,Sports & Outdoor,2.0,2.0,,95.0,88.0,25.0,4.0,1.0,,,,,,,,,,,,,,,,,Konjac Glucomannan Films,2.0,Sports & Outdoor Unit - Konjac Glucomannan Films Pack,,
+468,Automotive,5.0,5.0,,0.2,50.5,76.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Metal (aluminium) Variant 101,5.0,Automotive Unit - High-Grade Metal (aluminium) Variant 101 Pack,,
+469,Furniture,4.0,4.0,,90.0,87.0,55.0,4.0,1.0,,,,,,,,,,,,,,,,,Nettle Fiber Bags,1.0,Furniture Unit - Nettle Fiber Bags Pack,,
+470,Food,2.0,1.0,,83.4,83.7,37.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste polymer Variant 161,3.0,Food Unit - High-Grade Agro-waste polymer Variant 161 Pack,,
+471,Sports & Outdoor,3.0,3.0,,88.0,85.0,60.0,4.0,1.0,,,,,,,,,,,,,,,,,Willow Bark Composites,3.0,Sports & Outdoor Unit - Willow Bark Composites Pack,,
+472,Toys,3.0,4.0,,90.8,88.8,56.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber Variant 110,3.0,Toys Unit - High-Grade Natural fiber Variant 110 Pack,,
+473,Textiles/Apparel,2.0,2.0,,95.0,85.0,20.0,4.0,2.0,,,,,,,,,,,,,,,,,Gelatin-Based Wraps,3.0,Textiles/Apparel Unit - Gelatin-Based Wraps Pack,,
+474,Healthcare/Medical Devices,2.0,5.0,,79.6,75.4,68.0,2.0,1.0,,,,,,,,,,,,,,,,,High-Grade Recycled fiber composite Variant 154,2.0,Healthcare/Medical Devices Unit - High-Grade Recycled fiber composite Variant 154 Pack,,
+475,Household Appliances,2.0,2.0,,92.0,87.0,40.0,5.0,3.0,,,,,,,,,,,,,,,,,Mango Seed Coatings,2.0,Household Appliances Unit - Mango Seed Coatings Pack,,
+476,Beverages,1.0,4.0,,100.0,78.1,6.0,5.0,4.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,2.0,Beverages Unit - High-Grade Bio-based starch Variant 229 Pack,,
+477,Textiles/Apparel,4.0,4.0,,0.0,55.0,55.0,3.0,1.0,,,,,,,,,,,,,,,,,Pcr Hdpe/Ldpe,3.0,Textiles/Apparel Unit - Pcr Hdpe/Ldpe Pack,,
+478,Industrial,1.0,4.0,,100.0,78.1,6.0,5.0,2.0,,,,,,,,,,,,,,,,,High-Grade Bio-based starch Variant 229,5.0,Industrial Unit - High-Grade Bio-based starch Variant 229 Pack,,
+479,Household Appliances,3.0,4.0,,85.8,82.4,51.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 121,2.0,Household Appliances Unit - High-Grade Fiber-based Variant 121 Pack,,
+480,Stationery,3.0,3.0,,90.9,80.4,76.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste fiber Variant 194,4.0,Stationery Unit - High-Grade Agro-waste fiber Variant 194 Pack,,
+481,Electronics,3.0,3.0,,95.0,95.0,20.0,4.0,3.0,,,,,,,,,,,,,,,,,Algae-Based Plastics,1.0,Electronics Unit - Algae-Based Plastics Pack,,
+482,Baby Care,2.0,2.0,,92.0,99.1,44.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 227,4.0,Baby Care Unit - High-Grade Lignocellulosic (palm) Variant 227 Pack,,
+483,Textiles/Apparel,4.0,3.0,,3.8,46.2,73.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Inorganic (silicate) Variant 213,3.0,Textiles/Apparel Unit - High-Grade Inorganic (silicate) Variant 213 Pack,,
+484,Food,3.0,3.0,,90.0,90.0,50.0,5.0,2.0,,,,,,,,,,,,,,,,,Bamboo Leaf Sheets,4.0,Food Unit - Bamboo Leaf Sheets Pack,,
+485,Food,3.0,3.0,,95.0,90.0,20.0,4.0,3.0,,,,,,,,,,,,,,,,,Mycelium-Based Molded Packaging,2.0,Food Unit - Mycelium-Based Molded Packaging Pack,,
+486,Food,2.0,3.0,,95.7,85.9,22.0,5.0,3.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (palm) Variant 151,5.0,Food Unit - High-Grade Lignocellulosic (palm) Variant 151 Pack,,
+487,Household Appliances,3.0,3.0,,87.1,87.8,75.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber Variant 235,2.0,Household Appliances Unit - High-Grade Natural fiber Variant 235 Pack,,
+488,Cosmetics,4.0,4.0,,91.0,85.0,74.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-mineral composite Variant 197,5.0,Cosmetics Unit - High-Grade Bio-mineral composite Variant 197 Pack,,
+489,Automotive,2.0,2.0,,93.9,89.8,58.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste composite Variant 140,4.0,Automotive Unit - High-Grade Agro-waste composite Variant 140 Pack,,
+490,Personal Care/Home,3.0,5.0,,81.3,92.6,68.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Lignocellulosic (wood-like) Variant 212,5.0,Personal Care/Home Unit - High-Grade Lignocellulosic (wood-like) Variant 212 Pack,,
+491,Sports & Outdoor,3.0,3.0,,92.0,89.0,30.0,4.0,4.0,,,,,,,,,,,,,,,,,Shrimp Shell Chitosan Trays,5.0,Sports & Outdoor Unit - Shrimp Shell Chitosan Trays Pack,,
+492,Sports & Outdoor,3.0,2.0,,95.0,92.0,30.0,4.0,5.0,,,,,,,,,,,,,,,,,Areca Palm Leaf Plates,5.0,Sports & Outdoor Unit - Areca Palm Leaf Plates Pack,,
+493,Home Decor,1.0,3.0,,92.6,73.2,75.0,4.0,4.0,,,,,,,,,,,,,,,,,High-Grade Fiber-based Variant 119,3.0,Home Decor Unit - High-Grade Fiber-based Variant 119 Pack,,
+494,Stationery,2.0,3.0,,76.2,83.5,34.0,2.0,5.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 106,1.0,Stationery Unit - High-Grade Natural fiber (protein) Variant 106 Pack,,
+495,Healthcare,4.0,4.0,,0.0,62.0,99.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 114,1.0,Healthcare Unit - High-Grade Metal (steel) Variant 114 Pack,,
+496,Industrial/Automotive,4.0,4.0,,92.0,82.0,30.0,4.0,2.0,,,,,,,,,,,,,,,,,Polyhydroxybutyrate Composites,3.0,Industrial/Automotive Unit - Polyhydroxybutyrate Composites Pack,,
+497,Stationery,2.0,2.0,,90.0,88.0,30.0,5.0,4.0,,,,,,,,,,,,,,,,,Chitin/Chitosan Films (Mushroom/Shell),3.0,Stationery Unit - Chitin/Chitosan Films (Mushroom/Shell) Pack,,
+498,Home Decor,4.0,4.0,,92.0,90.0,60.0,5.0,2.0,,,,,,,,,,,,,,,,,Flax Fiber Bags,2.0,Home Decor Unit - Flax Fiber Bags Pack,,
+499,Electronics,4.0,4.0,,0.0,62.0,99.0,3.0,2.0,,,,,,,,,,,,,,,,,High-Grade Metal (steel) Variant 114,5.0,Electronics Unit - High-Grade Metal (steel) Variant 114 Pack,,
+500,Pharmaceuticals,3.0,3.0,,88.0,82.0,65.0,4.0,3.0,,,,,,,,,,,,,,,,,Sugarcane Pulp Trays,4.0,Pharmaceuticals Unit - Sugarcane Pulp Trays Pack,,
+501,Industrial Tools,2.0,3.0,,91.5,81.0,53.0,5.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (protein) Variant 165,3.0,Industrial Tools Unit - High-Grade Natural fiber (protein) Variant 165 Pack,,
+502,Personal Care/Home,2.0,3.0,,96.8,86.6,51.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 138,5.0,Personal Care/Home Unit - High-Grade Regenerated cellulose Variant 138 Pack,,
+503,Personal Care/Home,2.0,2.0,,90.0,88.0,35.0,5.0,1.0,,,,,,,,,,,,,,,,,Hemicellulose Films,3.0,Personal Care/Home Unit - Hemicellulose Films Pack,,
+504,Healthcare/Medical Devices,2.0,2.0,,92.2,77.6,19.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Regenerated cellulose Variant 105,5.0,Healthcare/Medical Devices Unit - High-Grade Regenerated cellulose Variant 105 Pack,,
+505,Healthcare,2.0,2.0,,77.4,91.3,16.0,2.0,2.0,,,,,,,,,,,,,,,,,High-Grade Agro-waste polymer Variant 179,2.0,Healthcare Unit - High-Grade Agro-waste polymer Variant 179 Pack,,
+506,Stationery,3.0,3.0,,95.0,92.0,20.0,5.0,1.0,,,,,,,,,,,,,,,,,Mushroom Root (Mycelium Variants),2.0,Stationery Unit - Mushroom Root (Mycelium Variants) Pack,,
+507,Sports & Outdoor,2.0,2.0,,88.7,85.3,67.0,4.0,1.0,,,,,,,,,,,,,,,,,High-Grade Natural fiber (animal) Variant 148,1.0,Sports & Outdoor Unit - High-Grade Natural fiber (animal) Variant 148 Pack,,
+508,Household Appliances,3.0,3.0,,91.8,81.7,30.0,4.0,5.0,,,,,,,,,,,,,,,,,High-Grade Bio-based polyester Variant 193,5.0,Household Appliances Unit - High-Grade Bio-based polyester Variant 193 Pack,,
+509,Electronics,1.536044984,2.434945995,,90.1880008,0.7476519595,66.75626911,2.0,1.378034899,,,,,,,,,,,,,,,,,Molded Pulp,4.370165636,Shipping mailer 121,,
+510,Industrial,3.431778888,3.982079342,,-3.456782488,3.332776615,13.7151953,1.0,4.623096015,,,,,,,,,,,,,,,,,Polyethylene (PE),2.328623167,Medicine blister 122,,
+511,Cosmetics,3.282468805,2.519351249,,96.66031898,0.4889802554,0.3398749907,5.0,3.931818495,,,,,,,,,,,,,,,,,Mycelium Packaging,3.195016794,Shipping mailer 123,,
+512,Industrial,4.757020901,5.303552943,,2.406833874,9.53746923,45.5187946,4.0,4.184643503,,,,,,,,,,,,,,,,,Aluminium,3.519049825,Medicine blister 124,,
+513,Food,1.545440665,2.253819424,,93.71309002,0.7736614749,67.41723349,2.0,4.731340498,,,,,,,,,,,,,,,,,Molded Pulp,1.562115364,Shipping mailer 125,,
+514,Industrial,3.120710604,4.157873647,,-0.9025335364,3.361299201,10.36512582,1.0,4.47916964,,,,,,,,,,,,,,,,,Polyethylene (PE),2.906417927,Snack pouch 126,,
+515,Food,2.863783659,2.649656541,,87.7300248,1.05760361,92.3241065,2.0,3.175374827,,,,,,,,,,,,,,,,,Recycled Cardboard,3.973175144,Beverage can 127,,
+516,Industrial,3.529158429,2.549265615,,-1.295338447,1.617220166,34.64765171,3.0,3.347806301,,,,,,,,,,,,,,,,,Glass,2.638563988,E-commerce envelope 128,,
+517,Cosmetics,1.593115397,2.47941728,,98.2816104,0.8521039055,74.86704761,2.0,1.472149518,,,,,,,,,,,,,,,,,Molded Pulp,2.097434245,Tool box 129,,
+518,Healthcare,3.123387891,3.388076791,,96.89518865,0.5488210384,0.710899733,5.0,1.663865475,,,,,,,,,,,,,,,,,Mycelium Packaging,2.184969262,Snack pouch 130,,
+519,Electronics,4.316919871,3.266747277,,-4.942730498,1.623951744,28.48455315,3.0,4.188268233,,,,,,,,,,,,,,,,,Glass,2.738555533,Face cream jar 131,,
+520,Healthcare,3.856877247,3.325202372,,-1.436579057,1.61564834,28.76717541,3.0,3.781739541,,,,,,,,,,,,,,,,,Glass,4.331208274,Vitamin bottle 132,,
+521,Cosmetics,0.6802041726,0.7793743074,,97.47755511,0.3259981147,2.508087282,5.0,2.578408487,,,,,,,,,,,,,,,,,Seaweed Bio-film,3.881510502,Shipping mailer 133,,
+522,Industrial,2.435554633,1.603060606,,99.53672125,0.7303285705,70.91642343,2.0,1.235727754,,,,,,,,,,,,,,,,,Molded Pulp,4.694423306,Detergent jug 134,,
+523,Healthcare,5.40259415,4.715432087,,2.701083493,2.803267864,69.08085692,3.0,3.209258734,,,,,,,,,,,,,,,,,Steel/Tinplate,3.071353382,Tool box 135,,
+524,Healthcare,2.837254642,2.510505914,,91.41755602,1.30510346,87.0984276,3.0,3.636007443,,,,,,,,,,,,,,,,,Virgin Cardboard,1.473953808,Face cream jar 136,,
+525,Food,4.720770419,5.153235046,,-2.626865459,3.14537349,77.40149031,3.0,2.392339173,,,,,,,,,,,,,,,,,Steel/Tinplate,3.669649637,Beverage can 137,,
+526,Electronics,3.455979935,4.386425403,,1.888245091,3.582985907,9.946402389,1.0,2.435169642,,,,,,,,,,,,,,,,,Polyethylene (PE),2.121840538,Beverage can 138,,
+527,Food,2.773893909,2.52917576,,101.6524939,0.4638230306,2.466748361,5.0,2.907657449,,,,,,,,,,,,,,,,,Mycelium Packaging,1.585128568,Laptop shipper 139,,
+528,Healthcare,2.103426307,1.714690497,,99.45479264,0.8762770809,69.10415854,2.0,1.432737773,,,,,,,,,,,,,,,,,Molded Pulp,2.845831192,Medicine blister 140,,
+529,Food,1.811835123,2.455317979,,94.85131467,0.7509189055,74.69150898,2.0,4.757906221,,,,,,,,,,,,,,,,,Molded Pulp,3.472778141,Laptop shipper 141,,
+530,Industrial,2.398262486,2.482291289,,95.46376258,0.7827679965,70.00996364,2.0,3.989987492,,,,,,,,,,,,,,,,,Molded Pulp,4.149949,Vitamin bottle 142,,
+531,Industrial,4.049787812,3.101580635,,4.028831228,1.543267866,35.5803885,3.0,2.969467783,,,,,,,,,,,,,,,,,Glass,1.227668171,Detergent jug 143,,
+532,Industrial,0.5758805885,1.482388833,,101.8249779,0.2799490347,-0.5096223377,5.0,4.783995201,,,,,,,,,,,,,,,,,Seaweed Bio-film,1.818607108,Beverage can 144,,
+533,Cosmetics,4.90838528,4.629203511,,2.653142546,8.143814375,47.34069313,4.0,1.432261288,,,,,,,,,,,,,,,,,Aluminium,3.302571063,E-commerce envelope 145,,
+534,Cosmetics,3.057875807,3.67470792,,71.47106934,1.658523043,30.07117818,4.0,1.788204673,,,,,,,,,,,,,,,,,PLA Bioplastic,2.881312444,Laptop shipper 146,,
+535,Healthcare,2.503263008,3.067422852,,87.23931985,1.265356109,94.87738569,3.0,1.00139059,,,,,,,,,,,,,,,,,Virgin Cardboard,2.656629637,Oil container 147,,
+536,Food,1.20314115,0.8219313302,,104.0228489,0.3251003416,-1.08290352,5.0,2.072789812,,,,,,,,,,,,,,,,,Seaweed Bio-film,2.841857469,Detergent jug 148,,
+537,Electronics,2.5146042,3.524793454,,-0.01234845709,3.694755441,9.850879897,1.0,2.349671782,,,,,,,,,,,,,,,,,Polyethylene (PE),4.40356865,Face cream jar 149,,
+538,Food,1.520725798,1.912978261,,92.62078876,0.7495055547,68.78568189,2.0,4.375230878,,,,,,,,,,,,,,,,,Molded Pulp,3.472135418,Snack pouch 150,,
