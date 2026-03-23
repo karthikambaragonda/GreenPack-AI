@@ -640,22 +640,22 @@ function BIDashboard({ materials }) {
                     <div className="bi-metric">
                         <span>Lowest CO₂</span>
                         <strong>{best.co2?.material_name}</strong>
-                        <em>{best.co2?.predicted_co2} kg</em>
+                        {/* <em>{best.co2?.predicted_co2} kg</em> */}
                     </div>
                     <div className="bi-metric">
                         <span>Most Affordable</span>
                         <strong>{best.cost?.material_name}</strong>
-                        <em>₹{best.cost?.predicted_cost}</em>
+                        {/* <em>₹{best.cost?.predicted_cost}</em> */}
                     </div>
                     <div className="bi-metric">
                         <span>Most Recyclable</span>
                         <strong>{best.recycle?.material_name}</strong>
-                        <em>{best.recycle?.recyclability}%</em>
+                        {/* <em>{best.recycle?.recyclability}%</em> */}
                     </div>
                     <div className="bi-metric">
                         <span>Most Biodegradable</span>
                         <strong>{best.bio?.material_name}</strong>
-                        <em>{best.bio?.biodegradability}%</em>
+                        {/* <em>{best.bio?.biodegradability}%</em> */}
                     </div>
                 </div>
             </div>
@@ -707,7 +707,266 @@ function BIDashboard({ materials }) {
 }
 
 // ─── MAIN DASHBOARD ───────────────────────────────────────────────────────────
-export default function Dashboard() {
+// export default function Dashboard() {
+//     const [mode, setMode] = useState(null);
+//     const [data, setData] = useState({ strength: "", weight_capacity: "", biodegradability: "", recyclability: "" });
+//     const [materials, setMaterials] = useState([]);
+//     const [lastParams, setLastParams] = useState(null);
+//     const [rankSource, setRankSource] = useState(null);
+//     const [loading, setLoading] = useState(false);
+//     const [error, setError] = useState("");
+//     const [showResults, setShowResults] = useState(false);
+//     const [reportLoading, setReportLoading] = useState(false);
+//     const [wizardCtx, setWizardCtx] = useState({});
+
+
+//     const handleManualPredict = async () => {
+//         setLoading(true);
+//         setError("");
+//         try {
+//             const payload = {
+//                 strength: parseFloat(data.strength),
+//                 weight_capacity: parseFloat(data.weight_capacity),
+//                 recyclability: parseFloat(data.recyclability),
+//                 biodegradability: parseFloat(data.biodegradability),
+//             };
+//             const { results, source } = await runFullPipeline(payload);
+//             setMaterials(results);
+//             setLastParams(payload);
+//             setRankSource(source);
+//             setShowResults(true);
+//         } catch {
+//             setError("Could not reach Flask on port 5000. Make sure it's running.");
+//         } finally {
+//             setLoading(false);
+//         }
+//     };
+
+//     const resetAll = () => {
+//         setShowResults(false);
+//         setMaterials([]);
+//         setLastParams(null);
+//         setRankSource(null);
+//         setMode(null);
+//         setWizardCtx({});
+//     };
+//     const handleGenerateReport = async () => {
+//         setReportLoading(true);
+//         try {
+//             await generateReport(materials, lastParams, rankSource, wizardCtx);
+//         } finally {
+//             setReportLoading(false);
+//         }
+//     };
+
+//     return (
+//         <>
+//             <div className="page-header">
+//                 <div>
+//                     <h1>Sustainability <span>Intelligence</span></h1>
+//                     <p>AI-powered packaging material analysis &amp; recommendation</p>
+//                 </div>
+//                 <div className="header-badge">
+//                     <i className="bi bi-lightning-charge-fill"></i>
+//                     Real-time Analysis
+//                 </div>
+//             </div>
+
+//             {/* MODE PICKER */}
+//             {!mode && !showResults && (
+//                 <div className="mode-picker-section">
+//                     <div className="card-glass mode-picker-card" onClick={() => setMode("guide")}>
+//                         <div className="mode-icon-wrap accent">
+//                             <i className="bi bi-chat-dots-fill"></i>
+//                         </div>
+//                         <div className="mode-body">
+//                             <div className="mode-title">
+//                                 Guided Wizard
+//                                 <span className="mode-badge">Recommended</span>
+//                             </div>
+//                             <div className="mode-desc">
+//                                 Answer a few plain-English questions — tap to pick, no typing needed.
+//                             </div>
+//                         </div>
+//                         <i className="bi bi-arrow-right mode-arrow"></i>
+//                     </div>
+
+//                     <div className="mode-picker-divider">or</div>
+
+//                     <div className="card-glass mode-picker-card mode-manual" onClick={() => setMode("manual")}>
+//                         <div className="mode-icon-wrap muted">
+//                             <i className="bi bi-sliders"></i>
+//                         </div>
+//                         <div className="mode-body">
+//                             <div className="mode-title">Manual Input</div>
+//                             <div className="mode-desc">
+//                                 Enter exact values (1–10) if you know the technical parameters.
+//                             </div>
+//                         </div>
+//                         <i className="bi bi-arrow-right mode-arrow"></i>
+//                     </div>
+//                 </div>
+//             )}
+
+//             {/* GUIDED WIZARD */}
+//             {mode === "guide" && !showResults && (
+//                 <div className="card-glass">
+//                     <div className="card-label">
+//                         <i className="bi bi-chat-dots-fill"></i> Packaging Wizard
+//                         <button className="reset-btn" onClick={() => setMode(null)}>
+//                             <i className="bi bi-arrow-left"></i> Back
+//                         </button>
+//                     </div>
+//                     <ChatGuide onResultsReady={(mats, fp, src, ctx) => {
+//                         setMaterials(mats);
+//                         setLastParams(fp);
+//                         setRankSource(src);
+//                         setWizardCtx(ctx || {});
+//                         setShowResults(true);
+//                     }} />
+//                 </div>
+//             )}
+
+//             {/* MANUAL */}
+//             {/* hi */}
+//             {/*
+//             {mode === "manual" && !showResults && (
+//                 <div className="card-glass">
+//                     <div className="card-label">
+//                         <i className="bi bi-sliders"></i> Packaging Parameters
+//                         <button className="reset-btn" onClick={() => setMode(null)}>
+//                             <i className="bi bi-arrow-left"></i> Back
+//                         </button>
+//                     </div>
+//                     <div className="input-grid">
+//                         {[
+//                             { key: "weight_capacity", label: "Weight Capacity", hint: "How heavy is the product?" },
+//                             { key: "strength", label: "Strength", hint: "How durable does it need to be?" },
+//                             { key: "biodegradability", label: "Biodegradability", hint: "How important is natural breakdown?" },
+//                             { key: "recyclability", label: "Recyclability", hint: "How important is recyclability?" },
+//                         ].map(({ key, label, hint }) => (
+//                             <div className="input-group-custom" key={key}>
+//                                 <label>{label} <span className="range-badge">1–10</span></label>
+//                                 <input
+//                                     className="form-control"
+//                                     placeholder={hint}
+//                                     type="number" min="1" max="10"
+//                                     value={data[key]}
+//                                     onChange={e => setData({ ...data, [key]: e.target.value })}
+//                                 />
+//                             </div>
+//                         ))}
+//                     </div>
+//                     {error && (
+//                         <div className="api-error">
+//                             <i className="bi bi-exclamation-triangle-fill"></i> {error}
+//                         </div>
+//                     )}
+//                     <button className="btn-primary-eco" onClick={handleManualPredict} disabled={loading}>
+//                         <i className={`bi ${loading ? "bi-arrow-repeat spin" : "bi-lightning-charge-fill"}`}></i>
+//                         {loading ? "Analyzing…" : "Run AI Analysis"}
+//                     </button>
+//                 </div>
+//             )}
+//             */}
+//             {/* MANUAL */}
+//             {mode === "manual" && !showResults && (
+//                 <div className="card-glass">
+//                     <div className="card-label">
+//                         <i className="bi bi-sliders"></i> Packaging Parameters
+//                         <button className="reset-btn" onClick={() => setMode(null)}>
+//                             <i className="bi bi-arrow-left"></i> Back
+//                         </button>
+//                     </div>
+//                     <div className="input-grid">
+//                         {[
+//                             { key: "weight_capacity", label: "Weight Capacity", hint: "How heavy is the product?" },
+//                             { key: "strength", label: "Strength", hint: "How durable does it need to be?" },
+//                             { key: "biodegradability", label: "Biodegradability", hint: "How important is natural breakdown?" },
+//                             { key: "recyclability", label: "Recyclability", hint: "How important is recyclability?" },
+//                         ].map(({ key, label, hint }) => (
+//                             <div className="input-group-custom" key={key}>
+//                                 <label>{label} <span className="range-badge">1–10</span></label>
+//                                 <input
+//                                     className="form-control"
+//                                     placeholder={hint}
+//                                     type="number" min="1" max="10" required
+//                                     value={data[key]}
+//                                     onChange={e => {
+//                                         let val = e.target.value;
+//                                         // Allow empty string for backspacing, but clamp numbers between 1 and 10
+//                                         if (val !== "") {
+//                                             const num = parseInt(val, 10);
+//                                             if (num < 1) val = "1";
+//                                             else if (num > 10) val = "10";
+//                                             else val = num.toString();
+//                                         }
+//                                         setData({ ...data, [key]: val });
+//                                     }}
+//                                 />
+//                             </div>
+//                         ))}
+//                     </div>
+//                     {error && (
+//                         <div className="api-error">
+//                             <i className="bi bi-exclamation-triangle-fill"></i> {error}
+//                         </div>
+//                     )}
+//                     <button
+//                         className="btn-primary-eco"
+//                         onClick={handleManualPredict}
+//                         disabled={
+//                             loading ||
+//                             !data.strength ||
+//                             !data.weight_capacity ||
+//                             !data.biodegradability ||
+//                             !data.recyclability
+//                         }
+//                     >
+//                         <i className={`bi ${loading ? "bi-arrow-repeat spin" : "bi-lightning-charge-fill"}`}></i>
+//                         {loading ? "Analyzing…" : "Run AI Analysis"}
+//                     </button>
+//                 </div>
+//             )}
+
+//             {/* RESULTS */}
+//             {showResults && (
+//                 <>
+//                     <ResultsPanel
+//                         materials={materials}
+//                         params={lastParams}
+//                         source={rankSource}
+//                         onReset={resetAll}
+//                     />
+//                     <BIDashboard materials={materials} />
+//                     {/* ── Generate Report button ── */}
+//                     <div className="report-cta-wrapper">
+//                         <div className="report-cta-text">
+//                             <i className="bi bi-file-earmark-pdf-fill"></i>
+//                             <div>
+//                                 <strong>Download Sustainability Report</strong>
+//                                 <span>Full 3-page PDF — materials, analytics, and insights</span>
+//                             </div>
+//                         </div>
+//                         <button
+//                             className="btn-report"
+//                             onClick={handleGenerateReport}
+//                             disabled={reportLoading}
+//                         >
+//                             {reportLoading
+//                                 ? <><i className="bi bi-arrow-repeat spin"></i> Generating…</>
+//                                 : <><i className="bi bi-download"></i> Generate Report</>
+//                             }
+//                         </button>
+//                     </div>
+//                 </>
+//             )}
+//         </>
+//     );
+// }
+// ─── MAIN DASHBOARD ───────────────────────────────────────────────────────────
+// Now receives activePage and setActivePage from Layout.jsx
+export default function Dashboard({ activePage = "overview", setActivePage = () => { } }) {
     const [mode, setMode] = useState(null);
     const [data, setData] = useState({ strength: "", weight_capacity: "", biodegradability: "", recyclability: "" });
     const [materials, setMaterials] = useState([]);
@@ -718,7 +977,6 @@ export default function Dashboard() {
     const [showResults, setShowResults] = useState(false);
     const [reportLoading, setReportLoading] = useState(false);
     const [wizardCtx, setWizardCtx] = useState({});
-
 
     const handleManualPredict = async () => {
         setLoading(true);
@@ -735,6 +993,7 @@ export default function Dashboard() {
             setLastParams(payload);
             setRankSource(source);
             setShowResults(true);
+            setActivePage("results"); // Auto-navigate to Results Tab
         } catch {
             setError("Could not reach Flask on port 5000. Make sure it's running.");
         } finally {
@@ -749,7 +1008,9 @@ export default function Dashboard() {
         setRankSource(null);
         setMode(null);
         setWizardCtx({});
+        setActivePage("overview"); // Redirect back to parameters
     };
+
     const handleGenerateReport = async () => {
         setReportLoading(true);
         try {
@@ -772,193 +1033,185 @@ export default function Dashboard() {
                 </div>
             </div>
 
-            {/* MODE PICKER */}
-            {!mode && !showResults && (
-                <div className="mode-picker-section">
-                    <div className="card-glass mode-picker-card" onClick={() => setMode("guide")}>
-                        <div className="mode-icon-wrap accent">
-                            <i className="bi bi-chat-dots-fill"></i>
-                        </div>
-                        <div className="mode-body">
-                            <div className="mode-title">
-                                Guided Wizard
-                                <span className="mode-badge">Recommended</span>
-                            </div>
-                            <div className="mode-desc">
-                                Answer a few plain-English questions — tap to pick, no typing needed.
-                            </div>
-                        </div>
-                        <i className="bi bi-arrow-right mode-arrow"></i>
-                    </div>
-
-                    <div className="mode-picker-divider">or</div>
-
-                    <div className="card-glass mode-picker-card mode-manual" onClick={() => setMode("manual")}>
-                        <div className="mode-icon-wrap muted">
-                            <i className="bi bi-sliders"></i>
-                        </div>
-                        <div className="mode-body">
-                            <div className="mode-title">Manual Input</div>
-                            <div className="mode-desc">
-                                Enter exact values (1–10) if you know the technical parameters.
-                            </div>
-                        </div>
-                        <i className="bi bi-arrow-right mode-arrow"></i>
-                    </div>
-                </div>
-            )}
-
-            {/* GUIDED WIZARD */}
-            {mode === "guide" && !showResults && (
-                <div className="card-glass">
-                    <div className="card-label">
-                        <i className="bi bi-chat-dots-fill"></i> Packaging Wizard
-                        <button className="reset-btn" onClick={() => setMode(null)}>
-                            <i className="bi bi-arrow-left"></i> Back
-                        </button>
-                    </div>
-                    <ChatGuide onResultsReady={(mats, fp, src, ctx) => {
-                        setMaterials(mats);
-                        setLastParams(fp);
-                        setRankSource(src);
-                        setWizardCtx(ctx || {});
-                        setShowResults(true);
-                    }} />
-                </div>
-            )}
-
-            {/* MANUAL */}
-            {/* hi */}
-            {/* 
-            {mode === "manual" && !showResults && ( 
-                <div className="card-glass">
-                    <div className="card-label">
-                        <i className="bi bi-sliders"></i> Packaging Parameters
-                        <button className="reset-btn" onClick={() => setMode(null)}>
-                            <i className="bi bi-arrow-left"></i> Back
-                        </button>
-                    </div>
-                    <div className="input-grid">
-                        {[
-                            { key: "weight_capacity", label: "Weight Capacity", hint: "How heavy is the product?" },
-                            { key: "strength", label: "Strength", hint: "How durable does it need to be?" },
-                            { key: "biodegradability", label: "Biodegradability", hint: "How important is natural breakdown?" },
-                            { key: "recyclability", label: "Recyclability", hint: "How important is recyclability?" },
-                        ].map(({ key, label, hint }) => (
-                            <div className="input-group-custom" key={key}>
-                                <label>{label} <span className="range-badge">1–10</span></label>
-                                <input
-                                    className="form-control"
-                                    placeholder={hint}
-                                    type="number" min="1" max="10"
-                                    value={data[key]}
-                                    onChange={e => setData({ ...data, [key]: e.target.value })}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                    {error && (
-                        <div className="api-error">
-                            <i className="bi bi-exclamation-triangle-fill"></i> {error}
-                        </div>
-                    )}
-                    <button className="btn-primary-eco" onClick={handleManualPredict} disabled={loading}>
-                        <i className={`bi ${loading ? "bi-arrow-repeat spin" : "bi-lightning-charge-fill"}`}></i>
-                        {loading ? "Analyzing…" : "Run AI Analysis"}
-                    </button>
-                </div>
-            )}
-            */}
-            {/* MANUAL */}
-            {mode === "manual" && !showResults && (
-                <div className="card-glass">
-                    <div className="card-label">
-                        <i className="bi bi-sliders"></i> Packaging Parameters
-                        <button className="reset-btn" onClick={() => setMode(null)}>
-                            <i className="bi bi-arrow-left"></i> Back
-                        </button>
-                    </div>
-                    <div className="input-grid">
-                        {[
-                            { key: "weight_capacity", label: "Weight Capacity", hint: "How heavy is the product?" },
-                            { key: "strength", label: "Strength", hint: "How durable does it need to be?" },
-                            { key: "biodegradability", label: "Biodegradability", hint: "How important is natural breakdown?" },
-                            { key: "recyclability", label: "Recyclability", hint: "How important is recyclability?" },
-                        ].map(({ key, label, hint }) => (
-                            <div className="input-group-custom" key={key}>
-                                <label>{label} <span className="range-badge">1–10</span></label>
-                                <input
-                                    className="form-control"
-                                    placeholder={hint}
-                                    type="number" min="1" max="10" required
-                                    value={data[key]}
-                                    onChange={e => {
-                                        let val = e.target.value;
-                                        // Allow empty string for backspacing, but clamp numbers between 1 and 10
-                                        if (val !== "") {
-                                            const num = parseInt(val, 10);
-                                            if (num < 1) val = "1";
-                                            else if (num > 10) val = "10";
-                                            else val = num.toString();
-                                        }
-                                        setData({ ...data, [key]: val });
-                                    }}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                    {error && (
-                        <div className="api-error">
-                            <i className="bi bi-exclamation-triangle-fill"></i> {error}
-                        </div>
-                    )}
-                    <button
-                        className="btn-primary-eco"
-                        onClick={handleManualPredict}
-                        disabled={
-                            loading ||
-                            !data.strength ||
-                            !data.weight_capacity ||
-                            !data.biodegradability ||
-                            !data.recyclability
-                        }
-                    >
-                        <i className={`bi ${loading ? "bi-arrow-repeat spin" : "bi-lightning-charge-fill"}`}></i>
-                        {loading ? "Analyzing…" : "Run AI Analysis"}
-                    </button>
-                </div>
-            )}
-
-            {/* RESULTS */}
-            {showResults && (
+            {/* TAB 1: PARAMETERS (OVERVIEW) */}
+            {activePage === "overview" && (
                 <>
-                    <ResultsPanel
-                        materials={materials}
-                        params={lastParams}
-                        source={rankSource}
-                        onReset={resetAll}
-                    />
-                    <BIDashboard materials={materials} />
-                    {/* ── Generate Report button ── */}
-                    <div className="report-cta-wrapper">
-                        <div className="report-cta-text">
-                            <i className="bi bi-file-earmark-pdf-fill"></i>
-                            <div>
-                                <strong>Download Sustainability Report</strong>
-                                <span>Full 3-page PDF — materials, analytics, and insights</span>
+                    {/* MODE PICKER */}
+                    {!mode && (
+                        <div className="mode-picker-section">
+                            <div className="card-glass mode-picker-card" onClick={() => setMode("guide")}>
+                                <div className="mode-icon-wrap accent">
+                                    <i className="bi bi-chat-dots-fill"></i>
+                                </div>
+                                <div className="mode-body">
+                                    <div className="mode-title">
+                                        Guided Wizard
+                                        <span className="mode-badge">Recommended</span>
+                                    </div>
+                                    <div className="mode-desc">
+                                        Answer a few plain-English questions — tap to pick, no typing needed.
+                                    </div>
+                                </div>
+                                <i className="bi bi-arrow-right mode-arrow"></i>
+                            </div>
+
+                            <div className="mode-picker-divider">or</div>
+
+                            <div className="card-glass mode-picker-card mode-manual" onClick={() => setMode("manual")}>
+                                <div className="mode-icon-wrap muted">
+                                    <i className="bi bi-sliders"></i>
+                                </div>
+                                <div className="mode-body">
+                                    <div className="mode-title">Manual Input</div>
+                                    <div className="mode-desc">
+                                        Enter exact values (1–10) if you know the technical parameters.
+                                    </div>
+                                </div>
+                                <i className="bi bi-arrow-right mode-arrow"></i>
                             </div>
                         </div>
-                        <button
-                            className="btn-report"
-                            onClick={handleGenerateReport}
-                            disabled={reportLoading}
-                        >
-                            {reportLoading
-                                ? <><i className="bi bi-arrow-repeat spin"></i> Generating…</>
-                                : <><i className="bi bi-download"></i> Generate Report</>
-                            }
-                        </button>
-                    </div>
+                    )}
+
+                    {/* GUIDED WIZARD */}
+                    {mode === "guide" && (
+                        <div className="card-glass">
+                            <div className="card-label">
+                                <i className="bi bi-chat-dots-fill"></i> Packaging Wizard
+                                <button className="reset-btn" onClick={() => setMode(null)}>
+                                    <i className="bi bi-arrow-left"></i> Back
+                                </button>
+                            </div>
+                            <ChatGuide onResultsReady={(mats, fp, src, ctx) => {
+                                setMaterials(mats);
+                                setLastParams(fp);
+                                setRankSource(src);
+                                setWizardCtx(ctx || {});
+                                setShowResults(true);
+                                setActivePage("results"); // Auto-navigate to Results Tab
+                            }} />
+                        </div>
+                    )}
+
+                    {/* MANUAL INPUT */}
+                    {mode === "manual" && (
+                        <div className="card-glass">
+                            <div className="card-label">
+                                <i className="bi bi-sliders"></i> Packaging Parameters
+                                <button className="reset-btn" onClick={() => setMode(null)}>
+                                    <i className="bi bi-arrow-left"></i> Back
+                                </button>
+                            </div>
+                            <div className="input-grid">
+                                {[
+                                    { key: "weight_capacity", label: "Weight Capacity", hint: "How heavy is the product?" },
+                                    { key: "strength", label: "Strength", hint: "How durable does it need to be?" },
+                                    { key: "biodegradability", label: "Biodegradability", hint: "How important is natural breakdown?" },
+                                    { key: "recyclability", label: "Recyclability", hint: "How important is recyclability?" },
+                                ].map(({ key, label, hint }) => (
+                                    <div className="input-group-custom" key={key}>
+                                        <label>{label} <span className="range-badge">1–10</span></label>
+                                        <input
+                                            className="form-control"
+                                            placeholder={hint}
+                                            type="number" min="1" max="10" required
+                                            value={data[key]}
+                                            onChange={e => {
+                                                let val = e.target.value;
+                                                if (val !== "") {
+                                                    const num = parseInt(val, 10);
+                                                    if (num < 1) val = "1";
+                                                    else if (num > 10) val = "10";
+                                                    else val = num.toString();
+                                                }
+                                                setData({ ...data, [key]: val });
+                                            }}
+                                        />
+                                    </div>
+                                ))}
+                            </div>
+                            {error && (
+                                <div className="api-error">
+                                    <i className="bi bi-exclamation-triangle-fill"></i> {error}
+                                </div>
+                            )}
+                            <button
+                                className="btn-primary-eco"
+                                onClick={handleManualPredict}
+                                disabled={
+                                    loading ||
+                                    !data.strength ||
+                                    !data.weight_capacity ||
+                                    !data.biodegradability ||
+                                    !data.recyclability
+                                }
+                            >
+                                <i className={`bi ${loading ? "bi-arrow-repeat spin" : "bi-lightning-charge-fill"}`}></i>
+                                {loading ? "Analyzing…" : "Run AI Analysis"}
+                            </button>
+                        </div>
+                    )}
+                </>
+            )}
+
+            {/* TAB 2: RESULTS */}
+            {activePage === "results" && (
+                <>
+                    {!showResults ? (
+                        <div className="card-glass empty-state" style={{ padding: "80px 0" }}>
+                            <i className="bi bi-box-seam"></i>
+                            <span style={{ marginTop: "10px" }}>No recommendations yet. Complete an analysis first.</span>
+                            <button className="btn-primary-eco" style={{ marginTop: "20px" }} onClick={() => setActivePage("overview")}>
+                                Go to Parameters
+                            </button>
+                        </div>
+                    ) : (
+                        <ResultsPanel
+                            materials={materials}
+                            params={lastParams}
+                            source={rankSource}
+                            onReset={resetAll}
+                        />
+                    )}
+                </>
+            )}
+
+            {/* TAB 3: ANALYTICS & BI DASHBOARD */}
+            {activePage === "analytics" && (
+                <>
+                    {!showResults ? (
+                        <div className="card-glass empty-state" style={{ padding: "80px 0" }}>
+                            <i className="bi bi-bar-chart-line"></i>
+                            <span style={{ marginTop: "10px" }}>Dashboard requires data. Complete an analysis first.</span>
+                            <button className="btn-primary-eco" style={{ marginTop: "20px" }} onClick={() => setActivePage("overview")}>
+                                Go to Parameters
+                            </button>
+                        </div>
+                    ) : (
+                        <>
+                            <BIDashboard materials={materials} />
+
+                            {/* Generate Report Button at the bottom of the Dashboard */}
+                            <div className="report-cta-wrapper">
+                                <div className="report-cta-text">
+                                    <i className="bi bi-file-earmark-pdf-fill"></i>
+                                    <div>
+                                        <strong>Download Sustainability Report</strong>
+                                        <span>Full 3-page PDF — materials, analytics, and insights</span>
+                                    </div>
+                                </div>
+                                <button
+                                    className="btn-report"
+                                    onClick={handleGenerateReport}
+                                    disabled={reportLoading}
+                                >
+                                    {reportLoading
+                                        ? <><i className="bi bi-arrow-repeat spin"></i> Generating…</>
+                                        : <><i className="bi bi-download"></i> Generate Report</>
+                                    }
+                                </button>
+                            </div>
+                        </>
+                    )}
                 </>
             )}
         </>

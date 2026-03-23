@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&display=swap');
+@import "tailwindcss";
 
 /* ============ DESIGN TOKENS ============ */
 :root {
@@ -17,7 +17,7 @@
   --text-primary: #e2ffe8;
   --text-muted: rgba(134, 239, 172, 0.65);
   /* #86efac with opacity */
-  --sidebar-w: 240px;
+  --sidebar-w: 300px;
   --sidebar-collapsed: 68px;
   --radius-lg: 20px;
   --radius-md: 16px;
@@ -79,8 +79,8 @@ body::before {
   flex-direction: column;
   transition: var(--transition);
   z-index: 1000;
-  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   overflow: hidden;
 }
 
@@ -95,7 +95,9 @@ body::before {
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 999;
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
+
 }
 
 /* Sidebar logo */
@@ -154,7 +156,7 @@ body::before {
 /* Nav */
 .sidebar nav {
   flex: 1;
-  padding: 16px 12px;
+  padding: 18px 2px;
   overflow: hidden;
 }
 
@@ -223,8 +225,8 @@ body::before {
 /* Toggle button */
 .toggle-btn {
   position: absolute;
-  top: 20px;
-  right: -14px;
+  top: 75px;
+  right: 3px;
   width: 28px;
   height: 28px;
   background: var(--bg);
@@ -1890,4 +1892,37 @@ body::before {
   .bi-chart-wrap {
     height: 180px;
   }
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+  cursor: pointer;
+  font-size: 0.95rem;
+  /* Slightly larger to match dashboard proportions */
+  font-weight: 600;
+  /* Bolder weight for Syne */
+  font-family: 'Syne', sans-serif;
+  /* Matches the dashboard UI font */
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: 0.03em;
+  /* Adds a bit of breathing room */
+}
+
+.status-text {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+  transition: var(--transition);
 }

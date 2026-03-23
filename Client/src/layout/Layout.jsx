@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 
 export default function Layout({ children }) {
@@ -14,10 +14,14 @@ export default function Layout({ children }) {
                 onNavigate={setActivePage}
             />
             <main className={`main ${collapsed ? "expanded" : ""}`}>
-                {/* Pass activePage down to children (Dashboard) via render prop */}
+                {/* Dynamically pass activePage & setActivePage to children */}
                 {typeof children === "function"
-                    ? children({ activePage })
-                    : children}
+                    ? children({ activePage, setActivePage })
+                    : React.Children.map(children, child =>
+                        React.isValidElement(child)
+                            ? React.cloneElement(child, { activePage, setActivePage })
+                            : child
+                    )}
             </main>
         </div>
     );

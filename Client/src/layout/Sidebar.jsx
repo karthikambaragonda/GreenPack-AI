@@ -1,8 +1,9 @@
 export default function Sidebar({ collapsed, onToggle, activePage, onNavigate }) {
+    // Updated nav items to reflect the actual dashboard flow
     const navItems = [
-        { id: "overview", icon: "bi-grid-1x2", label: "Overview" },
-        { id: "analytics", icon: "bi-graph-up-arrow", label: "Analytics" },
-        { id: "charts", icon: "bi-bar-chart-line", label: "Charts" },
+        { id: "overview", icon: "bi-sliders", label: "Parameters" },
+        { id: "results", icon: "bi-award", label: "Recommendations" },
+        { id: "analytics", icon: "bi-bar-chart-line", label: "BI Dashboard" },
     ];
 
     return (
