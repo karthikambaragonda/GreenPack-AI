@@ -4,6 +4,7 @@ export default function Sidebar({ collapsed, onToggle, activePage, onNavigate })
         { id: "overview", icon: "bi-sliders", label: "Parameters" },
         { id: "results", icon: "bi-award", label: "Recommendations" },
         { id: "analytics", icon: "bi-bar-chart-line", label: "BI Dashboard" },
+        { id: "compare", icon: "bi-arrow-left-right", label: "Compare" },
     ];
 
     return (
