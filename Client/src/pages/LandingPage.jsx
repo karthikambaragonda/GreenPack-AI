@@ -140,19 +140,18 @@ export default function LandingPage({ onEnter }) {
     }, []);
 
     const howSteps = [
-        { icon: "📥", title: "Input Product Parameters", desc: "Enter your product's strength, weight capacity, recyclability needs and biodegradability requirements on a simple 1–10 scale." },
-        { icon: "🤖", title: "AI/ML Analysis", desc: "Random Forest & XGBoost models predict cost and CO₂ footprint across hundreds of eco-materials filtered to match your exact requirements." },
-        { icon: "🌿", title: "Smart Recommendation", desc: "A dynamic scoring engine with eco-boost weighting ranks top materials." },
-        { icon: "📊", title: "BI Dashboard Insights", desc: "Explore sustainability analytics: CO₂ savings percentages, cost efficiency charts, material trend analysis and exportable reports." },
+        { icon: "📥", title: "Input Product Parameters", desc: "Enter your product's strength, weight capacity, biodegradability, recyclability and CO\u2082 eco-score — either through the guided wizard or manual input with live score preview." },
+        { icon: "🤖", title: "AI/ML Analysis", desc: "Random Forest & XGBoost models predict the sustainability score and tier for your profile, then compute similarity across all 111 catalogue materials using Euclidean distance." },
+        { icon: "🌿", title: "Smart Recommendation", desc: "Materials are ranked by a combined match score — 60% sustainability + 40% similarity to your requirements — returning the top 5 best-fit eco materials." },
+        { icon: "📊", title: "BI Dashboard & Report", desc: "Explore sustainability analytics: eco score charts, biodegradability vs recyclability breakdowns, radar comparisons, and one-click PDF report export." },
     ];
 
     const features = [
-        { icon: "🧠", label: "Random Forest", desc: "Predicts packaging cost with high accuracy across diverse product profiles" },
-        { icon: "⚡", label: "XGBoost Regressor", desc: "Estimates CO₂ footprint with gradient-boosted precision" },
-        { icon: "🌍", label: "Eco Scoring", desc: "Dynamic weights shift based on your environmental priorities" },
-        // { icon: "✨", label: "Gemini Reranking", desc: "Generative AI adds real-world context & reasoning to ML results" },
-        { icon: "📈", label: "BI Analytics", desc: "Live dashboard with material usage trends and sustainability KPIs" },
-        // { icon: "🗄️", label: "PostgreSQL Backend", desc: "Robust material database with validated eco-material schemas" },
+        { icon: "🧠", label: "Random Forest Regressor", desc: "Predicts the sustainability score (0\u2013100) for your packaging profile with cross-validated accuracy" },
+        { icon: "⚡", label: "XGBoost Classifier", desc: "Classifies the sustainability tier (Excellent / Good / Moderate / Poor) using gradient-boosted decision trees" },
+        { icon: "🌍", label: "Eco Scoring Engine", desc: "Combined score: biodegradability \u00d7 0.35 + CO\u2082 eco-score \u00d7 0.40 + recyclability \u00d7 0.25 — weights reflect real environmental impact" },
+        { icon: "📈", label: "BI Analytics Dashboard", desc: "Live charts for CO\u2082 scores, eco vs performance ratios, radar comparisons, and biodegradability breakdowns" },
+        { icon: "📄", label: "PDF Report Export", desc: "One-click sustainability report covering all 5 recommended materials with scores, flags and key insights" },
     ];
 
     const useCases = [
@@ -167,12 +166,12 @@ export default function LandingPage({ onEnter }) {
     const techStack = [
         { label: "React + Vite", color: "#61dafb" },
         { label: "Flask REST API", color: "#4ade80" },
+        { label: "scikit-learn", color: "#f59e0b" },
         { label: "Random Forest", color: "#f59e0b" },
         { label: "XGBoost", color: "#f87171" },
-        // { label: "PostgreSQL", color: "#818cf8" },
-        // { label: "Gemini AI", color: "#34d399" },
-        { label: "Recharts / Plotly", color: "#fb923c" },
-        { label: "Python / Pandas", color: "#fbbf24" },
+        { label: "Python / Pandas / NumPy", color: "#fbbf24" },
+        { label: "Recharts / Chart.js", color: "#fb923c" },
+        { label: "jsPDF + autoTable", color: "#a78bfa" },
     ];
 
     return (
@@ -278,7 +277,7 @@ export default function LandingPage({ onEnter }) {
                 </p>
 
                 <p style={{ maxWidth: 560, color: "#6ee7a0", opacity: 0.75, lineHeight: 1.7, marginBottom: 48, fontFamily: "'DM Sans', sans-serif", fontSize: "1.05rem" }}>
-                    GreenPackAI uses Random Forest & XGBoost ML models to analyse hundreds of sustainable materials and surface the perfect packaging for your product — ranked by cost, carbon footprint, and match score.
+                    GreenPackAI uses Random Forest & XGBoost ML models trained on 111 sustainable materials to predict sustainability scores, classify eco tiers, and surface the perfect packaging for your product — ranked by sustainability, similarity, and eco-performance ratio.
                 </p>
 
                 <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
@@ -293,9 +292,9 @@ export default function LandingPage({ onEnter }) {
                 {/* Hero stats */}
                 <div style={{ display: "flex", gap: 48, marginTop: 80, flexWrap: "wrap", justifyContent: "center" }}>
                     {[
-                        { num: 95, suf: "%", label: "Model Accuracy" },
-                        { num: 80, suf: "+", label: "Eco Materials" },
-                        { num: 40, suf: "%", label: "CO₂ Reduction Avg" },
+                        { num: 111, suf: "", label: "Eco Materials in Catalogue" },
+                        { num: 5, suf: "", label: "API Endpoints" },
+                        { num: 60, suf: "%", label: "Sustainability Weight in Ranking" },
                     ].map(s => (
                         <div key={s.label} style={{ textAlign: "center" }}>
                             <div style={{ fontSize: "2.8rem", fontWeight: 800, color: "#4ade80", letterSpacing: "-0.04em" }}>
@@ -373,11 +372,11 @@ export default function LandingPage({ onEnter }) {
                             <h3 style={{ fontSize: "1.5rem", fontWeight: 800, marginBottom: 32 }}>From Raw Data → Ranked Recommendation</h3>
                             <div style={{ display: "flex", alignItems: "center", gap: 0, flexWrap: "wrap", rowGap: 16 }}>
                                 {[
-                                    { label: "Product Input", color: "#4ade80" },
+                                    { label: "5 Input Params", color: "#4ade80" },
                                     { label: "Feature Engineering", color: "#34d399" },
-                                    { label: "RF + XGBoost", color: "#22d3ee" },
-                                    { label: "Eco Scoring", color: "#818cf8" },
-                                    // { label: "Gemini Rerank", color: "#f59e0b" },
+                                    { label: "RF Regressor", color: "#22d3ee" },
+                                    { label: "XGBoost Classifier", color: "#818cf8" },
+                                    { label: "Similarity Ranking", color: "#f59e0b" },
                                     { label: "Top 5 Results", color: "#f472b6" },
                                 ].map((step, i, arr) => (
                                     <div key={step.label} style={{ display: "flex", alignItems: "center" }}>
@@ -389,6 +388,44 @@ export default function LandingPage({ onEnter }) {
                                 ))}
                             </div>
                         </div>
+                    </Reveal>
+                </div>
+            </section>
+
+            {/* ── API ENDPOINTS ── */}
+            <section style={{ padding: "80px 48px", position: "relative", zIndex: 1 }}>
+                <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                    <Reveal>
+                        <p style={{ color: "#4ade80", fontWeight: 700, fontSize: "0.78rem", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 8 }}>REST API</p>
+                        <h3 style={{ fontSize: "1.5rem", fontWeight: 800, marginBottom: 32 }}>5 Endpoints. One Backend.</h3>
+                        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                            {[
+                                { method: "POST", path: "/recommend", color: "#4ade80", desc: "Top-N material recommendations ranked by sustainability + similarity" },
+                                { method: "POST", path: "/predict-score", color: "#4ade80", desc: "Predict sustainability score & tier for any custom material profile" },
+                                { method: "GET", path: "/materials", color: "#22d3ee", desc: "Browse & filter the full 111-material catalogue with pagination" },
+                                { method: "GET", path: "/materials/<id>", color: "#22d3ee", desc: "Full detail for a single material — properties, flags, sustainability" },
+                                { method: "GET", path: "/health", color: "#a78bfa", desc: "API health check — uptime, model stats, catalogue size, CV metrics" },
+                            ].map((ep) => (
+                                <div key={ep.path} style={{
+                                    display: "flex", alignItems: "center", gap: 16,
+                                    background: "rgba(255,255,255,0.02)", border: "1px solid rgba(74,222,128,0.08)",
+                                    borderRadius: 12, padding: "14px 20px",
+                                }}>
+                                    <span style={{
+                                        fontFamily: "monospace", fontWeight: 700, fontSize: "0.72rem",
+                                        padding: "3px 10px", borderRadius: 6, flexShrink: 0,
+                                        background: ep.method === "POST" ? "rgba(74,222,128,0.12)" : ep.method === "GET" ? "rgba(34,211,238,0.12)" : "rgba(167,139,250,0.12)",
+                                        color: ep.method === "POST" ? "#4ade80" : ep.method === "GET" ? "#22d3ee" : "#a78bfa",
+                                        border: `1px solid ${ep.method === "POST" ? "rgba(74,222,128,0.25)" : ep.method === "GET" ? "rgba(34,211,238,0.25)" : "rgba(167,139,250,0.25)"}`,
+                                    }}>{ep.method}</span>
+                                    <code style={{ color: "#e2ffe8", fontFamily: "monospace", fontSize: "0.88rem", fontWeight: 600, flexShrink: 0, minWidth: 160 }}>{ep.path}</code>
+                                    <span style={{ color: "#86efac", opacity: 0.6, fontSize: "0.85rem", fontFamily: "'DM Sans', sans-serif" }}>{ep.desc}</span>
+                                </div>
+                            ))}
+                        </div>
+                        <p style={{ marginTop: 16, color: "#4ade80", opacity: 0.5, fontSize: "0.78rem", fontFamily: "'DM Sans', sans-serif" }}>
+                            Flask REST API running on port 8000 · CORS enabled · JSON request/response
+                        </p>
                     </Reveal>
                 </div>
             </section>
@@ -460,7 +497,7 @@ export default function LandingPage({ onEnter }) {
                             Ready to go greener?
                         </h2>
                         <p style={{ color: "#86efac", opacity: 0.7, lineHeight: 1.7, marginBottom: 40, fontFamily: "'DM Sans', sans-serif", fontSize: "1.05rem" }}>
-                            Enter the GreenPackAI dashboard and get your first AI-powered sustainable packaging recommendation in under 30 seconds.
+                            Enter the GreenPackAI dashboard, set your packaging requirements, and get AI-ranked recommendations from 111 sustainable materials — with a full analytics breakdown and downloadable PDF report.
                         </p>
                         <button className="btn-primary" style={{ fontSize: "1.1rem", padding: "18px 52px" }} onClick={onEnter}>
                             🚀 Enter Dashboard
