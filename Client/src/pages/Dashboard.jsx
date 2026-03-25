@@ -1479,7 +1479,7 @@ import "../index.css";
 import { generateReport } from "../services/reportGenerator";
 
 // ─── API BASE ─────────────────────────────────────────────────────────────────
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://greenpackai.azurewebsites.net";
 
 // ─── SCALE HELPERS ────────────────────────────────────────────────────────────
 function toApiParams(p) {
