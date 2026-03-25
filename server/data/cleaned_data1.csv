@@ -1,0 +1,112 @@
+material_id,material_name,material_type,strength_score,weight_capacity_score,biodegradability_score,co2_emission_score,recyclability_percent
+1,Virgin Kraft Paper,Paper/Cardboard,3.0,2,88.0,92.4,82
+2,Recycled Kraft Paper,Paper/Cardboard,3.0,2,90.0,93.9,90
+3,Corrugated Cardboard (Virgin),Paper/Cardboard,3.0,4,85.0,92.2,85
+4,Corrugated Cardboard (Recycled),Paper/Cardboard,3.0,4,87.0,94.2,92
+5,Flat Cardboard (Paperboard),Paper/Cardboard,3.0,3,84.0,87.2,78
+6,Molded Fiber Pulp,Paper/Cardboard,2.0,3,92.0,94.6,88
+7,PLA Bioplastic (Virgin),Bioplastic,4.0,3,82.0,85.0,45
+8,PLA Bioplastic (Recycled),Bioplastic,4.0,3,80.0,90.8,50
+9,PHA Bioplastic,Bioplastic,3.0,3,95.0,82.5,35
+10,Bamboo Fiber Packaging,Natural Fiber,5.0,4,93.0,93.3,75
+11,Bagasse (Sugarcane Waste),Natural Fiber,2.0,2,97.0,96.2,60
+12,Mycelium Packaging,Bio-based Composite,1.0,2,99.0,98.5,0
+13,Seaweed/Kelp Packaging,Bio-based Composite,1.0,1,98.0,99.0,0
+14,Expanded Polystyrene (EPS),Conventional Plastic,1.0,2,1.0,72.6,14
+15,HDPE Plastic,Conventional Plastic,3.0,5,2.0,85.1,31
+16,PET Plastic,Conventional Plastic,4.0,4,3.0,71.7,58
+17,LDPE Plastic (Virgin),Conventional Plastic,2.0,4,2.0,85.1,28
+18,LDPE Plastic (Recycled),Conventional Plastic,2.0,4,2.0,98.3,60
+19,Aluminum (Virgin),Metal,5.0,5,0.0,0.9,67
+20,Aluminum (Recycled),Metal,5.0,5,0.0,92.3,95
+21,Glass (Virgin),Glass,4.0,3,0.0,92.8,74
+22,Glass (Recycled),Glass,4.0,3,0.0,95.7,90
+23,Steel Packaging,Metal,5.0,5,0.0,75.9,72
+24,Starch-Based Packaging,Bioplastic,2.0,2,96.0,93.3,40
+25,Cellulose-Based Film,Paper/Cardboard,4.0,2,91.0,94.0,70
+26,Cork Packaging,Natural Fiber,1.0,2,95.0,95.4,65
+27,Wood Wool / Shredded Wood,Natural Fiber,2.0,3,89.0,95.0,55
+28,Jute Fabric Packaging,Natural Fiber,3.0,3,94.0,95.4,70
+29,Hemp Fiber Packaging,Natural Fiber,4.0,4,93.0,96.5,72
+30,Air Carbon Packaging (AirCarbon),Bioplastic,3.0,3,85.0,100.0,40
+31,Recycled PET (rPET),Bioplastic,4.0,4,4.0,86.8,75
+32,Compostable Mailer (PLA+PBAT),Bioplastic,3.0,2,88.0,88.8,30
+33,Banana Leaf Packaging,Natural Fiber,1.0,1,99.0,99.3,0
+34,Bamboo Pulp Paper,Paper/Cardboard,3.0,2,92.0,95.4,80
+35,Beeswax Wrap,Natural Fiber,2.0,1,90.0,96.8,20
+36,Vacuum-Formed rPET Tray,Conventional Plastic,4.0,4,4.0,86.7,70
+37,Polypropylene (PP) Virgin,Conventional Plastic,3.0,5,2.0,83.3,32
+38,Recycled PP,Conventional Plastic,3.0,4,2.0,92.7,55
+39,Expanded Corn Starch Foam,Bioplastic,1.0,2,97.0,94.0,30
+40,Stone Paper (CaCO3),Mineral,3.0,2,60.0,93.5,65
+41,Abaca (Manila Hemp) Sheets,Natural Fiber,4.0,4,92.0,90.0,55
+42,Kapok Fiber Cushions,Natural Fiber,2.0,3,95.0,93.0,30
+43,Pineapple Leaf Fibers (Piña),Natural Fiber,3.0,3,90.0,90.0,45
+44,Coffee Husk Composites,Natural Fiber,3.0,3,85.0,91.0,50
+45,Olive Stone Fillers,Natural Fiber,3.0,4,88.0,91.0,55
+46,Date Palm Composites,Natural Fiber,4.0,4,90.0,89.0,60
+47,Avocado Seed Bioplastics,Bio-based Composite,2.0,2,92.0,91.0,25
+48,Mushroom Root (Mycelium Variants),Bio-based Composite,3.0,3,95.0,93.0,20
+49,Agar-Agar Films (Seaweed Binder),Bio-based Composite,2.0,2,95.0,94.0,25
+50,Wheat Bran Sheets,Natural Fiber,2.0,2,90.0,92.0,65
+51,Barley Straw Pulp,Paper/Cardboard,3.0,3,88.0,92.0,70
+52,Maize Cob Composites,Natural Fiber,3.0,3,90.0,92.0,55
+53,Potato Starch Foams,Bioplastic,2.0,3,95.0,91.0,25
+54,Sugarcane Pulp Trays,Natural Fiber,3.0,3,88.0,92.0,65
+55,Apple Pomace Films,Natural Fiber,2.0,2,92.0,92.0,40
+56,Bamboo Leaf Sheets,Natural Fiber,3.0,3,90.0,91.0,50
+57,Reed Fiber Padding,Natural Fiber,3.0,3,88.0,91.0,60
+58,Esparto Grass Composites,Natural Fiber,3.0,3,85.0,89.0,55
+59,Typha (Cattail) Fiber,Natural Fiber,2.0,2,92.0,92.0,45
+60,Kenaf Fiber Molded,Natural Fiber,4.0,4,90.0,91.0,60
+61,Ramie Fiber Bags,Natural Fiber,4.0,4,88.0,89.0,55
+62,Coir Pith Blocks,Natural Fiber,3.0,4,95.0,93.0,50
+63,Areca Palm Leaf Plates,Natural Fiber,3.0,2,95.0,92.0,30
+64,Sal Leaf Plates,Natural Fiber,3.0,2,95.0,92.0,35
+65,Sago Palm Starch Films,Bioplastic,2.0,2,95.0,91.0,25
+66,Jackfruit Seed Bioplastics,Bio-based Composite,2.0,2,90.0,91.0,30
+67,Durian Rind Composites,Natural Fiber,3.0,3,88.0,91.0,45
+68,Mango Seed Coatings,Bio-based Composite,2.0,2,92.0,91.0,40
+69,Papaya Leaf Fibers,Natural Fiber,2.0,2,90.0,92.0,50
+70,Guava Pomace Fillers,Natural Fiber,2.0,3,88.0,92.0,55
+71,Lentil Hull Composites,Natural Fiber,3.0,3,85.0,91.0,60
+72,Chickpea Straw Pulp,Natural Fiber,3.0,3,90.0,92.0,65
+73,Soybean Hull Sheets,Natural Fiber,3.0,3,88.0,91.0,55
+74,Alginate Films (Brown Algae),Bio-based Composite,2.0,2,95.0,94.0,25
+75,Carrageenan Wraps (Red Algae),Bio-based Composite,2.0,2,95.0,94.0,25
+76,Fucoidan-Based Trays,Bio-based Composite,3.0,3,94.0,93.0,25
+77,Pectin Films (Fruit-Derived),Bio-based Composite,2.0,2,92.0,92.0,30
+78,Bacterial Cellulose Sheets,Bio-based Composite,4.0,3,95.0,92.0,20
+79,Pullulan Films (Fungal),Bio-based Composite,2.0,2,95.0,93.0,25
+80,Xanthan Gum Coatings,Bio-based Composite,2.0,2,90.0,92.0,30
+81,Guar Gum Composites,Bio-based Composite,2.0,3,92.0,92.0,35
+82,Orange Peel Composites,Natural Fiber,2.0,2,92.0,92.0,40
+83,Lemon Peel Films,Natural Fiber,2.0,2,90.0,92.0,35
+84,Pomegranate Rind Trays,Natural Fiber,3.0,3,88.0,91.0,45
+85,Grape Pomace Fillers,Natural Fiber,2.0,3,90.0,92.0,50
+86,Tomato Skin Sheets,Natural Fiber,2.0,2,92.0,92.0,40
+87,Onion Peel Composites,Natural Fiber,3.0,3,85.0,91.0,55
+88,Garlic Husk Padding,Natural Fiber,2.0,2,88.0,92.0,50
+89,Eggshell Calcium Composites,Bio-based Composite,4.0,4,85.0,91.0,60
+90,Crab Shell Chitin Films,Bio-based Composite,3.0,3,90.0,91.0,30
+91,Shrimp Shell Chitosan Trays,Bio-based Composite,3.0,3,92.0,91.0,30
+92,Fish Scale Bioplastics,Bio-based Composite,3.0,3,85.0,90.0,25
+93,Feather Keratin Foams,Bio-based Composite,2.0,2,90.0,91.0,20
+94,Wool Fiber Padding,Natural Fiber,3.0,3,85.0,87.0,70
+95,Silk Cocoons Composites,Natural Fiber,3.0,3,80.0,85.0,40
+96,Casein (Milk Protein) Films,Bio-based Composite,2.0,2,90.0,90.0,25
+97,Gelatin-Based Wraps,Bio-based Composite,2.0,2,95.0,91.0,20
+98,Collagen Sheets,Bio-based Composite,3.0,3,92.0,90.0,30
+99,Lignin Foams (Wood Extract),Bio-based Composite,3.0,3,85.0,91.0,40
+100,Hemicellulose Films,Bio-based Composite,2.0,2,90.0,92.0,35
+101,Glucomannan Noodles/Padding,Bio-based Composite,2.0,3,95.0,92.0,25
+102,Locust Bean Gum Trays,Bio-based Composite,2.0,2,92.0,91.0,30
+103,Konjac Glucomannan Films,Bio-based Composite,2.0,2,95.0,92.0,25
+104,Fungal Keratinase Composites,Bio-based Composite,3.0,3,95.0,92.0,20
+105,Bacterial Nanocellulose Foams,Bio-based Composite,4.0,4,95.0,92.0,20
+106,PHA From Bacteria (Films),Bioplastic,3.0,3,95.0,88.0,25
+107,PHB Bottles/Trays,Bioplastic,4.0,4,90.0,87.0,30
+108,Polyhydroxybutyrate (PHB) Composites,Bioplastic,4.0,4,92.0,87.0,30
+109,Spider Silk-Inspired Synthetics,Bio-based Composite,5.0,4,85.0,89.0,40
+110,Nettle Fiber Bags,Natural Fiber,4.0,4,90.0,90.0,55
+111,Willow Bark Composites,Natural Fiber,3.0,3,88.0,90.0,60

@@ -1,0 +1,112 @@
+material_id,material_name,material_type,strength_score,weight_capacity_score,biodegradability_score,co2_emission_score,recyclability_percent,material_type_encoded,eco_score,performance_score,eco_performance_ratio,is_biodegradable,is_recyclable,dual_end_of_life,strength_tier,co2_category
+1,Virgin Kraft Paper,Paper/Cardboard,3.0,2,88.0,92.4,82,7,88.26,2.5,35.304,1,1,1,medium,ultra_low
+2,Recycled Kraft Paper,Paper/Cardboard,3.0,2,90.0,93.9,90,7,91.56,2.5,36.624,1,1,1,medium,ultra_low
+3,Corrugated Cardboard (Virgin),Paper/Cardboard,3.0,4,85.0,92.2,85,7,87.88,3.5,25.109,1,1,1,medium,ultra_low
+4,Corrugated Cardboard (Recycled),Paper/Cardboard,3.0,4,87.0,94.2,92,7,91.13,3.5,26.037,1,1,1,medium,ultra_low
+5,Flat Cardboard (Paperboard),Paper/Cardboard,3.0,3,84.0,87.2,78,7,83.78,3.0,27.927,1,1,1,medium,low_emission
+6,Molded Fiber Pulp,Paper/Cardboard,2.0,3,92.0,94.6,88,7,92.04,2.5,36.816,1,1,1,lightweight,ultra_low
+7,PLA Bioplastic (Virgin),Bioplastic,4.0,3,82.0,85.0,45,1,73.95,3.5,21.129,1,1,1,heavy_duty,low_emission
+8,PLA Bioplastic (Recycled),Bioplastic,4.0,3,80.0,90.8,50,1,76.82,3.5,21.949,1,1,1,heavy_duty,ultra_low
+9,PHA Bioplastic,Bioplastic,3.0,3,95.0,82.5,35,1,75.0,3.0,25.0,1,1,1,medium,low_emission
+10,Bamboo Fiber Packaging,Natural Fiber,5.0,4,93.0,93.3,75,6,88.62,4.5,19.693,1,1,1,heavy_duty,ultra_low
+11,Bagasse (Sugarcane Waste),Natural Fiber,2.0,2,97.0,96.2,60,6,87.43,2.0,43.715,1,1,1,lightweight,ultra_low
+12,Mycelium Packaging,Bio-based Composite,1.0,2,99.0,98.5,0,0,74.05,1.5,49.367,1,0,0,lightweight,ultra_low
+13,Seaweed/Kelp Packaging,Bio-based Composite,1.0,1,98.0,99.0,0,0,73.9,1.0,73.9,1,0,0,lightweight,ultra_low
+14,Expanded Polystyrene (EPS),Conventional Plastic,1.0,2,1.0,72.6,14,2,32.89,1.5,21.927,0,0,0,lightweight,moderate
+15,HDPE Plastic,Conventional Plastic,3.0,5,2.0,85.1,31,2,42.49,4.0,10.622,0,1,0,medium,low_emission
+16,PET Plastic,Conventional Plastic,4.0,4,3.0,71.7,58,2,44.23,4.0,11.058,0,1,0,heavy_duty,moderate
+17,LDPE Plastic (Virgin),Conventional Plastic,2.0,4,2.0,85.1,28,2,41.74,3.0,13.913,0,1,0,lightweight,low_emission
+18,LDPE Plastic (Recycled),Conventional Plastic,2.0,4,2.0,98.3,60,2,55.02,3.0,18.34,0,1,0,lightweight,ultra_low
+19,Aluminum (Virgin),Metal,5.0,5,0.0,0.9,67,4,17.11,5.0,3.422,0,1,0,heavy_duty,high_emission
+20,Aluminum (Recycled),Metal,5.0,5,0.0,92.3,95,4,60.67,5.0,12.134,0,1,0,heavy_duty,ultra_low
+21,Glass (Virgin),Glass,4.0,3,0.0,92.8,74,3,55.62,3.5,15.891,0,1,0,heavy_duty,ultra_low
+22,Glass (Recycled),Glass,4.0,3,0.0,95.7,90,3,60.78,3.5,17.366,0,1,0,heavy_duty,ultra_low
+23,Steel Packaging,Metal,5.0,5,0.0,75.9,72,4,48.36,5.0,9.672,0,1,0,heavy_duty,low_emission
+24,Starch-Based Packaging,Bioplastic,2.0,2,96.0,93.3,40,1,80.92,2.0,40.46,1,1,1,lightweight,ultra_low
+25,Cellulose-Based Film,Paper/Cardboard,4.0,2,91.0,94.0,70,7,86.95,3.0,28.983,1,1,1,heavy_duty,ultra_low
+26,Cork Packaging,Natural Fiber,1.0,2,95.0,95.4,65,6,87.66,1.5,58.44,1,1,1,lightweight,ultra_low
+27,Wood Wool / Shredded Wood,Natural Fiber,2.0,3,89.0,95.0,55,6,82.9,2.5,33.16,1,1,1,lightweight,ultra_low
+28,Jute Fabric Packaging,Natural Fiber,3.0,3,94.0,95.4,70,6,88.56,3.0,29.52,1,1,1,medium,ultra_low
+29,Hemp Fiber Packaging,Natural Fiber,4.0,4,93.0,96.5,72,6,89.15,4.0,22.288,1,1,1,heavy_duty,ultra_low
+30,Air Carbon Packaging (AirCarbon),Bioplastic,3.0,3,85.0,100.0,40,1,79.75,3.0,26.583,1,1,1,medium,ultra_low
+31,Recycled PET (rPET),Bioplastic,4.0,4,4.0,86.8,75,1,54.87,4.0,13.718,0,1,0,heavy_duty,low_emission
+32,Compostable Mailer (PLA+PBAT),Bioplastic,3.0,2,88.0,88.8,30,1,73.82,2.5,29.528,1,1,1,medium,low_emission
+33,Banana Leaf Packaging,Natural Fiber,1.0,1,99.0,99.3,0,6,74.37,1.0,74.37,1,0,0,lightweight,ultra_low
+34,Bamboo Pulp Paper,Paper/Cardboard,3.0,2,92.0,95.4,80,7,90.36,2.5,36.144,1,1,1,medium,ultra_low
+35,Beeswax Wrap,Natural Fiber,2.0,1,90.0,96.8,20,6,75.22,1.5,50.147,1,1,1,lightweight,ultra_low
+36,Vacuum-Formed rPET Tray,Conventional Plastic,4.0,4,4.0,86.7,70,2,53.58,4.0,13.395,0,1,0,heavy_duty,low_emission
+37,Polypropylene (PP) Virgin,Conventional Plastic,3.0,5,2.0,83.3,32,2,42.02,4.0,10.505,0,1,0,medium,low_emission
+38,Recycled PP,Conventional Plastic,3.0,4,2.0,92.7,55,2,51.53,3.5,14.723,0,1,0,medium,ultra_low
+39,Expanded Corn Starch Foam,Bioplastic,1.0,2,97.0,94.0,30,1,79.05,1.5,52.7,1,1,1,lightweight,ultra_low
+40,Stone Paper (CaCO3),Mineral,3.0,2,60.0,93.5,65,5,74.65,2.5,29.86,1,1,1,medium,ultra_low
+41,Abaca (Manila Hemp) Sheets,Natural Fiber,4.0,4,92.0,90.0,55,6,81.95,4.0,20.488,1,1,1,heavy_duty,low_emission
+42,Kapok Fiber Cushions,Natural Fiber,2.0,3,95.0,93.0,30,6,77.95,2.5,31.18,1,1,1,lightweight,ultra_low
+43,Pineapple Leaf Fibers (Piña),Natural Fiber,3.0,3,90.0,90.0,45,6,78.75,3.0,26.25,1,1,1,medium,low_emission
+44,Coffee Husk Composites,Natural Fiber,3.0,3,85.0,91.0,50,6,78.65,3.0,26.217,1,1,1,medium,ultra_low
+45,Olive Stone Fillers,Natural Fiber,3.0,4,88.0,91.0,55,6,80.95,3.5,23.129,1,1,1,medium,ultra_low
+46,Date Palm Composites,Natural Fiber,4.0,4,90.0,89.0,60,6,82.1,4.0,20.525,1,1,1,heavy_duty,low_emission
+47,Avocado Seed Bioplastics,Bio-based Composite,2.0,2,92.0,91.0,25,0,74.85,2.0,37.425,1,1,1,lightweight,ultra_low
+48,Mushroom Root (Mycelium Variants),Bio-based Composite,3.0,3,95.0,93.0,20,0,75.45,3.0,25.15,1,1,1,medium,ultra_low
+49,Agar-Agar Films (Seaweed Binder),Bio-based Composite,2.0,2,95.0,94.0,25,0,77.1,2.0,38.55,1,1,1,lightweight,ultra_low
+50,Wheat Bran Sheets,Natural Fiber,2.0,2,90.0,92.0,65,6,84.55,2.0,42.275,1,1,1,lightweight,ultra_low
+51,Barley Straw Pulp,Paper/Cardboard,3.0,3,88.0,92.0,70,7,85.1,3.0,28.367,1,1,1,medium,ultra_low
+52,Maize Cob Composites,Natural Fiber,3.0,3,90.0,92.0,55,6,82.05,3.0,27.35,1,1,1,medium,ultra_low
+53,Potato Starch Foams,Bioplastic,2.0,3,95.0,91.0,25,1,75.9,2.5,30.36,1,1,1,lightweight,ultra_low
+54,Sugarcane Pulp Trays,Natural Fiber,3.0,3,88.0,92.0,65,6,83.85,3.0,27.95,1,1,1,medium,ultra_low
+55,Apple Pomace Films,Natural Fiber,2.0,2,92.0,92.0,40,6,79.0,2.0,39.5,1,1,1,lightweight,ultra_low
+56,Bamboo Leaf Sheets,Natural Fiber,3.0,3,90.0,91.0,50,6,80.4,3.0,26.8,1,1,1,medium,ultra_low
+57,Reed Fiber Padding,Natural Fiber,3.0,3,88.0,91.0,60,6,82.2,3.0,27.4,1,1,1,medium,ultra_low
+58,Esparto Grass Composites,Natural Fiber,3.0,3,85.0,89.0,55,6,79.1,3.0,26.367,1,1,1,medium,low_emission
+59,Typha (Cattail) Fiber,Natural Fiber,2.0,2,92.0,92.0,45,6,80.25,2.0,40.125,1,1,1,lightweight,ultra_low
+60,Kenaf Fiber Molded,Natural Fiber,4.0,4,90.0,91.0,60,6,82.9,4.0,20.725,1,1,1,heavy_duty,ultra_low
+61,Ramie Fiber Bags,Natural Fiber,4.0,4,88.0,89.0,55,6,80.15,4.0,20.038,1,1,1,heavy_duty,low_emission
+62,Coir Pith Blocks,Natural Fiber,3.0,4,95.0,93.0,50,6,82.95,3.5,23.7,1,1,1,medium,ultra_low
+63,Areca Palm Leaf Plates,Natural Fiber,3.0,2,95.0,92.0,30,6,77.55,2.5,31.02,1,1,1,medium,ultra_low
+64,Sal Leaf Plates,Natural Fiber,3.0,2,95.0,92.0,35,6,78.8,2.5,31.52,1,1,1,medium,ultra_low
+65,Sago Palm Starch Films,Bioplastic,2.0,2,95.0,91.0,25,1,75.9,2.0,37.95,1,1,1,lightweight,ultra_low
+66,Jackfruit Seed Bioplastics,Bio-based Composite,2.0,2,90.0,91.0,30,0,75.4,2.0,37.7,1,1,1,lightweight,ultra_low
+67,Durian Rind Composites,Natural Fiber,3.0,3,88.0,91.0,45,6,78.45,3.0,26.15,1,1,1,medium,ultra_low
+68,Mango Seed Coatings,Bio-based Composite,2.0,2,92.0,91.0,40,0,78.6,2.0,39.3,1,1,1,lightweight,ultra_low
+69,Papaya Leaf Fibers,Natural Fiber,2.0,2,90.0,92.0,50,6,80.8,2.0,40.4,1,1,1,lightweight,ultra_low
+70,Guava Pomace Fillers,Natural Fiber,2.0,3,88.0,92.0,55,6,81.35,2.5,32.54,1,1,1,lightweight,ultra_low
+71,Lentil Hull Composites,Natural Fiber,3.0,3,85.0,91.0,60,6,81.15,3.0,27.05,1,1,1,medium,ultra_low
+72,Chickpea Straw Pulp,Natural Fiber,3.0,3,90.0,92.0,65,6,84.55,3.0,28.183,1,1,1,medium,ultra_low
+73,Soybean Hull Sheets,Natural Fiber,3.0,3,88.0,91.0,55,6,80.95,3.0,26.983,1,1,1,medium,ultra_low
+74,Alginate Films (Brown Algae),Bio-based Composite,2.0,2,95.0,94.0,25,0,77.1,2.0,38.55,1,1,1,lightweight,ultra_low
+75,Carrageenan Wraps (Red Algae),Bio-based Composite,2.0,2,95.0,94.0,25,0,77.1,2.0,38.55,1,1,1,lightweight,ultra_low
+76,Fucoidan-Based Trays,Bio-based Composite,3.0,3,94.0,93.0,25,0,76.35,3.0,25.45,1,1,1,medium,ultra_low
+77,Pectin Films (Fruit-Derived),Bio-based Composite,2.0,2,92.0,92.0,30,0,76.5,2.0,38.25,1,1,1,lightweight,ultra_low
+78,Bacterial Cellulose Sheets,Bio-based Composite,4.0,3,95.0,92.0,20,0,75.05,3.5,21.443,1,1,1,heavy_duty,ultra_low
+79,Pullulan Films (Fungal),Bio-based Composite,2.0,2,95.0,93.0,25,0,76.7,2.0,38.35,1,1,1,lightweight,ultra_low
+80,Xanthan Gum Coatings,Bio-based Composite,2.0,2,90.0,92.0,30,0,75.8,2.0,37.9,1,1,1,lightweight,ultra_low
+81,Guar Gum Composites,Bio-based Composite,2.0,3,92.0,92.0,35,0,77.75,2.5,31.1,1,1,1,lightweight,ultra_low
+82,Orange Peel Composites,Natural Fiber,2.0,2,92.0,92.0,40,6,79.0,2.0,39.5,1,1,1,lightweight,ultra_low
+83,Lemon Peel Films,Natural Fiber,2.0,2,90.0,92.0,35,6,77.05,2.0,38.525,1,1,1,lightweight,ultra_low
+84,Pomegranate Rind Trays,Natural Fiber,3.0,3,88.0,91.0,45,6,78.45,3.0,26.15,1,1,1,medium,ultra_low
+85,Grape Pomace Fillers,Natural Fiber,2.0,3,90.0,92.0,50,6,80.8,2.5,32.32,1,1,1,lightweight,ultra_low
+86,Tomato Skin Sheets,Natural Fiber,2.0,2,92.0,92.0,40,6,79.0,2.0,39.5,1,1,1,lightweight,ultra_low
+87,Onion Peel Composites,Natural Fiber,3.0,3,85.0,91.0,55,6,79.9,3.0,26.633,1,1,1,medium,ultra_low
+88,Garlic Husk Padding,Natural Fiber,2.0,2,88.0,92.0,50,6,80.1,2.0,40.05,1,1,1,lightweight,ultra_low
+89,Eggshell Calcium Composites,Bio-based Composite,4.0,4,85.0,91.0,60,0,81.15,4.0,20.288,1,1,1,heavy_duty,ultra_low
+90,Crab Shell Chitin Films,Bio-based Composite,3.0,3,90.0,91.0,30,0,75.4,3.0,25.133,1,1,1,medium,ultra_low
+91,Shrimp Shell Chitosan Trays,Bio-based Composite,3.0,3,92.0,91.0,30,0,76.1,3.0,25.367,1,1,1,medium,ultra_low
+92,Fish Scale Bioplastics,Bio-based Composite,3.0,3,85.0,90.0,25,0,72.0,3.0,24.0,1,1,1,medium,low_emission
+93,Feather Keratin Foams,Bio-based Composite,2.0,2,90.0,91.0,20,0,72.9,2.0,36.45,1,1,1,lightweight,ultra_low
+94,Wool Fiber Padding,Natural Fiber,3.0,3,85.0,87.0,70,6,82.05,3.0,27.35,1,1,1,medium,low_emission
+95,Silk Cocoons Composites,Natural Fiber,3.0,3,80.0,85.0,40,6,72.0,3.0,24.0,1,1,1,medium,low_emission
+96,Casein (Milk Protein) Films,Bio-based Composite,2.0,2,90.0,90.0,25,0,73.75,2.0,36.875,1,1,1,lightweight,low_emission
+97,Gelatin-Based Wraps,Bio-based Composite,2.0,2,95.0,91.0,20,0,74.65,2.0,37.325,1,1,1,lightweight,ultra_low
+98,Collagen Sheets,Bio-based Composite,3.0,3,92.0,90.0,30,0,75.7,3.0,25.233,1,1,1,medium,low_emission
+99,Lignin Foams (Wood Extract),Bio-based Composite,3.0,3,85.0,91.0,40,0,76.15,3.0,25.383,1,1,1,medium,ultra_low
+100,Hemicellulose Films,Bio-based Composite,2.0,2,90.0,92.0,35,0,77.05,2.0,38.525,1,1,1,lightweight,ultra_low
+101,Glucomannan Noodles/Padding,Bio-based Composite,2.0,3,95.0,92.0,25,0,76.3,2.5,30.52,1,1,1,lightweight,ultra_low
+102,Locust Bean Gum Trays,Bio-based Composite,2.0,2,92.0,91.0,30,0,76.1,2.0,38.05,1,1,1,lightweight,ultra_low
+103,Konjac Glucomannan Films,Bio-based Composite,2.0,2,95.0,92.0,25,0,76.3,2.0,38.15,1,1,1,lightweight,ultra_low
+104,Fungal Keratinase Composites,Bio-based Composite,3.0,3,95.0,92.0,20,0,75.05,3.0,25.017,1,1,1,medium,ultra_low
+105,Bacterial Nanocellulose Foams,Bio-based Composite,4.0,4,95.0,92.0,20,0,75.05,4.0,18.762,1,1,1,heavy_duty,ultra_low
+106,PHA From Bacteria (Films),Bioplastic,3.0,3,95.0,88.0,25,1,74.7,3.0,24.9,1,1,1,medium,low_emission
+107,PHB Bottles/Trays,Bioplastic,4.0,4,90.0,87.0,30,1,73.8,4.0,18.45,1,1,1,heavy_duty,low_emission
+108,Polyhydroxybutyrate (PHB) Composites,Bioplastic,4.0,4,92.0,87.0,30,1,74.5,4.0,18.625,1,1,1,heavy_duty,low_emission
+109,Spider Silk-Inspired Synthetics,Bio-based Composite,5.0,4,85.0,89.0,40,0,75.35,4.5,16.744,1,1,1,heavy_duty,low_emission
+110,Nettle Fiber Bags,Natural Fiber,4.0,4,90.0,90.0,55,6,81.25,4.0,20.312,1,1,1,heavy_duty,low_emission
+111,Willow Bark Composites,Natural Fiber,3.0,3,88.0,90.0,60,6,81.8,3.0,27.267,1,1,1,medium,low_emission
